@@ -1,0 +1,443 @@
+---
+title: "02_1_editions"
+format: html
+editor: visual
+---
+
+## load pckg & data
+
+```{r}
+library(tidyverse)
+library(tidytext)
+
+dat <- readRDS("../data/fragments_corpus.rds")
+
+glimpse(dat)
+```
+
+## editions data
+
+```{r}
+table(dat$X1770)
+table(dat$X1774)
+table(dat$X1780)
+```
+
+## ed 1770
+
+### not changed
+
+Select only fragments that appear in 1770 and left unchanged afterwards
+
+```{r}
+ed1770 <- dat %>% 
+  filter(X1770 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "not changed" & X1780 == "not changed")
+
+nrow(ed1770) # number of fragments available
+```
+
+Number of words
+
+```{r, warning=FALSE}
+ed1770 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+```
+
+Write as a single text chunk
+
+```{r}
+x <- ed1770 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1770_nch1774_nch1780.txt")
+```
+
+### changed in 1774, nch in 1780
+
+```{r, warning=FALSE}
+ed1770 <- dat %>% 
+  filter(X1770 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "changed" & X1780 == "not changed")
+
+nrow(ed1770) # number of fragments available
+
+# number of words
+ed1770 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1770 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1770_CH1774_nch1780.txt")
+```
+
+### nch in 1774, changed in 1780
+
+```{r, warning=FALSE}
+ed1770 <- dat %>% 
+  filter(X1770 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "not changed" & X1780 == "changed")
+
+nrow(ed1770) # number of fragments available
+
+# number of words
+ed1770 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1770 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1770_nch1774_CH1780.txt")
+```
+
+### ch1774 & ch1780
+
+```{r, warning=FALSE}
+ed1770 <- dat %>% 
+  filter(X1770 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "changed" & X1780 == "changed")
+
+nrow(ed1770) # number of fragments available
+
+# number of words
+ed1770 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1770 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1770_CH1774_CH1780.txt")
+```
+
+#### check: not appeared in 1774 / 1780
+
+```{r}
+ed1770 <- dat %>% 
+  filter(X1770 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  select(id, X1770, X1774, X1780)
+
+head(ed1770)
+```
+
+## ed 1774
+
+### not changed
+
+```{r, warning=FALSE}
+ed1774 <- dat %>% 
+  filter(str_detect(X1770, "not appeared|unknown") 
+         & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "appeared" & X1780 == "not changed")
+
+nrow(ed1774) # number of fragments available
+
+# number of words
+ed1774 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1774 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1774_nch1780.txt")
+```
+
+### ch 1780
+
+```{r, warning=FALSE}
+ed1774 <- dat %>% 
+  filter(str_detect(X1770, "not appeared|unknown") 
+         & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1774 == "appeared" & X1780 == "changed")
+
+nrow(ed1774) # number of fragments available
+
+# number of words
+ed1774 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1774 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1774_CH1780.txt")
+```
+
+#### check: not appeared in 1780
+
+```{r}
+ed1774 <- dat %>% 
+  filter(X1774 == "appeared" & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  select(id, X1770, X1774, X1780)
+
+head(ed1774)
+```
+
+## ed 1780
+
+```{r, warning=FALSE}
+ed1780 <- dat %>% 
+  filter(str_detect(X1770, "not appeared|unknown") &
+         str_detect(X1774, "not appeared|unknown")
+         & str_detect(FV, "yes") & !str_detect(id, "H")) %>%   # only FV existing chunks
+  # select chunks which were NOT changed or deleted
+  filter(X1780 == "appeared")
+
+nrow(ed1780) # number of fragments available
+
+# number of words
+ed1780 %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ed1780 %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ed1780.txt")
+```
+
+# ink & pencil
+
+```{r}
+table(dat$pencil_pensees_detachees)
+
+table(dat$ink_melanges)
+```
+
+```{r, warning=FALSE}
+pencil <- dat %>% 
+  # filter onlly FV
+  filter(str_detect(FV, "yes") & !str_detect(id, "H")) %>% 
+  # filter only appeared in pencil
+  filter(pencil_pensees_detachees == "yes")
+
+# number of fragments
+nrow(pencil)
+
+# number of words
+pencil %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- pencil %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/pencil_pensees_detachees.txt")
+```
+
+Ink
+
+```{r, warning=FALSE}
+ink <- dat %>% 
+  # filter onlly FV
+  filter(str_detect(FV, "yes") & !str_detect(id, "H")) %>% 
+  # filter only appeared in pencil
+  filter(ink_melanges == "yes")
+
+# number of fragments
+nrow(ink)
+
+# number of words
+ink %>% 
+  select(text) %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  nrow()
+
+x <- ink %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+# write file
+writeLines(x, "../corpus_fragments/test_fragments/ink_melanges.txt")
+```
+
+Selection of what appeared ONLY in ink, i.e. mélanges - pensées détachées
+
+```{r}
+dat %>% 
+  # basic main filters
+  filter(str_detect(FV, "yes") & !str_detect(id, "H")) %>% 
+  # filter only melanges
+  filter(ink_melanges == "yes") %>% 
+  # filter what is NOT included in pensées détachées
+  filter(pencil_pensees_detachees == "no") %>% 
+  #select(text) %>% 
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  unnest_tokens(input = full_text, output = word, token = "words") %>% 
+  count()
+
+x <- dat %>% 
+  # basic main filters
+  filter(str_detect(FV, "yes") & !str_detect(id, "H")) %>% 
+  # filter only melanges
+  filter(ink_melanges == "yes") %>% 
+  # filter what is NOT included in pensées détachées
+  filter(pencil_pensees_detachees == "no") %>% 
+  #select(text) %>% 
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/ink_melanges_not-in-pencil.txt")
+```
+
+# Likely-Diderot books
+
+```{r}
+
+unique(dat$Book)
+
+diderot_books_fv <- dat %>% 
+  filter(str_detect(FV, "yes") & !str_detect(id, "H")) %>% 
+  filter(Book %in% c("L4", "L5", "L12", "L13"))
+
+nrow(diderot_books_fv)
+
+# number of words in books
+diderot_books_fv %>% 
+  unnest_tokens(input = text, output = word, token = "words") %>% 
+  count(Book)
+
+# 4 & 12
+x <- diderot_books_fv %>% 
+  filter(Book %in% c("L4", "L12")) %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/diderot_fv_l4_l12.txt")
+
+# 4 & 13
+x <- diderot_books_fv %>% 
+  filter(Book %in% c("L4", "L13")) %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/diderot_fv_l4_l13.txt")
+
+# 5 & 12
+x <- diderot_books_fv %>% 
+  filter(Book %in% c("L5", "L12")) %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/diderot_fv_l5_l12.txt")
+
+# 5 & 13
+x <- diderot_books_fv %>% 
+  filter(Book %in% c("L5", "L13")) %>% 
+  select(text) %>% # paste all chunks into one cell
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/diderot_fv_l5_l13.txt")
+```
+
+### 
+
+# Separate fragments
+
+```{r}
+glimpse(dat)
+```
+
+## fragments on Russia & China
+
+Fragment 12: on China
+
+Fragments 68 & 310 : on Russia
+
+```{r}
+dat %>% 
+  filter(Fragment.No == "12")
+
+dat %>% 
+  filter(Fragment.No == "68 (FP)")
+```
+
+```{r}
+dat %>% 
+  filter(str_detect(Fragment.No, "310")) # not available as it was subdivided in A-B-C parts
+
+# add manually
+x <- tibble(path = "../corpus_fragments/single fragments/310 V.txt",
+            text = read_file(path))
+
+x
+```
+
+Combine three fragments into one text file
+
+```{r}
+dat %>% 
+  filter(Fragment.No == "12" | Fragment.No == "68 (FP)") %>% 
+  select(path, text) %>% 
+  rbind(x) %>% 
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  unnest_tokens(input = full_text, output = word, token = "words") %>% 
+  count()
+
+x <- dat %>% 
+  filter(Fragment.No == "12" | Fragment.No == "68 (FP)") %>% 
+  select(path, text) %>% 
+  rbind(x) %>% 
+  summarise(full_text = paste0(text, collapse = "         ")) %>% 
+  pull(full_text)
+
+writeLines(x, "../corpus_fragments/test_fragments/fr_on_russia-china.txt")
+```
+
+## fragment 'les avantages de la vie sauvage'
+
+```{r}
+x <- dat %>% 
+  filter(Fragment.No == "340") %>% 
+  pull(text)
+
+writeLines(x, "../corpus_fragments/test_fragments/fr_sauvage.txt")
+```

@@ -1,0 +1,185 @@
+---
+title: "01_preprocessing"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+## Preprocessing of metadata & fragments for HDI study
+
+### metadata
+
+```{r}
+m <- read.delim("../fragments_attributions_upd.csv", sep = ";") 
+glimpse(m)
+```
+
+Test grouping variables
+
+```{r}
+print("Edition 1770")
+table(m$X1770)
+
+print("Edition 1774")
+table(m$X1774)
+
+print("Edition 1780")
+table(m$X1780)
+```
+
+Standardization
+
+Q1: is n/a == "not appeared" ? or not available, ie no data?
+
+```{r}
+m <- m %>% 
+  mutate(X1770 = ifelse(str_detect(X1770, "^appeared$|^appeared $"),
+                        "appeared",
+                        X1770),
+         X1770 = ifelse(str_detect(X1770, "^n/a$|^not appeared$"), # n/a solved as not appeared now
+                        "not appeared",
+                        X1770),
+         X1770 = ifelse(X1770 == "", "unknown", X1770)
+         ) %>% 
+  
+  mutate(X1774 = ifelse(X1774 == "", "unknown", X1774),
+         X1774 = ifelse(X1774 == "n/a", "not appeared", X1774)
+         ) %>% 
+  
+  mutate(X1780 = ifelse(X1780 == "", "unknown", X1780),
+         X1780 = ifelse(str_detect(X1780, "^changed/deleted$|^deleted \\?$"),
+                        "changed", X1780),
+         X1780 = ifelse(X1780 == "n/a", "not appeared", X1780)
+         ) 
+```
+
+Inks
+
+```{r}
+m <- m %>% 
+  # rename vars
+  rename(pencil_pensees_detachees = `FV_red.pencil...Pensées.Detachées.`,
+         ink_melanges = `FV_ink...Mélanges.`) %>% 
+  
+  # cleaning
+  mutate(pencil_pensees_detachees = ifelse(pencil_pensees_detachees == "",
+                                           "unknown",
+                                           pencil_pensees_detachees),
+         
+         # here I add "yes says Duchet / Goggi" as yes
+         pencil_pensees_detachees = ifelse(str_detect(pencil_pensees_detachees, "yes"),
+                                           "yes",
+                                           pencil_pensees_detachees)
+         
+         ) %>% 
+  
+  # same for ink: yes, if anybody said yes
+  mutate(ink_melanges = ifelse(ink_melanges == "",
+                               "unknown",
+                               ink_melanges),
+         ink_melanges = ifelse(str_detect(ink_melanges, "yes"),
+                               "yes",
+                               ink_melanges)) 
+```
+
+IDs
+
+```{r}
+table(m$FV)
+table(m$H)
+
+# m$FV == m$H
+```
+
+```{r}
+m %>% 
+  mutate(# id_letter = str_extract(Source...txt.file., "^\\w"),
+         id = Fragment.No,
+         
+         # try to attach H if FV=0 & H=1 
+         id = ifelse(str_detect(FV, "no") & str_detect(H, "yes") & 
+                       str_detect(Fragment.No, "^\\d+$"),
+                     paste0(Fragment.No, " H"),
+                     Fragment.No
+                     ),
+         
+         # rename non-marque
+         id = str_replace(id, "^(Non\\s\\w+)(\\s\\w+)$", "NonMarque\\2")
+         ) %>% 
+  select(Source...txt.file., Fragment.No,  id)
+```
+
+```{r}
+metadata <- m %>% 
+  mutate(# id_letter = str_extract(Source...txt.file., "^\\w"),
+         id = Fragment.No,
+         
+         # try to attach H if FV=0 & H=1 
+         id = ifelse(str_detect(FV, "no") & str_detect(H, "yes") & 
+                       str_detect(Fragment.No, "^\\d+$"),
+                     paste0(Fragment.No, " H"),
+                     Fragment.No
+                     ),
+         
+         # rename non-marque
+         id = str_replace(id, "^(Non\\s\\w+)(\\s\\w+)$", "NonMarque\\2")
+         ) %>% 
+  filter(Source...txt.file. != "")
+
+metadata %>% select(id) %>% tail()
+```
+
+### try attach texts
+
+```{r}
+t <- list.files(path = "../corpus_fragments/single fragments/", 
+                full.names = TRUE)
+
+texts <- tibble(
+  path = t,
+  id = str_remove_all(t, "../corpus_fragments/single fragments//|\\.txt$")
+)
+
+texts %>% tail()
+```
+
+Check fragments with problematic texts:
+
+```{r}
+metadata %>% 
+  left_join(texts, by = "id") %>% 
+  filter(is.na(path)) %>% 
+  select(Source...txt.file., FV, H, Fragment.No, id)
+```
+
+Read texts
+
+```{r}
+# read texts
+texts <- texts %>% 
+  mutate(text = sapply(path, read_file))
+
+glimpse(texts)
+```
+
+Attach texts to the metadata
+
+```{r}
+dat <- metadata %>% 
+  left_join(texts, by = "id") %>% 
+  filter(!is.na(path)) %>% 
+  select(-X)
+
+glimpse(dat)
+```
+
+```{r}
+saveRDS(dat, file = "../data/fragments_corpus.rds")
+```
+
+### Notes
+
+Important things to update: remove letter sub-divisions as A, B, C & attach text fragments.

@@ -1,0 +1,718 @@
+Source (.txt file);FV;H;Book;Fragment No;1770;1774;1780;"FV_red pencil 
+(Pensées Detachées)";"FV_ink 
+(Mélanges)";"Paral. to
+""Observations""";"Paral. to
+""Supplément""";"Others (see 
+notes if ""yes"")";n_word ;Notes;
+V-FP_T1 L1;yes;yes;L1;1;not appeared;not appeared;appeared;yes;no;;;;414;Note: All files which appear in FV AND H can be found in both files (of course) - I only list the V-FP-Files for better overview;
+V-FP_T1 L1;yes;yes;L1;2;not appeared;not appeared;appeared;yes;no;;;;79;"Duchet P.D. p. 11 // Goggi P.D. p. 11-12 (Information of the exact pages is only given when Duchet and Goggi did not refer exactly to the 
+same pages (like in this example))";
+V-FP_T1 L1;yes;yes;L1;3;not appeared;not appeared;appeared;no;yes;;;yes;531;Duchet: Mélanges + Correspondance Littéraire, nov 1778;
+V-FP_T1 L1;no;yes;L1;4;n/a;n/a;n/a;no;no;;;;213;"Everything which is marked in yellow has the following characteristics:
+-it is marked in the exemplaire Hornoy but does not appear in the Fonds Vandeul
+-Goggi put it into his ""Liste"" and marked it with an Asterix* to show that he attributes this passage to Diderot. His argumentation in these
+cases is solely based on style- or topic related argumentation";
+V-FP_T1 L1;yes;yes;L1;5;appeared;changed;changed;no;no;yes;yes ;"yes (Goggi says
+FP VIII (see
+notes)";1656;"In Duchet Fragments 5,6 and 7 (by Goggi) appear as one. They were reworked (changed) two times since 1770. The Text was extended
+every time: 1770: 12 pages, 1774: 22 pages, 1780: 37 pages.
+Duchet gives some examples in which passages of the Supplément or Observations ""ou on reconnaît sa (Diderot) plume"": 
+Supplément: p. 201, 245, 217 // Observations: p. 370-371.
+When examining Goggi's ""Liste"" we find some more information (I am referring to §7-108 in chap. 8 of L1): FI. 19-44 // §31 ""usages 
+bizarres"": Supplément (DPV), p. 583 // §40-41 ""adultère"": Observations (OP) p. 373 // §41 ""condition animale de l'homme"": FP VIII //
+... (the list goes on. For further information take a look into the critical edition p.752 (Goggi's Liste).";
+V-FP_T1 L1;yes;yes;L1;6;appeared;changed;changed;no;no;yes;yes ;;7304;;
+V-FP_T1 L1;yes;yes;L1;7;appeared;changed;changed;no;no;yes;yes;;467;;
+V-FP_T1 L1;yes;yes;L1;8;appeared;not changed;not changed;yes;no;;;;319;"Duchet: P.D. 84-86 // Goggi: P.D. 84-85 (seulement le §3) // I deleted everything after ""[...] L'homme est né libre?"". This can only be found 
+in the H-FP-Version now";
+V-FP_T1 L1;yes;"no(§1)/
+yes(§2)";L1;9 V;not appeared;appeared;changed;yes;no;yes ;;yes;"150 (H-FP)
+277 (V-FP)";"Goggi: Observations p. 344 and 397 and Art. ""Grecs"" and ""Vingtième"" in the Encycl. // Goggi and Duchet: P.D. p. 78-79 (Goggi aussi
+le §1)  // so here I added the §1 of this chapter to V-FP (which is not marked in Exemplaire Hornoy)";
+V-FP_T1 L1;yes;"no(§1)/
+yes(§2)";L1;9 H;not appeared;appeared;changed;yes;no;yes ;;yes;"150 (H-FP)
+277 (V-FP)";"Goggi: Observations p. 344 and 397 and Art. ""Grecs"" and ""Vingtième"" in the Encycl. // Goggi and Duchet: P.D. p. 78-79 (Goggi aussi
+le §1)  // so here I added the §1 of this chapter to V-FP (which is not marked in Exemplaire Hornoy)";
+H-FP_T1 L1;no;yes;L1;10;n/a;n/a;n/a;no;no;;;;177;;
+H-FP_T1 L1;no;yes;L1;11;n/a;n/a;n/a;no;no;;;;233;;
+V-FP_T1 L1;yes;yes;L1;12;not appeared;appeared;changed;no;yes;;;;1404;;
+V-FP_T1 L1;yes;"no(§5,6)/
+yes(§7-14)";L1;13 V;appeared;changed;not changed;yes;no;no;yes (says Duch);;"1133 (H-FP)
+1287 (V-FP)";Goggi: P.D. p. 36-42 (aussi les §5 et §6) - I added these two §(5 and 6) to the FV but not to H-FP;
+V-FP_T1 L1;yes;"no(§5,6)/
+yes(§7-14)";L1;13 H;appeared;changed;not changed;yes;no;no;yes (says Duch);;"1133 (H-FP)
+1287 (V-FP)";Goggi: P.D. p. 36-42 (aussi les §5 et §6) - I added these two §(5 and 6) to the FV but not to H-FP;
+V-FP_T1 L1;no;yes;L1;14;n/a;n/a;n/a;no;no;;;;344;"In Goggi's ""Liste"" no. 12 (with Asterix*)";
+V-FP_T1 L1;no;yes;L1;15;n/a;n/a;n/a;no;no;;;;196;"In Goggi's ""Liste"" no. 13 (with Asterix*)";
+V-FP_T1 L1;no;yes;L1;16;n/a;n/a;n/a;no;no;;;;65;Not in the FV but Goggi asks to check H2010, T1, p. 137 note 574;
+V-FP_T1 L1;yes;yes;L1;17;not appeared;not appeared;appeared;yes;yes;;;;282;Note from Damien: 2 passages appear not to be in Duchet which appear in our file;
+;;;;;;;;;;;;;;;
+H-FP_T1 L2;no;yes;L2;18;n/a;n/a;n/a;no;no;;;;65;;
+H-FP_T1 L2;no;yes;L2;19;n/a;n/a;n/a;no;no;;;;346;"In Goggi's ""Liste"" no. 21 (with Asterix*) - but not in FV";
+V-FP_T1 L2;yes;yes;L2;20;not appeared;not appeared;appeared;no;no;yes;no;;366;"Duchet: Observations p. 428 + Salon de 1769 (O.C. VIII, 458-459) // Goggi: V4, p.92-94 (seulement les §4-5, mais le §3 marqué au crayon
+rouge dans FI a été biffé par des traits de plume par Vandeul, voir Observations p. 428) - I did NOT delete §3 based on the information we 
+got here from Goggi";
+V-FP_T1 L2;yes;yes;L2;21;not appeared;appeared;changed;yes;no;no;yes (says Duch);;1267;Duchet: P.D. 138-143 + Supplément p. 205-207;
+H-FP_T1 L2;no;yes;L2;22;n/a;n/a;n/a;no;no;;;;86;;
+V-FP_T1 L2;yes;yes;L2;23;not appeared;appeared;changed;yes;yes;;;;274;"Duchet: P.D. 379-380 + Mél // Goggi: P.D. 378-379 + Mél p. 299-301 (aussi une partie de §7) // It is not written which ""partie"". Therefore
+I did not add any ""partie de §7"".";
+V-FP_T1 L2;yes;"no (§9)/
+yes(§10)";L2;24;not appeared;not appeared;appeared;yes;"yes (aussi §9 
+says Goggi)";;;;318;Goggi: P.D. p. 380-381 (Duchet too) + Mél 303-305 (aussi le §9) // I added §9 to the V-FP Corpus;
+V-FP_T1 L2;yes;yes;L2;25;appeared;not changed;changed;yes;yes;;;;321;"Goggi: P.D. p. 380-381, Mél 303-305 (same as fragm. 24?) // Duchet: P.D. 376-379 (Why is there a difference concerning the pages
+Duchet (F.13-D) and Goggi are refering to in the P.D.? Both refer to chap. 25 within the HDI - here one has to look into the text I think)
+Goggi: aussi le §10, mais dans FI, f.231, le §10 est marqué à la plume, alors que le rest l'est au crayon rouge // I did not add/delete
+anything here because I am not sure";
+V-FP_T1 L2;yes;yes;L2;26;not appeared;not appeared;appeared;yes;yes;;;;1379;"Duchet: P.D. 368-371 + Mél // Goggi: §14-16 P.D. p. 368-371 + Mél p.295-296 and p. 298-299 (sans le §13, mais dans FI, f.222, cet alinéa
+est marqué au crayon rouge) / Goggi: § 17-23: P.D. p. 372-376 + Mél p. 305-309
+The fragment of Goggi includes probably more paragraphs than Duchet (P.D. p. 372-376 does not occur in Duchet)";
+;;;;;;;;;;;;;;;
+V-FP_T1 L3;yes;yes;L3;27;appeared;not changed;changed;yes;yes;no;yes (says Duch);;319;"Duchet: Supplément p. 236 and 201 // Goggi: aussi le §3, mais alors que les §1-2 sont marqués au crayon rouge, tandis que le §3 est 
+marqué à la plume (I did not add §3 to FV-FP)";
+V-FP_T1 L3;yes;yes;L3;28;not appeared;not appeared;appeared;no;no;yes;no;;230;"Duchet: LivreIII Chap. 2 Observations p. 455 and 457 // Goggi: LivreIII Chap. 1 (!) Observations p. 455-456 (seulement une partie de l'alinéa)
+Here is a difference in the referred chapters (Duchet 2 and Goggi 1) and the pages in the Observations differ a bit. 
+I looked into the HDI. The fragment Goggi is refering to, is indeed in Chap. 1";
+V-FP_T1 L3;no;yes;L3;29;n/a;n/a;n/a;no;no;;;;155;"In Goggi's ""Liste"" no. 36 (with Asterix*)";
+V-FP_T1 L3;yes;yes;L3;30;not appeared;not appeared;appeared;yes;no;;;;142;"Goggi: P.D.p. 320-321 (same as Duchet) (une partie de §8) // I do not know which ""partie de §8"" Goggi is referring to, so I did not add 
+anything to FV-FP";
+(F-19-D);yes;-;-;Only in Duchet;appeared;not changed;changed;yes;no;;;;-;This does not appear in Goggi's List.   Can be ignored (Damien);Damien: This is not in the Fonds Vandeul, not in Hornoy, but just a fragment that Duchet considered similar to a passage in Observations sur le nakaz. Goggi seems to have judged otherwise. I think we can ignore it without any hesitation.
+V-FP_T1 L3;yes;yes;L3;31;not appeared;not appeared;appeared;no;no;no;yes;;188;"Duchet: Supplément p. 241 (F.21-D) // Goggi: This fragment is in his ""Liste"" no. 37 (with Asterix). In the H2010 he refers to the 
+Supplément, DPV, t. XII, p. 631-632 and to Duchet (F.21-D) and to Hist. Voyages, t.1 p. 501";
+V-FP_T1 L3;no;yes;L3;32;n/a;n/a;n/a;no;no;;;;82;"Goggi: ""Ni dans le fonds Vandeul ni dans la ""Liste""""";
+H-FP_T1 L3;no;yes;L3;33;n/a;n/a;n/a;no;no;;;;59;;
+V-FP_T1 L3;yes;yes;L3;34;appeared;not changed;not changed;yes;no;;;;191;P.D. p. 403;
+V-FP_T1 L3;yes;yes;L3;35;not appeared;not appeared;appeared;yes;no;;;;145;P.D. p. 403-404;
+V-FP_T1 L3;yes;yes;L3;36;not appeared;not appeared;appeared;no;no;yes;no;yes (says Duch);290;Goggi: V4, p. 33 (Observations p. 371) // Duchet: Obs. p. 371 + Mémoires pour Catherine (X, 755) + Eléments de physiologie (XIII, p. 823);
+V-FP_T1 L3;yes;yes;L3;37;not appeared;not appeared;appeared;yes;no;yes (says Duch);;;444;Duchet: P.D. p. 125-127 (same as Goggi) + Observations p. 399-400;
+H-FP_T1 L3;no;yes;L3;38;n/a;n/a;n/a;no;no;;;;217;"Goggi: ""Non repris dans le fonds Vandeul""";
+"V-FP_T1 L3/
+H-FP_T1 L3";yes/no;yes;L3;39 V;not appeared;not appeared;appeared;yes;no;;;;"139 (H-FP)
+58 (V-FP)";"Goggi: P.D. p. 11 (same as Duchet) but with ""sans les trois premières phrases de §4"" 
+I deleted now the first 3 sentences of this fragment (in V-FP). These three sentences can only be found in H-FP)";
+"V-FP_T1 L3/
+H-FP_T1 L3";yes/no;yes;L3;39 H;not appeared;not appeared;appeared;yes;no;;;;"139 (H-FP)
+58 (V-FP)";"Goggi: P.D. p. 11 (same as Duchet) but with ""sans les trois premières phrases de §4"" 
+I deleted now the first 3 sentences of this fragment (in V-FP). These three sentences can only be found in H-FP)";
+V-FP_T1 L3;yes;yes;L3;40;not appeared;not appeared;appeared;no;no;;;yes;981;Eloge d'Eliza Draper;
+V-FP_T1 L3;yes;yes;L3;41;not appeared;appeared;changed;yes;no;;;;436;;
+H-FP_T1 L3;no;yes;L3;42;n/a;n/a;n/a;no;no;;;;77;"Goggi: ""Non repris dans le fonds Vandeul""";
+V-FP_T1 L3;no;yes;L3;43;n/a;n/a;n/a;no;no;;;;384;"In Goggi's ""Liste"" no. 40 (with Asterix*)";
+H-FP_T1 L3;no;yes;L3;44;n/a;n/a;n/a;no;no;;;;108;"Goggi: ""Non repris dans le fonds Vandeul""";
+H-FP_T1 L3;no;yes;L3;45;n/a;n/a;n/a;no;no;;;;69;"Goggi: ""Non repris dans le fonds Vandeul"" + in Goggi's ""Liste"" no. 41 (with Asterix*)";
+H-FP_T1 L3;no;yes;L3;46;n/a;n/a;n/a;no;no;;;;39;"Goggi: ""Non repris dans le fonds Vandeul""";
+V-FP_T1 L3;yes;yes;L3;47;not appeared;appeared;not changed;yes;no;;;;555;"Goggi: P.D. p. 321-324 (same as Duchet) + ""ajouté le §19"" // I did not add §19 to V-FP";
+V-FP_T1 L3;yes;no;L3;NonMarque I;not appeared;not appeared;appeared;yes;no;;;;61;P.D. page 324-325 is NOT marked in the exemplaire Hornoy (pages 325-327 etc. are marked though (Fragment 48));
+V-FP_T1 L3;yes;yes;L3;48;not appeared;appeared;not changed;yes;no;;;;369;"Goggi: P.D. p. 325-327 ""ajouté le §27"" // I did not add §27 to V-FP";
+V-FP_T1 L3;yes;yes;L3;49;not appeared;not appeared;appeared;yes;no;;;;645;;
+;;;;;;;;;;;;;;;
+H-FP_T1 L4;no;yes;L4;50;n/a;n/a;n/a;no;no;;;;163;"Goggi: ""Non repris dans le fonds Vandeul"" + In Goggi's ""Liste"" no. 44 (with Asterix*)";
+V-FP_T1 L4;yes;yes;L4;51;not appeared;not appeared;appeared;no;yes;;;yes (says Duch);2079;Duchet: Mél p. 3-12 (like Goggi) + Neveu de Rameau (O.C. X, p. 404);
+H-FP_T1 L4;no;yes;L4;52;n/a;n/a;n/a;no;no;;;;189;"Goggi: ""Non repris dans le fonds Vandeul"" + In Goggi's ""Liste"" no. 50 (with Asterix*)";
+V-FP_T1 L4;yes;yes;L4;53;not appeared;appeared;changed;yes;no;no;yes (says Duch);;1478;;
+;;;;;;;;;;;;;;;
+V-FP_T1 L5;yes;yes;L5;54;not appeared;not appeared;appeared;yes;no;;;;356;;
+V-FP_T1 L5;yes;yes;L5;55;not appeared;not appeared;appeared;no;yes;;;;859;;
+V-FP_T1 L5;yes;yes;L5;56;not appeared;not appeared;appeared;yes;no;;;;257;;
+H-FP_T1 L5;no;yes;L5;57;n/a;n/a;n/a;no;no;;;;107;"Goggi: ""Non repris dans le fonds Vandeul"" + In Goggi's ""Liste"" no. 68 (with Asterix*) (t.I, p. 788)";
+V-FP_T1 L5;yes;yes;L5;58;n/a;n/a;n/a;no;yes;;;;84;does NOT appear in Duchet (only in Goggi!) // Goggi: Mél p. 115-116;
+V-FP_T1 L5;yes;yes;L5;59;not appeared;not appeared;appeared;yes;no;;;;210;;
+H-FP_T1 L5;no;yes;L5;60;n/a;n/a;n/a;no;no;;;;34;"Goggi: ""Non repris dans le fonds Vandeul""";
+V-FP_T1 L5;yes;yes;L5;61 V;not appeared;not appeared;appeared;yes;no;;;;"195 (H-FP)
+126 (V-FP)";"CAREFUL: these are the same pages as Fragment 59 (PD p. 60-61) - Goggi noted: ""Sans les trois dernières lignes de l'alinéa"" // Marked
+ passages after ""[...] reçu le jour & l'éducation."" were deleted.";
+V-FP_T1 L5;yes;yes;L5;61 H;not appeared;not appeared;appeared;yes;no;;;;"195 (H-FP)
+126 (V-FP)";"CAREFUL: these are the same pages as Fragment 59 (PD p. 60-61) - Goggi noted: ""Sans les trois dernières lignes de l'alinéa"" // Marked
+ passages after ""[...] reçu le jour & l'éducation."" were deleted.";
+??? (F-39-A);yes;no;L5;Only in Duchet;appeared;not changed;not changed;no;no;yes;no;;??;;
+V-FP_T1 L5;yes;yes;L5;62;not appeared;not appeared;appeared;yes;no;;;;366;Goggi: P.D. p. 196-198 (ajouté le §18) // I did not change the fragment;
+H-FP_T1 L5;no;yes;L5;63;n/a;n/a;n/a;no;no;;;;237;"Goggi: ""Non repris dans le fonds Vandeul""";
+V-FP_T1 L5;yes;yes;L5;64 A;appeared;changed;changed;no;yes;;;;933;Duchet split Fragment 64 into two parts - I am not sure where exactly to split this fragment...;
+V-FP_T1 L5;yes;yes;L5;64 B;appeared ;not changed;not changed;yes;no;;;;;see above!;
+V-FP_T1 L5;yes;yes;L5;65;not appeared;not appeared;appeared;yes;yes;;;;746;Goggi P.D. p. 257-261 // Duchet P.D. p. 257-260;
+V-FP_T1 L5;yes;yes;L5;66;not appeared;appeared;changed;yes;no;;;;219;Goggi: P.D. p. 83-84 (une ligne du §9 a été ajoutée) // I did not change anything here;
+V-FP_T1 L5;yes;yes;L5;67;not appeared;not appeared;appeared;yes;no;;;;290;;
+"V-FP_T1 L5 +
+FP II";yes;yes;L5;68 (FP);not appeared;appeared;changed;no;no;yes;no;yes;2071;"Duchet: Sur la civilisation de Russie, Mémoires pour Catherine II p. 722, Observ.  p. 351 // Goggi: FP, XVI --> HDI Civilisation Russie
+ (sans l'aniléa dernier le §21) // here is the big chunk which is included in FP II AND Hornoy AND FV
+FP: Tome I, Livre 5, c. 23, §1-20";
+H-FP_T1 L5;no;yes;L5;68 FP + H (53 words);not appeared;appeared;changed;no;no;yes;no;yes;53;"Duchet: Sur la civilisation de Russie, Mémoires pour Catherine II p. 722, Observ.  p. 351 // Goggi: FP, XVI --> HDI Civilisation Russie
+ (sans l'aniléa dernier le §21) // here is the small chunk which is only included in Hornoy (§21)
+It is the following: ""Le tableau [...] avec la Chine""";
+FP II;yes?;no;L5;FP II;n/a;n/a;n/a;no;no;;;yes;50;FP: Tome I, Livre 5, c. 24, §1;
+V-FP_T1 L5;yes;yes;L5;69 V;n/a;n/a;n/a;no;yes;;;;"162(V-FP)
+191(H-FP)";"NOT mentioned by Duchet (only Goggi) // Goggi: Mél p. 175-175 (sans la première phrase de l'aniléa) // In V-FP the first sentence was 
+deleted - here are 162 words now (in H-FP it was not - 191 words)";
+V-FP_T1 L5;yes;yes;L5;69 H;n/a;n/a;n/a;no;yes;;;;"162(V-FP)
+191(H-FP)";"NOT mentioned by Duchet (only Goggi) // Goggi: Mél p. 175-175 (sans la première phrase de l'aniléa) // In V-FP the first sentence was 
+deleted - here are 162 words now (in H-FP it was not - 191 words)";
+V-FP_T1 L5;yes;yes;L5;70;appeared;not changed;changed;yes;no;yes;no;yes;2000;"Duchet: Art. ""Besoin"" (+P.D. and Observ.) // Goggo: P.D. p. 382-391 (les quelques lignes de §5 du chap 32 repris dans PD sont 
+marquées à la plume dans FI) // I did not change this fragment";
+V-FP_T1 L5;yes;yes;L5;71;not appeared;appeared;not changed;yes;no;;;;224;Goggi: P.D. p. 84 (sans le §8) // I did not delete §8 because I did not see where §7 and 8 end... (here has to be H2010 checked);
+;;;;;;;;;;;;;;;
+"H-FP_T2 L6
+FP II";yes;yes (partly);L6;72 FP;not appeared;appeared;not changed;yes;no;;;yes;"472 (H-FP)
+587 (FP II)";"In Hornoy only §1-3 are marked. FP includes §1-4 though. FV includes also all four paragraphs (P.D. p. 228-230) // I added this fragment of
+FP to H-FP because it is marked in Hornoy. Of course H-FP is not H-FP anymore then but just H (if needed Fragment 72 can just be 
+deleted in H-FP_T2 L6)
+FP: Tome II, Livre 6, c. 1, §1-4";
+"H-FP_T2 L6
+FP II";yes;yes (partly);L6;72 H;not appeared;appeared;not changed;yes;no;;;yes;"472 (H-FP)
+587 (FP II)";"In Hornoy only §1-3 are marked. FP includes §1-4 though. FV includes also all four paragraphs (P.D. p. 228-230) // I added this fragment of
+FP to H-FP because it is marked in Hornoy. Of course H-FP is not H-FP anymore then but just H (if needed Fragment 72 can just be 
+deleted in H-FP_T2 L6)
+FP: Tome II, Livre 6, c. 1, §1-4";
+H-FP_T2 L6;no;yes;L6;73;n/a;n/a;n/a;no;no;;;;153;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul""";
+H-FP_T2 L6;no;yes;L6;74;n/a;n/a;n/a;no;no;;;;119;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul""";
+"H-FP_T2 L6 
+FP II";yes;yes;L6;75 V H FP;not appeared;appeared;not changed;yes (says Goggi);no;;;yes;"175 (H-FP)
+156 (FP II)";"In Hornoy one more sentence is marked than the original FP part (19 words +). I left FP within H-FP again. In the file I left a space so it
+can be deleted if needed (the second part would be deletable if FP II shall be not included in this fragment)
+FP: Tome II, Livre 6, c. 8, §7";
+V-FP_T2 L6;yes;yes;L6;76;n/a;n/a;n/a;no;no;;;;71;Goggi: dans FI l'aniléa a été biffé par Vandeul // It does NOT appear in Duchet's Table;
+V-FP_T2 L6;yes;yes;L6;77;appeared;not changed;not changed;yes;yes;;;;206;Goggi: le §18 marqué au crayon rouge a été biffé par des traits de plume // P.D. and Mél: seulement le §19: Jamais [...];
+H-FP_T2 L6;no;yes;L6;78;n/a;n/a;n/a;no;no;;;;48;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul""";
+V-FP_T2 L6;no/yes;yes;L6;79;not appeared;not appeared;appeared;yes;no;;;;602;"§5 is missing in the FV, §6 is FI and PD (which is also included by Duchet, §7 and 8 are not included in Duchet and crossed (biffé) by 
+Vandeul (but not the last sentence of §8. This is marked in red) // I did NOT change this fragment - §5 could be deleted in V-FP
+§7 and §8 I am also not sure how to arrange";
+V-FP_T2 L6;yes;yes;L6;80;appeared;not changed;changed;yes;no;;;;861;Duchet included PD p. 342-345. Goggi also mentions some parts of FI. I do not know if Goggi's chunk is larger than the original one;
+V-FP_T2 L6;yes;yes;L6;81;not appeared;not appeared;appeared;yes;yes (says Duch);;;;197;;
+V-FP_T2 L6;yes;yes;L6;82;not appeared;not appeared;appeared;no;yes;;;;235;Here §6 appears in Mél and FI and should be added to V-FP - unfortunately I do not know exactly where it starts;
+V-FP_T2 L6;yes;yes;L6;83;not appeared;not appeared;appeared;yes;yes;;;;1200;Duchet: P.D. 349-350 // Goggi: P.D. 349-350 + Mél: 23-27 (see notes in Goggi for further information);
+V-FP_T2 L6;yes;yes;L6;84;not appeared;not appeared;appeared;yes;no;;;;272;;
+H-FP_T2 L6;no;yes;L6;85;n/a;n/a;n/a;no;no;;;;88;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul""";
+V-FP_T2 L6;no?;no;L6;NonMarque II;n/a;n/a;n/a;no;no;;;;166;"This does not appear in Duchet. Goggi claims that this could/should be by Diderot (he put it into the "" Liste* "" (no. 95))";
+FP II;yes/no?;no;L6;NonMarque III;n/a;n/a;n/a;no;no;;;;183;"This is part of FP II (it is not mentioned by Duchet though)
+FP: Tome II, Livre 6, c. 19, p. 79-80";
+V-FP_T2 L6;no;no;L6;NonMarque IV;n/a;n/a;n/a;no;no;;;;63;"Goggi claims that this could/should be Diderot (compare to DPV (?)) ""Liste"" no. 96*";
+FP II;yes;no;L6;NonMarque V;n/a;n/a;n/a;no;no;;;;196;"Part of FP II
+FP: Tome II, Livre 6, c. 19, p. 81";
+V-FP_T2 L6;yes;yes;L6;86;not appeared;not appeared;appeared;no;yes;;;;437;"""Sur les femmes"" ";
+H-FP_T2 L6;no;yes;L6;87;n/a;n/a;n/a;no;no;;;;85;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 87";
+V-FP_T2 L6;yes;yes;L6;88;not appeared;not appeared;appeared;yes;no;no;yes (says Duch);yes;717;Duchet: PD, Sur les Nations sauvages, FP, Supplément // Goggi: PD;
+H-FP_T2 L6;no;yes;L6;89;n/a;n/a;n/a;no;no;;;;110;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 89";
+H-FP_T2 L6;no;yes;L6;90;n/a;n/a;n/a;no;no;;;;297;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 90";
+V-FP_T2 L6;yes;yes;L6;91;not appeared;not appeared;appeared;yes;no;;;;325;Duchet: PD 54-56 // Goggi: PD 54-55;
+V-FP_T2 L6;yes;yes;L6;92;not appeared;not appeared;appeared;yes;no;;;;162;;
+H-FP_T2 L6;no;yes;L6;93;n/a;n/a;n/a;no;no;;;;111;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 93";
+H-FP_T2 L6;no;yes;L6;94;n/a;n/a;n/a;no;no;;;;184;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 94";
+;;;;;;;;;;;;;;;
+V-FP_T2 L7;yes;yes;L7;95;not appeared;not appeared;appeared;yes;yes;;;;335;"Duchet: P.D. p 333-334 // Goggi: P.D. p. 333-335 (""les deux premiers alinéas"" - same for Mélanges) // dans FI le §3 est marqué au 
+crayon rouge, mais biffé par de traits de plume) // I left §3 in V-FP";
+V-FP_T2 L7;yes;yes;L7;96;not appeared;not appeared;appeared;yes;no;;;;185;;
+H-FP_T2 L7;no;yes;L7;97;n/a;n/a;n/a;no;no;;;;95;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 99";
+H-FP_T2 L7;no;yes;L7;98;n/a;n/a;n/a;no;no;;;;214;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 100";
+H-FP_T2 L7;no;yes;L7;99;n/a;n/a;n/a;no;no;;;;172;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 101";
+H-FP_T2 L7;no;yes;L7;100;n/a;n/a;n/a;no;no;;;;208;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 102";
+V-FP_T2 L7;yes;yes;L7;101 V;not appeared;appeared;changed;yes;no;;;;"387 (V-FP)
+245 (H-FP)";Goggi: P.D. p. 341-342 (aussi le §30) // I added §30 to V-FP;
+V-FP_T2 L7;yes;yes;L7;101 H;not appeared;appeared;changed;yes;no;;;;"387 (V-FP)
+245 (H-FP)";Goggi: P.D. p. 341-342 (aussi le §30) // I added §30 to V-FP;
+V-FP_T2 L7;yes;yes;L7;102;not appeared;not appeared;appeared;yes;no;;;;156;;
+V-FP_T2 L7;yes;yes;L7;103;appeared;not changed;not changed;yes;no;;;;370;;
+V-FP_T2 L7;no;no;L7;NonMarque VI;n/a;n/a;n/a;no;no;;;;140;"Here again yellow: not in Fonds Vandeul and not marked in exemplaire Hornoy. It is just something Goggi feels like Diderot should/could 
+have written... (H80_T2_L.VII_Chap10_§9_p164-165) ""Liste"" no. 115*";
+V-FP_T2 L7;yes;yes;L7;104 V;not appeared;not appeared;appeared;no;yes;;;;"1293 (H-FP)
+1106 (V-FP)";"""Sur les femmes"" // Goggi: Le §6 en entier et le début de §7 sont marqués dans l'exemplaire Hornoy // I deleted these passages from 
+V-FP";
+V-FP_T2 L7;yes;yes;L7;104 H;not appeared;not appeared;appeared;no;yes;;;;"1293 (H-FP)
+1106 (V-FP)";"""Sur les femmes"" // Goggi: Le §6 en entier et le début de §7 sont marqués dans l'exemplaire Hornoy // I deleted these passages from 
+V-FP";
+V-FP_T2 L7;yes;yes;L7;105;not appeared;not appeared;appeared;no;yes;;;;1500;"Goggi: dans FI, le §1 du chap. 24 [...] est marqué au crayon rouge, mais biffé par des traits de plume // Mél. p. 51-58 (sans le §1) //
+I did not change this fragment (§1 could be deleted maybe?)";
+V-FP_T2 L7;yes;yes;L7;106;appeared;not changed;changed;no;yes;;;;558;"Goggi: (FI) la marque rouge commence du §6, mais Vandeul semble avoir préparé aussi le §5 pour la transcription) // Mél. p. 58-61 (aussi
+le §5) // I did NOT add §5 to V-FP!";
+V-FP_T2 L7;yes;yes;L7;107;appeared;not changed;not changed;yes;no;;;yes;162;"Duchet: P.D. p. 352-353 (same as Goggi) + ""Art. Laborieux"" (O.C. XV, 324)";
+V-FP_T2 L7;yes;yes;L7;108;not appeared;not appeared;appeared;yes;no;;;;152;"Goggi: (FI) tout le §15 marqué au crayon rouge, y compris les trois premières lignes // P.D. 353-354 (sans les trois premières lignes,
+c'est-à-dire à partir de Ainsi cette fatalité) // I did not change this fragment within the V-FP";
+H-FP_T2 L7;no;yes;L7;109;n/a;n/a;n/a;no;no;;;;169;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 111";
+H-FP_T2 L7;no;yes;L7;110;n/a;n/a;n/a;no;no;;;;225;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 112";
+V-FP_T2 L7;yes;yes;L7;111 A;appeared;changed;not changed;yes;no;;;;"Part 1: 397
+Part 1-3: 644 
+(H-FP)";"This fragment (111) is divided into two parts in Duchet. In Hornoy these parts are marked, aswell as a small fragment in between.
+Part 1 (111 A): §13-14 P.D. p. 25-26 (Duchet: F.71-B) // Goggi ""Liste"" no. 113
+Part 2: Only marked in Hornoy";
+V-FP_T2 L7;yes;yes;L7;111 B;appeared;not changed;changed;yes;yes;;;;Part 3: 179;"Part 3 (111 B): §15-16 P.D. p. 356 (Duchet: F.72-B) // Goggi ""Liste"" no. 114";
+;;;;;;;;;;;;;;;
+V-FP_T2 L8;yes;yes;L8;112;not appeared;not appeared;appeared;yes;no;no;yes (says Duch);;995;"Goggi: P.D. p 235-239 (sans les trois dernières lignes qui constituent une transition textuelle) // I did NOT delete these last 3 lignes from
+V-FP!";
+V-FP_T2 L8;yes;yes;L8;113 A;not appeared;not appeared;appeared;yes;no;;;;402 (Caution);"Goggi: P.D. p 154-156 (sans le §3) // I did not delete §3 because I dont know which one it is // Duchet split this fragment into two parts! 
+Duchet: P.D. p. 154 // I do not know where is fragment should be split";
+V-FP_T2 L8;yes;yes;L8;113 B;not appeared;not appeared;appeared;yes;no;;;;402 (Caution);Duchet split this fragment into two parts! Duchet: P.D. p. 155-156;
+V-FP_T2 L8;yes;yes;L8;114;appeared;not changed;changed;yes;no;;;;195;"Goggi: P.D. p. 355 (sans la première ligne et demi et sans les cinq dernières lignes biffées dans FI) // I did not change this fragment which
+means: everything which is marked in H-FP will also appear in V-FP)";
+V-FP_T2 L8;no;no;L8;NonMarque VII;n/a;n/a;n/a;no;no;;;;140;"CAUTION: This is exactly the same passage as in NonMarque VI (?????) // In Goggi's ""Liste"" but no Asterix* no. 115*
+""NonMarque dans Hornoy ni repris dans le fonds Vandeul""";
+H-FP_T2 L8;no;yes;L8;115;n/a;n/a;n/a;no;no;;;;396;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 119";
+V-FP_T2 L8;yes;yes;L8;116;not appeared;not appeared;appeared;no;yes;;;yes;303;Goggi: Mél 332-333 + Esclavage nègres p. 12-14;
+H-FP_T2 L8;no;yes;L8;117;n/a;n/a;n/a;no;no;;;;137;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 121";
+V-FP_T2 L8;yes;yes;L8;118;not appeared;not appeared;appeared;no;yes;;;yes;165;Goggi: Mél 331 + Esclavage nègres p. 11-12;
+V-FP_T2 L8;yes;yes;L8;119;not appeared;not appeared;appeared;yes;no;;;;239;;
+V-FP_T2 L8;yes;yes;L8;120;not appeared;not appeared;appeared;yes;no;;;;800;;
+V-FP_T2 L8;yes;yes;L8;121;not appeared;not appeared;appeared;yes;no;;;;370;"Duchet: P.D. p. 21-25 // Goggi: P.D. p. 22 and 25 (la numérotation des pages a été perturbée par le déplacement d'un feuillet - ce n'est
+repris qu'une partie de §13: jusqu'à dans les deux hémisphères)";
+"FP II
+V-FP_T2 L8
+H-FP_T2 L8";yes;yes;L8;122 (FP);appeared;changed;not changed;yes;no;;;yes;297;"FP II and P.D.!  // Duchet: P.D. 350-352 // Goggi: P.D. p. 350-353
+FP: Tome 2, Livre 8, c. 32 p, §4-5 // This FP part is readded to H-FP for a better overview. It can be deleted easily though";
+"FP II
+V-FP_T2 L8";yes;no;L8;NonMarque VIII;not appeared;appeared;not changed;no;no;;;yes;163;"Not Marked in Hornoy // I included it into V-FP though (can be deleted if needed)
+FP: Tome 2, Livre 8, c. 32 p, §6";
+H-FP_T2 L8;no;yes;L8;123;n/a;n/a;n/a;no;no;;;;245;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 123";
+V-FP_T2 L8;yes;yes;L8;124 A;appeared;not changed;not changed;yes;yes? ;;;;"Part 1-4: 1271 
+(H-FP)
+Part 1: 242";"Here is one fragment which is split by Duchet into three parts. For Goggi it is one Fragment split into four parts:
+Part 1 (124 A): §5-6: Goggi AND Duchet (F.84-A): P.D. p. 4-5
+Part 2: §7-8: no reference";
+V-FP_T2 L8;yes;yes;L8;124 B;appeared;not changed;not changed;yes;yes? ;;;;Part 3: 402;Part 3 (124 B): §9-10: Goggi AND Duchet (F.86-A): P.D. p. 19-21;
+V-FP_T2 L8;yes;yes;L8;124 C;not appeared;appeared;not changed;yes;yes;;;;Part 4: 229;Part 4 (124 C): §11-12: Goggi AND Duchet (F. 87-C): P.D. p. 335-336 + Mél p.249-250;
+H-FP_T2 L8;no;yes;L8;125;n/a;n/a;n/a;no;no;;;;76;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 130";
+V-FP_T2 L8;yes;yes;L8;126;not appeared;not appeared;appeared;yes;yes;;;;192;;
+;;;;;;;;;;;;;;;
+V-FP_T2 L9;yes;yes;L9;127;not appeared;not appeared;appeared;yes;no;;;yes;673;"Duchet: P.D. p. 242-245 + ""Voyage en Hollande"" // Goggi: P.D. 242-245 (sauf la transition textuelle à la fin de l'alinéa) // I did not adjust
+the fragment to any ""transition textuelle""";
+V-FP_T2 L9;yes;yes;L9;128;n/a;n/a;n/a;no;no;;;;132;"Only appears in Goggi. He adds: ""dans FI, f. 119 l'alinéa est marqué au crayon rouge, mais biffé par des traits de plume. Avant de le biffer,
+Vandeul a préparé le passage pour transcription en faisant des corrections au début)";
+V-FP_T2 L9;yes;yes;L9;129;appeared;not changed;not changed;yes;no;;;;211;;
+V-FP_T2 L9;yes;yes;L9;130;not appeared;not appeared;appeared;yes;no;;;;260;;
+H-FP_T2 L9;no;yes;L9;131;n/a;n/a;n/a;no;no;;;;105;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 137";
+V-FP_T2 L9;yes;yes;L9;132;appeared;not changed;not changed;yes;no;;;;307;;
+V-FP_T2 L9;yes;yes;L9;133 V;not appeared;not appeared;appeared;yes;no;;;;"221 (V-FP)
+305 (H-FP)";"Goggi: §12 (à partir de: En général, les suites des couches): PD. p. 148-149 // I deleted everything before ""En général.."" (in V-FP)";
+V-FP_T2 L9;yes;yes;L9;133 H;not appeared;not appeared;appeared;yes;no;;;;"221 (V-FP)
+305 (H-FP)";"Goggi: §12 (à partir de: En général, les suites des couches): PD. p. 148-149 // I deleted everything before ""En général.."" (in V-FP)";
+V-FP_T2 L9;yes/no;yes/no;L9;134 V;appeared;not changed;changed;yes;no;;;;"888 (H-FP)
+656 (V-FP)";"Goggi: §13-18 (seulement repris): P.D. p. 149-152 (""Les voyageurs  [...] ailleurs."") // I added the parts which were not marked to V-FP";
+V-FP_T2 L9;yes/no;yes/no;L9;134 H;appeared;not changed;changed;yes;no;;;;"888 (H-FP)
+656 (V-FP)";"Goggi: §13-18 (seulement repris): P.D. p. 149-152 (""Les voyageurs  [...] ailleurs."") // I added the parts which were not marked to V-FP";
+V-FP_T2 L9;yes;yes;L9;135;not appeared;appeared;changed;yes;no;;;yes;301;"Duchet: ""FP and P.D. p. 156-157"" // Goggi: P.D. p. 84-186 (Goggi made some mistake here for sure) - Fragment should be correct though";
+??;no;no;L9;NonMarque IX;n/a;appeared;deleted ?;no;no;;;yes? FP?;??;"This appears only in H74?? And it is part of FP but not included in FP II?? Furthermore Goggi writes:
+""le FP est remplacé en H80 par le passage de la contribution précédente de Diderot""";
+V-FP_T2 L9;yes;yes;L9;136;appeared;not changed;changed/deleted;yes;no;;;yes;262;Duchet writes: a chunk from FP which was used in H74 disappeared in H80;
+V-FP_T2 L9;yes;yes;L9;137;not appeared;not appeared;appeared;no;yes;;;;2018;;
+H-FP_T2 L9;no;yes;L9;138;n/a;n/a;n/a;no;no;;;;126;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 145";
+V-FP_T2 L9;yes;yes;L9;139;appeared;changed;changed;yes;yes;;;;713;;
+V-FP_T2 L9;yes;yes;L9;140;not appeared;not appeared;appeared;yes;no;;;;446;;
+H-FP_T2 L9;no;yes;L9;141;n/a;n/a;n/a;no;no;;;;100;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 148";
+V-FP_T2 L9;yes;yes;L9;142;not appeared;not appeared;appeared;yes;no;;;;326;Goggi: P.D. p. 114-116 (ce n'est que le §8, qui est repris) // I did not adjust any fragment here;
+V-FP_T2 L9;yes;yes;L9;143;appeared;not changed;not changed;no;no;yes (says Duch);no;;197;"Duchet writes it is inside of Observations // Goggi: ce ne sont que les dernières lignes de §6 qui sont marquées au crayon rouge; 
+la première partie de l'alinéa a été biffée par Vandeul // I did not change something based on this information...";
+H-FP_T2 L9;no;yes;L9;144;n/a;n/a;n/a;no;no;;;;94;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 151";
+V-FP_T2 L9;yes;yes;L9;145;appeared;not changed;not changed;yes;no;;;;110;;
+H-FP_T2 L9;no;yes;L9;146;n/a;n/a;n/a;no;no;;;;234;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 153";
+FP II;no;yes;L9;147 FP;n/a;appeared;not changed;no;no;;;;378;"Goggi writes: Diderot, FP VII à H74 (FP, éd Goggi, p. 121-124) - Chunk can be found here: T2, L9, ch. 28, p. 455-456 (or in FP II of course)
+Chunk was not added into V-FP";
+??;no?;no;L9;Only in Duchet;not appeared;not appeared;appeared;no;no;;;yes;??;Duchet note A.T. VII, 375 (I do not find the meaning of A.T.);
+V-FP_T2 L9;yes;yes;L9;148;appeared;changed;not changed;yes;yes;;;;525;"Goggi: P.D. p. 30-32 et 33 et 23 (numérotation de pages perturbée à la suite du déplacement d'un feuillet) (Le §38 résume, pour l'essentiel
+le ""Discours d'un philosophe à un roi"" de Diderot (OP, p. 483-486 et dans Mél, p. 103-108), qui est présenté comme un texte externe et
+indépendant de l'HDI) // I did not change anything here";
+V-FP_T2 L9;yes;yes;L9;149;appeared;not changed;changed;yes;no;;;;324;"Goggi: P.D. p. 68-69 (sans les deux lignes et demi au début et les trois lignes et demi de la fin de l'alinéa) // I did not delete these lignes 
+from V-FP";
+;;;;;;;;;;;;;;;
+V-FP_T3 L10;yes;yes;L10;150;not appeared;not appeared;appeared;yes;no;;;;783;;
+V-FP_T3 L10;yes;yes;L10;151 A;appeared;not changed;not changed;no;yes;;;;616 (Caution);This chunk is split in two by Duchet. Goggi writes this chunk is in L10 Ch 2 // Duchet says Ch 1 (still should be the correct chunk);
+V-FP_T3 L10;yes;yes;L10;151 B;appeared;not changed;changed;no;yes;;;;616 (Caution);It would be the question where to cut this fragment, if it was to cut in two again;
+V-FP_T3 L10;yes;yes;L10;152;appeared;not changed;not changed;yes;no;;;;137;"Goggi: P.D. p. 159-160 (same as Duchet) ""sans la première ligne et sans les trois dernières lignes) // I did not change the fragment
+I do not know where a ""ligne"" starts or ends in Goggi's version...";
+V-FP_T3 L10;yes;yes;L10;153;not appeared;appeared;not changed;yes;no;;;;192;Goggi: P.D. p. 155bis(?) (dans PD l'alinéa est transcrit dans un feuillet inséré entre la p. 154 et la p. 155) // I did not change the fragment;
+H-FP_T3 L10;no;yes;L10;154;n/a;n/a;n/a;no;no;;;;45;"In Goggi's ""Liste"" but no Asterix* ""Non repris dans le fonds Vandeul"" ""Liste"" no. 165";
+V-FP_T3 L10;yes;yes;L10;155 V;appeared;not changed;changed;yes;yes;;;;"946 (H-FP)
+1253 (V-FP)";Goggi: P.D. p. 262-267, Mél p. 282-286 (le fragment commence du §53) // I added §53 and 54 to V-FP;
+V-FP_T3 L10;yes;yes;L10;155 H;appeared;not changed;changed;yes;yes;;;;"946 (H-FP)
+1253 (V-FP)";Goggi: P.D. p. 262-267, Mél p. 282-286 (le fragment commence du §53) // I added §53 and 54 to V-FP;
+V-FP_T3 L10;yes;yes;L10;156;appeared;not changed;changed;yes;no;;;;736;;
+V-FP_T3 L10;yes;yes;L10;157;appeared;not changed;changed;yes;yes;;;;339;Duchet: P.D. 306-308 // Goggi: P.D. 306-307;
+V-FP_T3 L10;yes;yes;L10;158 V;not appeared;not appeared;appeared;yes;no;;;;"804 (H-FP)
+572 (V-FP)";"Goggi: P.D. p. 188-191 (same as Duchet) ""Lorsque l'Angleterre crut [...] Macbeth du poète sear son image"" (In Hornoy it is more marked
+than the FV contains. I deleted this passage in V-FP. There is also another comment by Goggi about FI. which I did not implement)";
+V-FP_T3 L10;yes;yes;L10;158 H;not appeared;not appeared;appeared;yes;no;;;;"804 (H-FP)
+572 (V-FP)";"Goggi: P.D. p. 188-191 (same as Duchet) ""Lorsque l'Angleterre crut [...] Macbeth du poète sear son image"" (In Hornoy it is more marked
+than the FV contains. I deleted this passage in V-FP. There is also another comment by Goggi about FI. which I did not implement)";
+H-FP_T3 L10;no;yes;L10;159;n/a;n/a;n/a;no;no;;;;214;"Goggi: ""non repris"" // does not appear in Duchet";
+V-FP_T3 L10;yes;yes;L10;160 V;appeared;not changed;changed;yes;yes;;;;"239 (H-FP)
+218 (V-FP)";"Goggi: P.D. p. 305-306 and Mél p. 314-315 à partir de: ""La dissipation, le plaisir [...]"" // This means I will delete the first sentence within
+the V-FP";
+V-FP_T3 L10;yes;yes;L10;160 H;appeared;not changed;changed;yes;yes;;;;"239 (H-FP)
+218 (V-FP)";"Goggi: P.D. p. 305-306 and Mél p. 314-315 à partir de: ""La dissipation, le plaisir [...]"" // This means I will delete the first sentence within
+the V-FP";
+V-FP_T3 L10;yes;yes;L10;161 V;appeared;not changed;changed;yes;no;;;;"515 (H-FP)
+468 (V-FP)";"Goggo: P.D. p. 346-348  à partir de: ""Sans doute un historien [...]"" // Here it is the same as above: A small chunk in the beginning of this
+fragment was deleted in V-FP";
+V-FP_T3 L10;yes;yes;L10;161 H;appeared;not changed;changed;yes;no;;;;"515 (H-FP)
+468 (V-FP)";"Goggo: P.D. p. 346-348  à partir de: ""Sans doute un historien [...]"" // Here it is the same as above: A small chunk in the beginning of this
+fragment was deleted in V-FP";
+;;;;;;;;;;;;;;;
+V-FP_T3 L11;yes;yes;L11;162 A;appeared;not changed;not changed;yes;yes;;;;389 (Caution);"Duchet splits this fragment into two parts // Actually no change to be made. The fragment can stay as it is since the two parts just have
+a different page in P.D. but no additional lines marked in Hornoy";
+V-FP_T3 L11;yes;yes;L11;162 B;appeared;not changed;not changed;yes;yes;;;;389 (Caution);;
+V-FP_T3 L11;yes;yes;L11;163 V;not appeared;not appeared;appeared;yes;no;;;yes;"361 (H-FP)
+380 (V-FP)";"Duchet: P.D. and ""Réfutation"" // Goggi: P.D. p. 70-71 ""le texte des PD reprend aussi la dernière ligne du §2: ""Les grands hommes [...]
+vieillie & tombée."" "" // I added this sentence to V-FP";
+V-FP_T3 L11;yes;yes;L11;163 H;not appeared;not appeared;appeared;yes;no;;;yes;"361 (H-FP)
+380 (V-FP)";"Duchet: P.D. and ""Réfutation"" // Goggi: P.D. p. 70-71 ""le texte des PD reprend aussi la dernière ligne du §2: ""Les grands hommes [...]
+vieillie & tombée."" "" // I added this sentence to V-FP";
+V-FP_T3 L11;yes;yes;L11;164;not appeared;not appeared;appeared;yes;no;;;;211;;
+V-FP_T3 L11;yes;yes;L11;165;appeared;changed;not changed;no;yes;;;;213;"""Esclavage nègres"" p. 15-16 + Mél. 335-336";
+V-FP_T3 L11;yes;yes;L11;166;not appeared;not appeared;appeared;yes;no;;;;915;;
+V-FP_T3 L11;yes;yes;L11;167 V;appeared;not changed;changed;yes;no;;;;"392 (H-FP)
+281 (V-FP)";"Goggi: P.D. p. 137-138 (à partir de: ""Plus les hommes s'éloignent de la nature"") // I deleted a part of V-FP since the marking in Hornoy is
+longer than what P.D. has to offer";
+V-FP_T3 L11;yes;yes;L11;167 H;appeared;not changed;changed;yes;no;;;;"392 (H-FP)
+281 (V-FP)";"Goggi: P.D. p. 137-138 (à partir de: ""Plus les hommes s'éloignent de la nature"") // I deleted a part of V-FP since the marking in Hornoy is
+longer than what P.D. has to offer";
+V-FP_T3 L11;no?;yes;L11;168;n/a;n/a;n/a;no;no;;;;103;"Goggi: ""Liste"" du t. III de l'édition Raynal // Does not appear in Duchet";
+V-FP_T3 L11;yes;yes;L11;169;not appeared;not appeared;appeared;no;yes;;;;140;"""Esclavage nègres"" p. 14 + Mél 333-334";
+V-FP_T3 L11;yes;yes;L11;170;appeared;not changed;not changed;no;yes;;;;167;"""Esclavage nègres"" p. 14-15 + Mél. 334-335";
+V-FP_T3 L11;yes;yes;L11;171 V;appeared;not changed;changed;no;yes;;;;"1680 (H-FP)
+1839 (V-FP)";"Goggi: ""Esclavage nègres"" p.1-10 + Mél. 321-330 (aussi le §1) // I added §1 to V-FP";
+V-FP_T3 L11;yes;yes;L11;171 H;appeared;not changed;changed;no;yes;;;;"1680 (H-FP)
+1839 (V-FP)";"Goggi: ""Esclavage nègres"" p.1-10 + Mél. 321-330 (aussi le §1) // I added §1 to V-FP";
+V-FP_T3 L11;yes;yes;L11;172 A/B(?);not appeared;not appeared;appeared;no;yes;;;;"331 (H-FP)
+488 (V-FP)";"Duchet split this fragment into four parts (one of which is FP) // ""Esclavage nègres""
+Goggi: Part one (172 A): §17-18: Esclavage nègres p.10-11 + Mél 330-331 (this is not marked in Hornoy and therefore only appears 
+in V-FP)
+Part two (172 B) §18 Esclavage nègres p. 12 + Mél 331-332";
+FP II;yes;yes;L11;;appeared;changed;changed;no;yes;;;;3756;"A huge chunk of Fragment 172 got extracted because it is FP II // this is also ""Esclavage nègres"" p. 16-37 // in the HDI it can be found
+here: FP: (172 C) Tome 3, livre 11, ch. 24, p. 194-204";
+V-FP_T3 L11;yes;yes;L11;172 C;not appeared;appeared;changed;no;yes;;;;331 (Caution);"Part four (172 D): §57 ""Esclavage nègres"" + Mél 38-39 
+Part five?: §58 ""cet alinéa est constitué d'une transition textuelle""";
+V-FP_T3 L11;yes;yes;L11;173;appeared;changed;not changed;yes;yes;;;;427;;
+V-FP_T3 L11;yes;yes;L11;174;appeared;not changed;not changed;yes;yes;;;;322;;
+V-FP_T3 L11;yes;yes;L11;175;appeared;not changed;not changed;yes;yes;;;;152;;
+;;;;;;;;;;;;;;;
+V-FP_T3 L12;yes;yes;L12;176;not appeared;not appeared;appeared;yes;yes;;;;545;;
+V-FP_T3 L12;yes;yes;L12;177;n/a;n/a;n/a;;;;;;94;"In Goggi's ""Liste"" no. 202 (with Asterix*)";
+V-FP_T3 L12;yes;yes;L12;178;appeared;not changed;not changed;yes;no;;;;274;;
+V-FP_T3 L12;yes;yes;L12;179;not appeared;not appeared;appeared;yes;yes;yes (says Duch);no;;217;;
+V-FP_T3 L12;yes;yes;L12;180;not appeared;not appeared;appeared;no;no;yes;;;245;;
+V-FP_T3 L12;yes;yes;L12;181 A;not appeared;not appeared;appeared;no;yes;;;;1704 (Caution);"Duchet splits this chunk into two parts // Goggi: Mél. p. 29-32 (ajoutées quelques ligns du §7, qui, dans FI, 293v, ont été marquées à la 
+plume par Vandeul), §13-21 Mél p. 33-38 // I did not change anything here.";
+V-FP_T3 L12;yes;yes;L12;181 B;not appeared;not appeared;appeared;no;yes;;;;1704 (Caution);;
+V-FP_T3 L12;yes;yes;L12;182;appeared;not changed;not changed;yes;yes;;;;402;;
+V-FP_T3 L12;yes;yes;L12;183;not appeared;not appeared;appeared;yes;yes;;;;946;;
+H-FP_T3 L12;no;yes;L12;184;n/a;n/a;n/a;no;no;;;;224;"Goggi: ""Non repris""  // Every ""Non repris"" means: it will only appear in H-FP and NOT in V-FP";
+V-FP_T3 L12;yes;yes;L12;185;appeared;not changed;not changed;no;no;yes;;;119;;
+V-FP_T3 L12;yes;yes;L12;186;appeared;not changed;not changed;no;yes;;;;137;;
+V-FP_T3 L12;yes;yes;L12;187;not appeared;not appeared;appeared;yes;yes;;;;456;;
+V-FP_T3 L12;yes;yes;L12;188;n/a;n/a;n/a;no;no;;;;158;"In Goggi's ""Liste"" no. 203 (with Asterix*)";
+H-FP_T3 L12;no;yes;L12;189;n/a;n/a;n/a;no;no;;;;211;"Goggi: ""Non repris""";
+V-FP_T3 L12;yes;yes;L12;190 V;not appeared;not appeared;appeared;no;no;yes;;;"122 (H-FP)
+117 (V-FP)";Goggi: Observations (Nakaz) V4, p. 66-67 (OP, p. 400-401) (sauf la première phrase) // I deleted the first (short) sentence from V-FP;
+V-FP_T3 L12;yes;yes;L12;190 H;not appeared;not appeared;appeared;no;no;yes;;;"122 (H-FP)
+117 (V-FP)";Goggi: Observations (Nakaz) V4, p. 66-67 (OP, p. 400-401) (sauf la première phrase) // I deleted the first (short) sentence from V-FP;
+V-FP_T3 L12;yes;yes;L12;191;not appeared;not appeared;appeared;no;yes;;;;175;;
+V-FP_T3 L12;yes;yes;L12;192;not appeared;not appeared;appeared;yes;no;;;yes;372;"Duchet: P.D. and ""Mémoires pour Catherine"" // Goggi: P.D. p. 69-70 (sans les premières lignes de l'alinéa) // I did not change anything
+here because I don't know what Goggi means with ""les premières lignes""...";
+;;;;;;;;;;;;;;;
+V-FP_T3 L13;yes;yes;L13;193 V;not appeared;not appeared;appeared;yes;no;;;;"747 (H-FP)
+689 (V-FP)";"Goggi: P.D. p. 253-256 (jusqu'à: ""sur la limite naturelle de vos états"") // I deleted the passage after ""sur la limite..:"" in V-FP";
+V-FP_T3 L13;yes;yes;L13;193 H;not appeared;not appeared;appeared;yes;no;;;;"747 (H-FP)
+689 (V-FP)";"Goggi: P.D. p. 253-256 (jusqu'à: ""sur la limite naturelle de vos états"") // I deleted the passage after ""sur la limite..:"" in V-FP";
+H-FP_T3 L13;no;yes;L13;194;n/a;n/a;n/a;no;no;;;;50;"Goggi: ""Non repris""";
+V-FP_T3 L13;yes;yes;L13;195;appeared;not changed;changed;yes;yes;;;;329;Duchet: P.D. p. 339-341 // Goggi: P.D. p.339-340;
+V-FP_T3 L13;yes;yes;L13;196 V;appeared;changed;not changed;yes;no;;;;"256 (H-FP)
+202 (V-FP)";"Goggi: P.D. p. 95-96 (à partir de: ""Eh! n'est-ce pas l'intérêt de la nation [...]"") // I deleted the small part in V-FP";
+V-FP_T3 L13;yes;yes;L13;196 H;appeared;changed;not changed;yes;no;;;;"256 (H-FP)
+202 (V-FP)";"Goggi: P.D. p. 95-96 (à partir de: ""Eh! n'est-ce pas l'intérêt de la nation [...]"") // I deleted the small part in V-FP";
+H-FP_T3 L13;no;yes;L13;197;n/a;n/a;n/a;no;no;;;;189;"Goggi: ""Non repris""";
+V-FP_T3 L13;yes;yes;L13;198;not appeared;not appeared;appeared;no;no;yes;no;;313;;
+V-FP_T3 L13;yes;yes;L13;199;appeared;not changed;changed;yes;no;;;yes;330;"Duchet: ""Compte rendu du Voyage de Bougainville"", ""Réfutation"" and P.D. p.240-242 // Goggi: P.D. p. 240-241 (Dans FI, f.137, les
+dernières lignes du §3 (Allez! [...] vous l'êtes devenus.), bien que marquées au crayon rouge, ont été biffées à la plume. Elles ne sont
+pas reprises dans PD) // I did not change anything here (generally I do not know what to do if it was written wir red ink and crossed out
+with the pen - here are various passages like this - usually I leave them be)";
+H-FP_T3 L13;no;yes;L13;200;n/a;n/a;n/a;no;no;;;;153;"Goggi: ""Non repris""";
+H-FP_T3 L13;no;yes;L13;201;n/a;n/a;n/a;no;no;;;;84;"Goggi: ""Non repris""";
+H-FP_T3 L13;no;yes;L13;202;n/a;n/a;n/a;no;no;;;;145;"Goggi: ""Non repris""";
+H-FP_T3 L13;no;yes;L13;203;n/a;n/a;n/a;no;no;;;;195;"Goggi: ""Non repris, mais voir ""Liste"" """;
+V-FP_T3 L13;yes;yes;L13;204;appeared;not changed;changed;yes;no;;;;280;;
+H-FP_T3 L13;no;yes;L13;205;n/a;n/a;n/a;no;no;;;;291;"Goggi: ""Non repris""";
+V-FP_T3 L13;yes;yes;L13;206;not appeared;not appeared;appeared;yes;no;;;;593;Goggi: In FI: §1 marqué au crayon rouge est biffé à la plume // P.D. 250-253 (same as Duchet);
+V-FP_T3 L13;yes;yes;L13;207;not appeared;not appeared;appeared;no;yes;;;;245;Goggi: FI: rouge biffé plume + Mél p. 32-33;
+H-FP_T3 L13;no;yes;L13;208;n/a;n/a;n/a;no;no;;;;197;"Goggi: ""Non repris"" ";"Damien: I don't understand what ""non repris"" means but, yes, obviously it should be deleted."
+V-FP_T3 L13;yes;yes;L13;209;appeared;not changed;not changed;yes;no;;;;225;;
+V-FP_T3 L13;yes;yes;L13;210;n/a;n/a;n/a;no;no;;;;295;"Goggi: ""Non repris, mais voir ""Liste"" """;
+V-FP_T3 L13;yes;yes;L13;211 A;appeared;not changed;not changed;no;yes;;;;702 (Caution);Duchet splits this fragment into two // Goggi: some longer description.. not sure what to do here;
+V-FP_T3 L13;yes;yes;L13;211 B;not appeared;not appeared;appeared;no;no;yes;;;702 (Caution);;
+V-FP_T3 L13;yes;yes;L13;212 V;appeared;not changed;changed;no;no;yes;;;"242 (H-FP)
+225 (V-FP)";"Goggi: Observations (Nakaz) V4 p. 63-64 (à partir de: ""Qu'importe à l'état..."" voir OP,. p. 399 // I deleted a short part in the beginning of 
+V-FP";
+V-FP_T3 L13;yes;yes;L13;212 H;appeared;not changed;changed;no;no;yes;;;"242 (H-FP)
+225 (V-FP)";"Goggi: Observations (Nakaz) V4 p. 63-64 (à partir de: ""Qu'importe à l'état..."" voir OP,. p. 399 // I deleted a short part in the beginning of 
+V-FP";
+V-FP_T3 L13;yes;yes;L13;213;appeared;changed;changed;no;no;yes;;;265;;
+V-FP_T3 L13;yes;yes;L13;214 A;not appeared;not appeared;appeared;no;no;yes;;;4037 (Caution);"Duchet splits this fragment into two // Duchet: ""Cce (Ed. Roth, VII, 77, 1767)"" // Goggi: Observations (Nakaz) V4, p. 108-111 (OP, p. 437-
+439), P.D. p. 273-289 (jusqu'à: durant la guerre) // I did not delete the passage after ""durant la guerre"" but I left some space in the last
+paragraph in V-FP, so it can be found an deleted if needed. The problem is that I don't know if this passage does not appear in Obs, FI 
+AND P.D. or only in P.D.";
+V-FP_T3 L13;yes;yes;L13;214 B;appeared;not changed;changed;yes;no;;;;4037 (Caution);;
+V-FP_T3 L13;yes;yes;L13;215 V;not appeared;not appeared;appeared;yes;no;;;;"412 (H-FP)
+437 (V-FP)";"Goggi: P.D. p. 200-202 (avec deux lignes du §13: ""Qu'on supprime les classes, qu'on en tempère [...] se couvrir de navigateurs"" // I added
+these two lines into V-FP";
+V-FP_T3 L13;yes;yes;L13;215 H;not appeared;not appeared;appeared;yes;no;;;;"412 (H-FP)
+437 (V-FP)";"Goggi: P.D. p. 200-202 (avec deux lignes du §13: ""Qu'on supprime les classes, qu'on en tempère [...] se couvrir de navigateurs"" // I added
+these two lines into V-FP";
+V-FP_T3 L13;yes;yes;L13;216;not appeared;not appeared;appeared;yes;no;;;;137;;
+H-FP_T3 L13;no;yes;L13;217;n/a;n/a;n/a;no;no;;;;83;"Goggi: ""Non repris""";
+;;;;;;;;;;;;;;;
+V-FP_T3 L14;yes;yes;L14;218 V;not appeared;not appeared;appeared;yes;yes;;;;"224 (H-FP)
+213 (V-FP)";Goggi: P.D. p. 304-305, Mél p. 313-314 (sans la première phrase) // I deleted the first sentence in V-FP;
+V-FP_T3 L14;yes;yes;L14;218 H;not appeared;not appeared;appeared;yes;yes;;;;"224 (H-FP)
+213 (V-FP)";Goggi: P.D. p. 304-305, Mél p. 313-314 (sans la première phrase) // I deleted the first sentence in V-FP;
+V-FP_T3 L14;yes;yes;L14;219 V;appeared;not changed;changed;yes;no;;;;"600 (H-FP)
+659 (V-FP)";Goggi: P.D. 89-92 (avec aussi le §7) // I added §7 to V-FP;
+V-FP_T3 L14;yes;yes;L14;219 H;appeared;not changed;changed;yes;no;;;;"600 (H-FP)
+659 (V-FP)";Goggi: P.D. 89-92 (avec aussi le §7) // I added §7 to V-FP;
+V-FP_T3 L14;yes;yes;L14;220;n/a;n/a;n/a;no;no;;;;73;"Goggi: ""Voir ""Les deux amis de Bourbonne"", DPV, XII p. 439-451 (voir l'épisode de Polly Baker dans H80, IV, XVII, 21, §1-9. Dans ce cas
+aussi on trouve marqué dans Hornoy un seul alinéa (le §9). Dans les deux cas, faut-il se borner à attribuer à Diderot le seul alinéa
+marqué ou peut-on lui attribuer, au moins, la transposition de l'épisode entier?) // I did not add anything here";
+H-FP_T3 L14;no;yes;L14;221;n/a;n/a;n/a;no;no;;;;229;"Goggi: ""Non repris""";
+H-FP_T3 L14;no;yes;L14;222;n/a;n/a;n/a;no;no;;;;169;"Goggi: ""Non repris""";
+V-FP_T3 L14;yes;yes;L14;223;n/a;n/a;n/a;no;no;;;;101;"Goggi: ""Voir CLT, t. XII, octobre 1778, p. 170-171""";
+V-FP_T3 L14;yes;yes;L14;224;appeared;not changed;not changed;no;yes;;;;158;;
+H-FP_T3 L14;no;yes;L14;225;n/a;n/a;n/a;no;no;;;;196;"Goggi: ""Non repris""";
+H-FP_T3 L14;no;yes;L14;226;n/a;n/a;n/a;no;no;;;;116;"Goggi: ""Non repris""";
+H-FP_T3 L14;no;yes;L14;227;n/a;n/a;n/a;no;no;;;;121;"Goggi: ""Non repris""";
+H-FP_T3 L14;no;yes;L14;228;n/a;n/a;n/a;no;no;;;;132;"Goggi: ""Non repris""";
+V-FP_T3 L14;yes;yes;L14;229 V;not appeared;not appeared;appeared;yes;no;;;;"549 (H-FP)
+659 (V-FP)";Goggi: P.D. p. 289-293 (à partir du §1) // I added §1 and 2 to V-FP;
+V-FP_T3 L14;yes;yes;L14;229 H;not appeared;not appeared;appeared;yes;no;;;;"549 (H-FP)
+659 (V-FP)";Goggi: P.D. p. 289-293 (à partir du §1) // I added §1 and 2 to V-FP;
+V-FP_T3 L14;yes;yes;L14;230;appeared;not changed;not changed;yes;yes;yes (says Duch);;;272;;
+;;;;;;;;;;;;;;;
+H-FP_T4 L15;no;yes;L15;231;n/a;n/a;n/a;no;no;;;;96;"Goggi: ""Non repris""";
+V-FP_T4 L15;yes;yes;L15;232;appeared;not changed;changed;yes;no;;;;174;;
+H-FP_T4 L15;no;yes;L15;233;n/a;n/a;n/a;no;no;;;;68;"Goggi: ""Non repris""";
+H-FP_T4 L15;no;yes;L15;234;appeared;not changed;not changed;no;no;;;yes (says Duch);216;"Goggi: ""Non repris"" // Duchet: Réfutation, p. 626-27";
+H-FP_T4 L15;no;yes;L15;235;n/a;n/a;n/a;no;no;;;;178;"Goggi: ""Non repris""";
+V-FP_T4 L15;yes;yes;L15;236;appeared;not changed;not changed;yes;no;;;;440;;
+V-FP_T4 L15;yes;yes;L15;237;appeared;changed;changed;yes;no;;;;465;"Duchet: P.D. p. 160-167 (avec une coupure) // Goggi makes two parts of it (fragment 237 and 238) and describes which part is not 
+marked. Maybe this is also the ""coupure"" Duchet is referring to? // Goggi: P.D. p. 160-162";
+V-FP_T4 L15;yes;yes;L15;238;appeared;changed;changed;yes;no;;;;859;Goggi: P.D. p. 163-167 // Duchet: still the fragment above (F. 175-B) // I added appeared/changed/changed for both chunks though;
+H-FP_T4 L15;no;yes;L15;239;n/a;n/a;n/a;no;no;;;;30;"Goggi: ""Non repris""";
+V-FP_T4 L15;yes;yes;L15;240;appeared;not changed;not changed;yes;no;no;yes (says Duch);;943;Duchet: P.D. 167-172 // Goggi: P.D. p. 168-169 and p. 169-172;
+V-FP_T4 L15;yes;yes;L15;241;appeared;not changed;not changed;yes;no;;;;21;"Caution: here I made a mistake! I did not include these 21 words. Furthermore I used the 330 words of the fragment below as fragment 241
+The real fragment 242 just was empty all along and I did not notice! I have to correct it in both files!!!";
+V-FP_T4 L15;yes;yes;L15;242;appeared;not changed;not changed;yes;no;;;;330;;
+FP II;yes(!?);yes;L15;243 FP;appeared;changed;not changed;yes;no;;;yes;380;"This Fragment appears both in P.D. and FP II. I extracted it from V-FP and H-FP, so now it can only be found in FP II files.
+Duchet: ""C'est un passage de la p.201 qui vient de F.P. 8 et a été ajouté dans l'Histoire en 1774"". // Goggi: FP VIII à HDI (pour alinéa 3)";
+;;;;;;;;;;;;;;;
+V-FP_T4 L16;yes;yes;L16;244;not appeared;not appeared;appeared;no;no;yes;;;399;;
+V-FP_T4 L16;yes;yes;L16;245;not appeared;not appeared;appeared;yes;yes(says Gog);;;;237;Goggi: P.D.p. 111, Mél p. 247-248;
+V-FP_T4 L16;yes;yes;L16;246;not appeared;not appeared;appeared;yes;no;;;;354;;
+V-FP_T4 L16;yes;yes;L16;247;not appeared;not appeared;appeared;yes;no;;;;62;;
+V-FP_T4 L16;yes;yes;L16;248 V;not appeared;not appeared;appeared;yes;no;;;;"335 (H-FP)
+212 (V-FP)";Goggi: P.D. 16-17 (sans §9) // I deleted §9 from V-FP;
+V-FP_T4 L16;yes;yes;L16;248 H;not appeared;not appeared;appeared;yes;no;;;;"335 (H-FP)
+212 (V-FP)";Goggi: P.D. 16-17 (sans §9) // I deleted §9 from V-FP;
+V-FP_T4 L16;yes;yes;L16;249 V;not appeared;not appeared;appeared;yes;no;;;;"178 (H-FP)
+273 (V-FP)";Goggi: P.D. p. 17-19 (avec l'ajout du §13) // I added §13 to V-FP;
+V-FP_T4 L16;yes;yes;L16;249 H;not appeared;not appeared;appeared;yes;no;;;;"178 (H-FP)
+273 (V-FP)";Goggi: P.D. p. 17-19 (avec l'ajout du §13) // I added §13 to V-FP;
+H-FP_T4 L16;no;yes;L16;250;n/a;n/a;n/a;no;no;;;;420;"Goggi: ""Non repris""";
+V-FP_T4 L16;yes;yes;L16;251 V;appeared;not changed;not changed;yes;no;;;;"1305 (H-FP)
+1287 (F-VP)";Goggi: PD §2 (p. 122) and §4-9 (p. 116-122) but §3 non repris // I deleted §3 in F-VP;
+V-FP_T4 L16;yes;yes;L16;251 H;appeared;not changed;not changed;yes;no;;;;"1305 (H-FP)
+1287 (F-VP)";Goggi: PD §2 (p. 122) and §4-9 (p. 116-122) but §3 non repris // I deleted §3 in F-VP;
+H-FP_T4 L16;no;yes;L16;252;n/a;n/a;n/a;no;no;;;;267;"Goggi: ""Non repris""";
+H-FP_T4 L16;no;yes;L16;253;n/a;n/a;n/a;no;no;;;;180;"Goggi: ""Non repris""";
+H-FP_T4 L16;no;yes;L16;254;n/a;n/a;n/a;no;no;;;;299;"Goggi: ""Non repris""";
+V-FP_T4 L16;yes;yes;L16;255;not appeared;not appeared;appeared;yes;no;;;;525;;
+;;;;;;;;;;;;;;;
+H-FP_T4 L17;no;yes;L17;256;n/a;n/a;n/a;no;no;;;;242;"Goggi: ""Non repris""";
+FP II;yes(!);yes;L17;257 FP;appeared;changed;not changed;yes;no;;;;1853;Appears in P.D. 128-137. Only a few lines are from FP II since 1774. This text could be (almost completely) put back into V-FP!;
+V-FP_T4 L17;yes;yes;L17;258 V;not appeared;not appeared;appeared;yes;no;;;;"324 (H-FP)
+411 (V-FP)";Goggi: P.D. p.318-320 (avec l'ajout des §7 et 8) // I added §7 and 8 to V-FP;
+V-FP_T4 L17;yes;yes;L17;258 H;not appeared;not appeared;appeared;yes;no;;;;"324 (H-FP)
+411 (V-FP)";Goggi: P.D. p.318-320 (avec l'ajout des §7 et 8) // I added §7 and 8 to V-FP;
+V-FP_T4 L17;yes;yes;L17;259;not appeared;not appeared;appeared;yes;no;;;;893;;
+V-FP_T4 L17;yes;yes;L17;260;not appeared;not appeared;appeared;yes;no;;;;380;;
+V-FP_T4 L17;yes;yes;L17;261;not appeared;not appeared;appeared;yes;yes(says Gog);;;;191;Goggi: Mél 290-291;
+H-FP_T4 L17;no;yes;L17;262;n/a;n/a;n/a;no;no;;;;115;"Goggi: ""Non repris""";
+V-FP_T4 L17;yes;yes;L17;263;appeared;not changed;not changed;yes;no;;;;230;;
+H-FP_T4 L17;no;yes;L17;264;n/a;n/a;n/a;no;no;;;;145;"Goggi: ""Non repris""";
+V-FP_T4 L17;yes;yes;L17;265 A;appeared;not changed;not changed;yes;no;;;;643 (Caution);Duchet splits this chunk into two parts. This one is P.D. p.12;
+V-FP_T4 L17;yes;yes;L17;265 B;not appeared;not appeared;appeared;yes;yes (says Duch);;;yes;643 (Caution);"Duchet: P.D. p. 35 // Goggi: P.D. p. 33-35 (is Goggi's chunk longer than its used to be?) // Duchet: ""Observations p.390-391 + Addition 
+aux Pensées philosophiques (V, 182)""";
+H-FP_T4 L17;no;yes;L17;266;n/a;n/a;n/a;no;no;;;;172;"Goggi: ""Non repris""";
+H-FP_T4 L17;no;yes;L17;267;n/a;n/a;n/a;no;no;;;;269;"Goggi: ""Non repris""";
+NonMarque X;no;no;L17;NonMarque X;n/a;n/a;n/a;no;yes (says Gog);;;;898;"Goggi: ""H80, IV, XVII, chap. 21, §1-7 ""Une fille, Miss Polly Baker, devenue grosse [...] Ce discours singulier produisit l'effet qu'en attendait
+Miss Baker"" voir Supplément au Voyage, DPV, XII, p. 614-616. On le sait, le discours de Polly Baker est un texte de B. Franklin. On le
+cite ici comme un texte réutilisé par Diderot: voir le cas analogue de ""Les Deux amis de Bourbonne"" frag. 220"".
+I extracted the file separately and saved it as ""NonMarque X""";
+V-FP_T4 L17;yes;yes;L17;268;appeared;not changed;changed;no;no;;yes;;158;"Goggi: ""non repris; mais voir Supplément au Voyage de Bougainville, DPV, XII, p. 616. Il s'agit de lignes qui prennent sur le discours de
+Polly Baker"" // Duchet: ""Supplément p. 225-227"" // I did not change anything here";
+H-FP_T4 L17;no;yes;L17;269;n/a;n/a;n/a;no;no;;;;103;"Goggi: ""Non repris""";
+V-FP_T4 L17;yes;yes;L17;270 H;not appeared;not appeared;appeared;yes;no;;;;252;;
+V-FP_T4 L17;yes;yes;L17;271 H;not appeared;not appeared;appeared;yes;no;;;;275;;
+H-FP_T4 L17;no;yes;L17;272 H;n/a;n/a;n/a;no;no;;;;158;"Goggi: ""Non repris""";
+;;;;;;;;;;;;;;;
+V-FP_T4 L18;yes;yes;L18;273;not appeared;not appeared;appeared;yes;no;;;;449;;
+H-FP_T4 L18;no;yes;L18;274;n/a;n/a;n/a;no;no;;;;154;"Goggi: ""Non repris""";
+??;no;no;L18;Only in Duchet;not appeared;appeared;not changed;no;no;;;yes;14 ?;"Duchet: Encyclopédie art. Egalité ""La chimère de l'égalité est la plus dangereuse de toutes dans une société policée""";
+H-FP_T4 L18;no;yes;L18;275;n/a;n/a;n/a;no;no;;;;128;"Goggi: ""Non repris""";
+V-FP_T4 L18;yes;yes;L18;276;not appeared;appeared;not changed;no;no;yes;no;;93;Goggi: V4 p. 5-6 Observations (Nakaz) OP p. 347 (sans les premières lignes) // I did not change anything (what premières lignes`??);
+H-FP_T4 L18;no;yes;L18;277;n/a;n/a;n/a;no;no;;;;276;"Goggi: ""Non repris""";
+H-FP_T4 L18;no;yes;L18;278;n/a;n/a;n/a;no;no;;;;426;"Goggi: ""Non repris""";
+FP II;no;yes;L18;279 FP;not appeared;not appeared;appeared;no;no;;;yes;273;"I saved it as FP II. // Duchet: ""O.C. XI, 719-720"" // Goggi: ""ms. de Diderot conservés en Russie, t.XV, p. 184 (voir Tourneux, Les 
+Manuscrits de Diderot conservés en Russie, Paris 1885, p. 16";
+V-FP_T4 L18;yes;yes;L18;280;not appeared;not appeared;appeared;yes;no;;;;281;Duchet: P.D. p. 12-14 // Goggi: P.D. p. 12-13 (is something missing here?);
+H-FP_T4 L18;no;yes;L18;281;n/a;n/a;n/a;no;no;;;;250;"Goggi: ""Non repris""";
+V-FP_T4 L18;yes;yes;L18;282;not appeared;not appeared;appeared;yes;yes;;;;409;;
+H-FP_T4 L18;no;yes;L18;283;n/a;n/a;n/a;no;no;;;;85;"Goggi: ""Non repris""";
+H-FP_T4 L18;no;yes;L18;284;n/a;n/a;n/a;no;no;;;;196;"Goggi: ""Non repris""";
+V-FP_T4 L18;yes;yes;L18;285;not appeared;not appeared;appeared;yes;no;;;;542;Goggi: P.D. p. 111-114 (sans les dernières quatre lignes de l'aniléa) // I did not change anything;
+H-FP_T4 L18;no;yes;L18;286;n/a;n/a;n/a;no;no;;;;144;"Goggi: ""Non repris""";
+H-FP_T4 L18;no;yes;L18;287;n/a;n/a;n/a;no;no;;;;81;"Goggi: ""Non repris""";
+H-FP_T4 L18;no;yes;L18;288;n/a;n/a;n/a;no;no;;;;139;"Goggi: ""Non repris""";
+V-FP_T4 L18;yes;yes;L18;289;not appeared;not appeared;appeared;yes;no;;;;136;;
+V-FP_T4 L18;yes?;yes;L18;290;n/a;n/a;n/a;yes (says Goggi);no;;;;257;"This does NOT appear in Duchet!  // Goggi: P.D. chap. 4 p. 169 §13: non repris, §14: sans deux lignes et demie du début // I deleted §13
+from V-FP";
+H-FP_T4 L18;no;yes;L18;291;n/a;n/a;n/a;no;no;;;;133;"Goggi: ""Non repris""";
+V-FP_T4 L18;yes;yes;L18;292;appeared;not changed;not changed;yes;no;;;;155;Goggi: P.D. p. 57-58 (avec l'ajout des deux dernières lignes de §1) // I did not change anything here;
+V-FP_T4 L18;yes;yes;L18;293;appeared;not changed;changed;yes;no;;;;239;;
+V-FP_T4 L18;yes;yes;L18;294 V;appeared;not changed;not changed;yes;no;;;;"947 (H-FP)
+742 (V-FP)";Goggi: P.D. 92-95 (sans §15, les 3 premières lignes et demie du début de §16 et sans §19) // I deleted §15 and 19 from V-FP;
+V-FP_T4 L18;yes;yes;L18;294 H;appeared;not changed;not changed;yes;no;;;;"947 (H-FP)
+742 (V-FP)";Goggi: P.D. 92-95 (sans §15, les 3 premières lignes et demie du début de §16 et sans §19) // I deleted §15 and 19 from V-FP;
+V-FP_T4 L18;yes;yes;L18;295;appeared;not changed;not changed;yes;no;;;;359;Goggi: P.D. 108-109 (sans la dernière ligne de l'alinéa) // I did not change anything here;
+V-FP_T4 L18;yes;yes;L18;296;n/a;n/a;n/a;no;yes (says Gog);;;;428;Does NOT appear in Duchet! // Goggi: Mél, p. 151-153 (avec des modifications au début de l'aniléa et une coupure de 3 lignes à sa fin);
+V-FP_T4 L18;yes;yes;L18;297;not appeared;not appeared;appeared;yes;no;;;;269;;
+V-FP_T4 L18;yes;yes;L18;298;not appeared;not appeared;appeared;no;yes;yes;no;yes;10311;"Duchet: Mélanges p. 183-238 (this includes fragment 298, 299 AND NonMarque XI), R.H. (p.627), Obervations 402 // Goggi: Mélanges 
+p. 183-231";
+V-FP_T4 L18;yes;no;L18;NonMarque XI;not appeared;not appeared;appeared;no;yes;;;;143;Goggi: Mélanges p. 231-232;
+V-FP_T4 L18;yes;yes;L18;299;not appeared;not appeared;appeared;no;yes;;;;861;Duchet: Almost the rest of fragment 298 (see above) // Goggi: Mél p. 232-236 (pages Mél 237 and 238 are missing?);
+NonMarque;yes;no;;No Number;not appeared;not appeared;appeared;yes;no;;;;69;"Complete Chunk following (P.D. p. 203 // H80 XVIII, chap 49, §11, p. 442): Ces préjugés leur faisoient croire que ce n'étoit pas en 
+escortant pesamment, laborieusement les navires de la nation, en séjournant dans des croisières difficiles pour surprendre ou détruire
+ les bâtimens de l'ennemi, qu'on parvenoit à se faire un nom. Ce double devoir fut donc entiérement négligé ou très-mal rempli, d'après
+ l'opinion commune à Brest, qu'un pareil service n'avoit rien de noble & ne conduisoit à aucune sorte de gloire.";
+V-FP_T4 L18;yes;yes;L18;300;not appeared;not appeared;appeared;yes;no;;;;558;Not included is the non marked chunk above;
+V-FP_T4 L18;yes;yes;L18;301;not appeared;not appeared;appeared;yes;no;;;;301;(Fragment number matches word number O.O);
+V-FP_T4 L18;yes;yes;L18;302;not appeared;not appeared;appeared;no;yes;;;;346;"Goggi: ""Mél p. 236-238 (dans Mél le texte termine avec: par l'espoir d'une meilleure!)""";
+;;;;;;;;;;;;;;;
+V-FP_T4 L19;yes;yes;L19;303 V;not appeared;not appeared;appeared;yes;no;;;;"746 (H-FP)
+528 (F-VP)";"Goggi: introduction §1-4: non repris, chap. 1 §1-5: PD, chap 1, p. 1-3 (same as Duchet), chap. 1 §6: non repris // I deleted §1-4 (of the
+introduction) and §6 of chap. 1";
+V-FP_T4 L19;yes;yes;L19;303 H;not appeared;not appeared;appeared;yes;no;;;;"746 (H-FP)
+528 (F-VP)";"Goggi: introduction §1-4: non repris, chap. 1 §1-5: PD, chap 1, p. 1-3 (same as Duchet), chap. 1 §6: non repris // I deleted §1-4 (of the
+introduction) and §6 of chap. 1";
+V-FP_T4 L19;yes;yes;L19;304;not appeared;not appeared;appeared;yes;no;;;;365;Duchet: P.D. p. 9-10 // Goggi: P.D. p. 8-10 (did Goggi include more text here?);
+V-FP_T4 L19;yes;yes;L19;305 V;not appeared;appeared;changed;yes;no;;;;"219 (H-FP)
+161 (V-FP)";"Goggi: §18: les lignes marquées de l'alinéa ne sont pas reprises, §19: P.D. p. 10-12 // Duchet: P.D. p. 10-11 // I deleted the lignes from
+§18";
+V-FP_T4 L19;yes;yes;L19;305 H;not appeared;appeared;changed;yes;no;;;;"219 (H-FP)
+161 (V-FP)";"Goggi: §18: les lignes marquées de l'alinéa ne sont pas reprises, §19: P.D. p. 10-12 // Duchet: P.D. p. 10-11 // I deleted the lignes from
+§18";
+V-FP_T4 L19;yes;yes;L19;306;not appeared;not appeared;appeared;yes;no;no;yes (says Duch);yes (says Duch);238;Duchet: P.D. p. 53-54, Mémoires pour Catherine 693-694, Supplément p. 247;
+NonMarque;yes;no;L19;NonMarque XII;not appeared;appeared;changed;yes;no;;;;113;This chunk is a part of: P.D. p. 74 (see below fragment 307 A);
+V-FP_T4 L19;yes;yes;L19;307 A;not appeared;appeared;changed;yes;no;;;;1226 (H-FP);"This fragment is split by Duchet into three parts. Duchet: P.D. p. 74-78 (same as Goggi) // Goggi: ""sans la dernière ligne et demie de
+l'alinéa 8) // I did not delete these one and a half lines";
+V-FP_T4 L19;yes;yes;L19;307 B;not appeared;not appeared;appeared;yes;no;;;;1226 (H-FP);Duchet: P.D. p. 5-6 (same as Goggi);
+V-FP_T4 L19;yes;yes;L19;307 C;not appeared;not appeared;appeared;yes;no;;;;"1226 (H-FP)
+1115 (V-FP";"Duchet: P.D. p. 80-81 (same as Goggi BUT ""§10: P.D. p. 80-81, §11 non repris"") // I deleted § 11 form V-FP";
+V-FP_T4 L19;yes;yes;L19;308;not appeared;not appeared;appeared;yes;no;;;;131;;
+V-FP_T4 L19;yes;yes;L19;309;not appeared;not appeared;appeared;yes;no;;;;188;;
+V-FP_T4 L19;yes;yes;L19;310 A;not appeared;not appeared;appeared;yes (says Duchet);no;;;;"2320 (H-FP)
+2330 (V-FP)";"Ok here things are getting a bit complicated... Everything which follows is only one chunk in Goggi (frag. 310). FP was extracted though.
+Duchet splits this chunk into seven parts.
+310 A (Duchet part 1): P.D. 86 (this is probably §23) // Goggi: avec l'ajout de §23 // I added §23 to V-FP
+310 B (Duchet part 2): P.D. 87 (this probably appears in Goggi P.D. p. 87-88 but he writes §25-26 non repris - these §'s were deleted
+310 C (Duchet part 3): P.D. 87-89 (which parts match with Goggi here??) - everything is a bit confusing here...
+
+Then comes FP II (which is FP VI) - this is split by Duchet into three parts. Duchet:  
+FP II A (Duchet part 4): P.D. p. 97 
+FP II B (Duchet part 5): Observation 355 and R.H. XI, 574-575 
+FP II C (Duchet part 6): Observations 368 
+
+310 D (Duchet part 7) (this is from ""Sur la civilisation de la Russie"")";
+V-FP_T4 L19;yes;yes;L19;310 B;not appeared;not appeared;appeared;yes;no;;;;2320 (Caution);see above;
+V-FP_T4 L19;yes;yes;L19;310 C;not appeared;not appeared;appeared;yes;no;;;;2320 (Caution);see above;
+FP II;yes;yes;L19;FP II A;not appeared;appeared;not changed;yes;no;;;;390 (Caution);see above;
+FP II;yes;yes;L19;FP II B;not appeared;not appeared;appeared;no;no;yes;;yes;390 (Caution);see above;
+FP II;yes;yes;L19;FP II C;not appeared;appeared;not changed;no;no;yes;;;390 (Caution);see above;
+V-FP_T4 L19;yes;yes;L19;310 D;not appeared;not appeared;appeared;no;no;;;yes;2320 (Caution);see above;
+NonMarque;no;no;L19;NonMarque XIII;not appeared;appeared;not changed;no;no;;;yes;897;FP 13 (H80, L19, chap 2, §48-53);
+H-FP_T4 L19;no;yes;L19;312;n/a;n/a;n/a;no;no;;;;80;"Goggi: ""Non repris""";
+H-FP_T4 L19;no;yes;L19;313;n/a;n/a;n/a;no;no;;;;186;"Goggi: ""Non repris""";
+H-FP_T4 L19;no;yes;L19;314;n/a;n/a;n/a;no;no;;;;95;"Goggi: ""Non repris""";
+V-FP_T4 L19;yes;yes;L19;315 V;not appeared;not appeared;appeared;yes;no;;;;"354 (H-FP)
+101 (V-FP)";Goggi: §91 P.D. p. 106-107, §92 non repris // §92 was deleted from V-FP;
+V-FP_T4 L19;yes;yes;L19;315 H;not appeared;not appeared;appeared;yes;no;;;;"354 (H-FP)
+101 (V-FP)";Goggi: §91 P.D. p. 106-107, §92 non repris // §92 was deleted from V-FP;
+V-FP_T4 L19;yes;yes;L19;316 V;not appeared;not appeared;appeared;no;no;yes;;;"385 (H-FP)
+213 (V-FP)";Goggi: §94 non repris, §95 Observations p. 364, §96 non repris // §94 and 96 deleted from V-FP;
+V-FP_T4 L19;yes;yes;L19;316 H;not appeared;not appeared;appeared;no;no;yes;;;"385 (H-FP)
+213 (V-FP)";Goggi: §94 non repris, §95 Observations p. 364, §96 non repris // §94 and 96 deleted from V-FP;
+FP II;yes;yes;L19;317 FP;not appeared;appeared;not changed;no;no;;;yes;109;FP 3 (H80, L19, chap 2, §108);
+V-FP_T4 L19;yes;yes;L19;318;not appeared;not appeared;appeared;yes;yes;;;;277;;
+V-FP_T4 L19;yes;yes;L19;319 V;not appeared;appeared;changed;no;yes (says Duch);;;yes;"1731 (H-FP)
+1624 (V-FP)";"Duchet: Mél p. 73-81, FP 5 (the FP5 texts appeared 1774 disappeared 1780 though) // Goggi: §122-138: République de Venise (avec 
+l'ajout d'une partie de §122 pour faire context), §139: sur les Suisses, non repris // §139 was deleted but §122 was not added
+I extracted some text into FP though (72 words). Is this taken from 1774?";
+V-FP_T4 L19;yes;yes;L19;319 H;not appeared;appeared;changed;no;yes (says Duch);;;yes;"1731 (H-FP)
+1624 (V-FP)";"Duchet: Mél p. 73-81, FP 5 (the FP5 texts appeared 1774 disappeared 1780 though) // Goggi: §122-138: République de Venise (avec 
+l'ajout d'une partie de §122 pour faire context), §139: sur les Suisses, non repris // §139 was deleted but §122 was not added
+I extracted some text into FP though (72 words). Is this taken from 1774?";
+V-FP_T4 L19;yes;yes;L19;320 A;not appeared;not appeared;appeared;no;yes;;;;"4476 (H-FP)
+4403 (V-FP)";Duchet splits this fragment into two parts. Duchet (part 1): Mél p. 82-102 // Goggi: §188 non repris // §188 was deleted;
+V-FP_T4 L19;yes;yes;L19;320 B;not appeared;appeared;not changed;yes;no;;;;same as above;Goggi and Duchet: P.D. p. 106;
+V-FP_T4 L19;yes;yes;L19;321;not appeared;appeared;not changed;yes;no;;;;155;;
+V-FP_T4 L19;yes;yes;L19;322;not appeared;appeared;not changed;yes;no;;;;145;Duchet: P.D. p. 101-102 // Goggi: P.D. p. 101;
+NonMarque;yes;no;L19;NonMarque XIV;not appeared;appeared;not changed;yes;no;;;;115;Goggi: P.D. 101-102 (rest of what Duchet meant before prob.). H80 L19, chap. 2, §194;
+V-FP_T4 L19;yes;yes;L19;323;not appeared;not appeared;appeared;yes;no;;;;676;;
+V-FP_T4 L19;yes;yes;L19;324;not appeared;appeared;not changed;yes;no;;;;59;;
+V-FP_T4 L19;no;yes;L19;325;n/a;n/a;n/a;no;no;;;;187;;
+V-FP_T4 L19;yes;yes;L19;326;not appeared;not appeared;appeared;yes;no;;;;908;;
+V-FP_T4 L19;yes;yes;L19;327 V;not appeared;not appeared;appeared;yes;no;;;;"323 (H-FP)
+405 (V-FP)";"Goggi: P.D. p. 191-193 (avec l'ajout de lignes du §23: ""Ils ne connoissent [...] dans des garnisons."" // This part was added";
+V-FP_T4 L19;yes;yes;L19;327 H;not appeared;not appeared;appeared;yes;no;;;;"323 (H-FP)
+405 (V-FP)";"Goggi: P.D. p. 191-193 (avec l'ajout de lignes du §23: ""Ils ne connoissent [...] dans des garnisons."" // This part was added";
+V-FP_T4 L19;yes;yes;L19;328 A;not appeared;appeared;not changed;yes;no;;;;206 (Caution);Duchet splits this into to parts. This one: Duchet: P.D. p 193 // Goggi: P.D. p. 193-194;
+V-FP_T4 L19;yes;yes;L19;328 B;not appeared;not appeared;appeared;yes;no;;;;206 (Caution);Duchet: P.D. p. 194-194;
+V-FP_T4 L19;yes;yes;L19;329;not appeared;appeared;changed;yes;no;;;yes;439;Duchet: Essai Claude et Néron (besides P.D. of course);
+V-FP_T4 L19;yes;yes;L19;330;not appeared;not appeared;appeared;yes;no;;;;202;Goggi: avec l'ajout [...] de l'entier §24, qui n'est pas marqué dans Hornoy // I did not change anything though;
+V-FP_T4 L19;yes;yes;L19;331;not appeared;not appeared;appeared;yes;no;;;;195;;
+V-FP_T4 L19;yes;yes;L19;332;not appeared;appeared;not changed;yes;yes;;;;151;;
+H-FP_T4 L19;no;yes;L19;333;not appeared;not appeared;appeared;yes (says Duchet);no;yes (says Duch);;;3642;"Here is something strange: Duchet: P.D. p. 210-225 and Observations 420, 416, 399 // Goggi: just an empty space!! Did he forget to add
+information here???";
+NonMarque;yes;no;L19;NonMarque XV;not appeared;not appeared;appeared;yes;no;;;;64;This seems to be a part of the big chunk which is not marked in the Exempl. Hornoy;
+NonMarque;yes;no;L19;"Empty Slot and 
+NonMarque XVI";not appeared;appeared;changed;yes;no;;;;177 + 29;"Duchet: P.D. p. 226-228 // Goggi: There is one Fragment without numeration (with 177 words) where he writes: ""Le marquage de l'alinéa 
+est douteux"". This is P.D. p. 227-228. And the Non-Marqué part (29 words) is P.D. p. 228 (H80 L19 chap 6 §65 - les 3 premières lignes
+et demie)";
+V-FP_T4 L19;yes;yes;L19;334;not appeared;not appeared;appeared;yes;no;;;;145;;
+H-FP_T4 L19;no;yes;L19;335;n/a;n/a;n/a;no;no;;;;94;"Goggi: ""Non repris""";
+V-FP_T4 L19;yes;yes;L19;336;not appeared;not appeared;appeared;no;no;yes;;yes;361;Duchet: Observations (p. 409-410) and Article Homme;
+V-FP_T4 L19;yes;yes;L19;337;not appeared;appeared;changed;yes;no;;;;409;;
+V-FP_T4 L19;yes;yes;L19;338;not appeared;appeared;not changed;yes;no;;;;93;;
+V-FP_T4 L19;yes;yes;L19;339;not appeared;appeared;not changed;yes;no;;;;338;"Duchet: P.D. p 231-234 // Goggi: P.D. 232-233 (au début, le texte des PD reprend aussi les sept lignes précédentes) // Did not change
+anything";
+NonMarque;yes;no;L19;NonMarque XVII;not appeared;appeared;not changed;yes;no;;;;132;Goggi: P.D. 233-234 (H80, L19, chap. 9, §29);
+V-FP_T4 L19;yes;yes;L19;340;not appeared;appeared;not changed;no;yes;;;;8610;"Duchet splits this into two parts. Part one seems to be quiet short, but I do not know where it exactly ends: 
+it is not appeared/not appeared/appeared and Mél. Part two is also Mél. - actually I have to controll all parts which were splitted by Duchet
+to find the exact cutting threshold, dont I?";
+V-FP_T4 L19;yes;yes;L19;341;not appeared;not appeared;appeared;no;yes;;;;95;Goggi: Mél p. 153-154 (le texte de Mél reprend avec des aménagements une partie de §5) // I did not change anything here;
+V-FP_T4 L19;yes;yes;L19;342;not appeared;not appeared;appeared;no;yes;;;;204;;
+V-FP_T4 L19;yes;yes;L19;343;not appeared;appeared;changed;yes;yes (says Gog);;;;1037;Duchet: P.D. p. 398-402 // Goggi: P.D. p. 398-401 (fragment 344 is probably the rest of this part. In between there is a Non-Marqué Chunk);
+NonMarque;yes;no;L19;NonMarque XVIII;not appeared;appeared;changed;yes;no;;;;68;Goggi: P.D. p. 401;
+V-FP_T4 L19;yes;yes;L19;344;not appeared;appeared;changed;yes;no;;;;164;Goggi: P.D. p. 401-402;
+H-FP_T4 L19;no;yes;L19;345;n/a;n/a;n/a;no;no;;;;143;;
+V-FP_T4 L19;yes;yes;L19;346;not appeared;appeared;not changed;yes;no;;;;199;;
+V-FP_T4 L19;yes;yes;L19;347;not appeared;not appeared;appeared;yes;no;;;;392;;
+V-FP_T4 L19;yes;yes;L19;348;not appeared;appeared;changed;yes;no;yes;yes;yes (says Duch);101;"Here is a big fragment in which there are two parts not marked in the Exemplaire Hornoy. The chunk as a whole includes fragment:
+348, NonMarque XIX, 349, NonMarque XX.
+Duchet describes this big chunk as follows: P.D. p. 43-50, Observations 371, FP 1 (?), Mémoires pour Catherine X, p. 753,
+Éléments de physiologie (XIII, 823), Neveu de Rameau (Ed. Fabre p. 70)
+Goggi has to split this big chunk obviously. This smaller piece is: P.D. p. 43";
+NonMarque;yes;no;L19;NonMarque XIX;not appeared;appeared;changed;yes;no;maybe?;maybe?;maybe?;152;Goggi: P.D. p. 43-44;
+V-FP_T4 L19;yes;yes;L19;349;not appeared;appeared;changed;yes;no;maybe?;maybe?;maybe?;1232;Goggi: P.D. p. 44-50;
+NonMarque;yes;no;L19;NonMarque XX;not appeared;appeared;changed;yes;no;maybe?;maybe?;maybe?;84;Goggi: P.D. p. 50;
+??;yes?;no?;L19;Only in Duchet??;not appeared;appeared;changed;no;no;no;yes;yes  ;??;Duchet: Plan d'une université (O.C. XI, 746) and Supplément 249 // Where is this in Goggi's table??? I am not sure!;
+V-FP_T4 L19;yes;yes;L19;350;not appeared;appeared;changed;yes;no;;;;222;;
+V-FP_T4 L19;yes;yes;L19;351 V;not appeared;not appeared;appeared;no;yes;;;;"1445 (H-FP)
+1034 (V-FP)";"Duchet: Mél (Sur les femmes) // Goggi: §27 non repris, §28-34 [...] Mél (Sur les femmes), p. 376-380, §35-37 non repris // §27, 35-37 
+deleted";
+V-FP_T4 L19;yes;yes;L19;351 H;not appeared;not appeared;appeared;no;yes;;;;"1445 (H-FP)
+1034 (V-FP)";"Duchet: Mél (Sur les femmes) // Goggi: §27 non repris, §28-34 [...] Mél (Sur les femmes), p. 376-380, §35-37 non repris // §27, 35-37 
+deleted";
+??;yes?;no?;L19;Only in Duchet??;not appeared;appeared;not changed;no;no;yes;yes;;??;Duchet: Observations 372 and Supplément 240 // Where is this in Goggi's table??? I am also not sure here;
+NonMarque;yes;no;L19;NonMarque XXI;;;;;;;;;35;Goggi: P.D. p. 391;
+V-FP_T4 L19;yes;yes;L19;352;not appeared;appeared;changed;yes;no;;;yes (says Duch);1233;Duchet: P.D. p. 391-397 (same as Goggi) + Voyage en Hollande;
