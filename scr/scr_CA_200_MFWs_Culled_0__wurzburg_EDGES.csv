@@ -1,135 +1,299 @@
 Source,Target,Weight,Type
 Baudeau_1,Baudeau_2,6,undirected
-Baudeau_1,Condorcet_2,2,undirected
-Baudeau_1,Jussieu_1,3,undirected
+Baudeau_1,Morellet_1,4,undirected
+Baudeau_1,Morellet_2,1,undirected
 Baudeau_2,Baudeau_1,6,undirected
-Baudeau_2,Jussieu_2,2,undirected
-Baudeau_2,Rivière_1,3,undirected
+Baudeau_2,Guibert_1,2,undirected
+Baudeau_2,Guibert_2,4,undirected
 Chastellux_1,Chastellux_2,6,undirected
-Chastellux_1,Raynal_1,1,undirected
-Chastellux_1,Raynal_2,4,undirected
+Chastellux_1,dHolbach_Histoire_1,1,undirected
+Chastellux_1,Jussieu_1,2,undirected
+Chastellux_1,Jussieu_2,2,undirected
+Chastellux_1,Raynal_1,2,undirected
 Chastellux_2,Chastellux_1,6,undirected
-Chastellux_2,Raynal_1,3,undirected
-Chastellux_2,Raynal_2,2,undirected
+Chastellux_2,Deleyre_1,2,undirected
+Chastellux_2,Pechméja_1,1,undirected
+Chastellux_2,Raynal_1,4,undirected
+Chastellux_2,Raynal_2,3,undirected
 Condorcet_1,Condorcet_2,6,undirected
-Condorcet_1,dHolbach_2,1,undirected
-Condorcet_1,Guibert_1,3,undirected
-Condorcet_1,Saint-Lambert_2,3,undirected
-Condorcet_2,Baudeau_1,2,undirected
+Condorcet_1,Jussieu_2,1,undirected
+Condorcet_1,Morellet_1,3,undirected
 Condorcet_2,Condorcet_1,6,undirected
 Condorcet_2,Jussieu_2,2,undirected
+Condorcet_2,Morellet_1,1,undirected
 Condorcet_2,Saint-Lambert_1,1,undirected
+Deleyre_1,Chastellux_2,2,undirected
 Deleyre_1,Deleyre_2,6,undirected
-Deleyre_1,La Grange_1,2,undirected
-Deleyre_1,La Grange_2,3,undirected
+Deleyre_1,La Grange_1,1,undirected
+Deleyre_1,La Grange_2,1,undirected
+Deleyre_1,Pechméja_1,3,undirected
+Deleyre_1,Pechméja_2,2,undirected
+Deleyre_1,Saint-Lambert_1,2,undirected
 Deleyre_2,Deleyre_1,6,undirected
-Deleyre_2,La Grange_1,4,undirected
-Deleyre_2,La Grange_2,3,undirected
-dHolbach_1,dHolbach_2,6,undirected
-dHolbach_1,Saint-Lambert_1,4,undirected
-dHolbach_1,Saint-Lambert_2,1,undirected
-dHolbach_2,Condorcet_1,1,undirected
-dHolbach_2,dHolbach_1,6,undirected
-dHolbach_2,Saint-Lambert_2,4,undirected
-Diderot II_1,Diderot II_2,6,undirected
-Diderot II_1,Diderot_1,3,undirected
-Diderot II_1,Diderot_2,4,undirected
-Diderot II_1,Jaucourt_1,2,undirected
-Diderot II_2,Diderot II_1,6,undirected
-Diderot II_2,Diderot_1,2,undirected
-Diderot II_2,Diderot_2,5,undirected
-Diderot_1,Diderot II_1,3,undirected
-Diderot_1,Diderot II_2,2,undirected
-Diderot_1,Diderot_2,4,undirected
-Diderot_2,Diderot II_1,4,undirected
-Diderot_2,Diderot II_2,5,undirected
-Diderot_2,Diderot_1,4,undirected
-Diderot_2,Meister_2,1,undirected
-Diderot_2,Naigeon_1,1,undirected
-Diderot_2,Naigeon_2,1,undirected
-Guibert_1,Condorcet_1,3,undirected
+Deleyre_2,La Grange_1,2,undirected
+Deleyre_2,Raynal_2,1,undirected
+dHolbach_Éléments de la morale universelle_1,dHolbach_Éléments de la morale universelle_2,6,undirected
+dHolbach_Éléments de la morale universelle_1,dHolbach_La Morale 2_2,2,undirected
+dHolbach_Éléments de la morale universelle_1,dHolbach_Système Social 1_1,1,undirected
+dHolbach_Éléments de la morale universelle_2,dHolbach_Éléments de la morale universelle_1,6,undirected
+dHolbach_Éléments de la morale universelle_2,dHolbach_La Morale 2_1,1,undirected
+dHolbach_Éléments de la morale universelle_2,dHolbach_La Morale 2_2,4,undirected
+dHolbach_Éléments de la morale universelle_2,dHolbach_Système Social 1_1,1,undirected
+dHolbach_Éthocratie_1,dHolbach_Éthocratie_2,6,undirected
+dHolbach_Éthocratie_1,dHolbach_La Morale 4_1,2,undirected
+dHolbach_Éthocratie_1,dHolbach_Système Social 3_1,5,undirected
+dHolbach_Éthocratie_2,dHolbach_Éthocratie_1,6,undirected
+dHolbach_Éthocratie_2,dHolbach_La Morale 4_1,5,undirected
+dHolbach_Éthocratie_2,dHolbach_La politique_2,1,undirected
+dHolbach_Éthocratie_2,dHolbach_Système Social 3_1,1,undirected
+dHolbach_Éthocratie_2,dHolbach_Système Social 3_2,2,undirected
+dHolbach_Histoire_1,Chastellux_1,1,undirected
+dHolbach_Histoire_1,dHolbach_Histoire_2,6,undirected
+dHolbach_Histoire_1,Raynal_2,2,undirected
+dHolbach_Histoire_2,dHolbach_Histoire_1,6,undirected
+dHolbach_Histoire_2,dHolbach_Tableau 1_2,2,undirected
+dHolbach_Histoire_2,dHolbach_Tableau 2_2,1,undirected
+dHolbach_La contagion 1_1,dHolbach_La contagion 1_2,6,undirected
+dHolbach_La contagion 1_1,dHolbach_La contagion 2_2,3,undirected
+dHolbach_La contagion 1_1,dHolbach_Le Christianisme_1,2,undirected
+dHolbach_La contagion 1_1,dHolbach_Le Christianisme_2,3,undirected
+dHolbach_La contagion 1_2,dHolbach_La contagion 1_1,6,undirected
+dHolbach_La contagion 1_2,dHolbach_La contagion 2_2,1,undirected
+dHolbach_La contagion 1_2,dHolbach_Le Christianisme_1,4,undirected
+dHolbach_La contagion 2_1,dHolbach_La contagion 2_2,6,undirected
+dHolbach_La contagion 2_1,dHolbach_Le Christianisme_1,2,undirected
+dHolbach_La contagion 2_1,dHolbach_Le Christianisme_2,3,undirected
+dHolbach_La contagion 2_2,dHolbach_La contagion 1_1,3,undirected
+dHolbach_La contagion 2_2,dHolbach_La contagion 1_2,1,undirected
+dHolbach_La contagion 2_2,dHolbach_La contagion 2_1,6,undirected
+dHolbach_La contagion 2_2,dHolbach_Le Christianisme_1,5,undirected
+dHolbach_La Morale 1_1,dHolbach_La Morale 1_2,6,undirected
+dHolbach_La Morale 1_1,dHolbach_La Morale 5_1,1,undirected
+dHolbach_La Morale 1_1,dHolbach_Système Social 1_1,4,undirected
+dHolbach_La Morale 1_1,dHolbach_Système Social 1_2,2,undirected
+dHolbach_La Morale 1_2,dHolbach_La Morale 1_1,6,undirected
+dHolbach_La Morale 1_2,dHolbach_Système de la Nature 1_1,2,undirected
+dHolbach_La Morale 1_2,dHolbach_Système Social 1_1,2,undirected
+dHolbach_La Morale 1_2,dHolbach_Système Social 1_2,4,undirected
+dHolbach_La Morale 2_1,dHolbach_Éléments de la morale universelle_2,1,undirected
+dHolbach_La Morale 2_1,dHolbach_La Morale 2_2,6,undirected
+dHolbach_La Morale 2_1,dHolbach_Système Social 1_2,2,undirected
+dHolbach_La Morale 2_2,dHolbach_Éléments de la morale universelle_1,2,undirected
+dHolbach_La Morale 2_2,dHolbach_Éléments de la morale universelle_2,4,undirected
+dHolbach_La Morale 2_2,dHolbach_La Morale 2_1,6,undirected
+dHolbach_La Morale 2_2,dHolbach_Système Social 1_2,1,undirected
+dHolbach_La Morale 3_1,dHolbach_La Morale 3_2,5,undirected
+dHolbach_La Morale 3_1,dHolbach_La Morale 5_1,5,undirected
+dHolbach_La Morale 3_1,dHolbach_La Morale 5_2,3,undirected
+dHolbach_La Morale 3_2,dHolbach_La Morale 3_1,5,undirected
+dHolbach_La Morale 3_2,dHolbach_La Morale 5_1,1,undirected
+dHolbach_La Morale 3_2,dHolbach_Système Social 1_1,2,undirected
+dHolbach_La Morale 4_1,dHolbach_Éthocratie_1,2,undirected
+dHolbach_La Morale 4_1,dHolbach_Éthocratie_2,5,undirected
+dHolbach_La Morale 4_1,dHolbach_La Morale 4_2,5,undirected
+dHolbach_La Morale 4_2,dHolbach_La Morale 4_1,5,undirected
+dHolbach_La Morale 4_2,dHolbach_La Morale 5_2,2,undirected
+dHolbach_La Morale 4_2,dHolbach_Système Social 2_1,1,undirected
+dHolbach_La Morale 4_2,dHolbach_Système Social 2_2,2,undirected
+dHolbach_La Morale 5_1,dHolbach_La Morale 1_1,1,undirected
+dHolbach_La Morale 5_1,dHolbach_La Morale 3_1,5,undirected
+dHolbach_La Morale 5_1,dHolbach_La Morale 3_2,1,undirected
+dHolbach_La Morale 5_1,dHolbach_La Morale 5_2,6,undirected
+dHolbach_La Morale 5_2,dHolbach_La Morale 3_1,3,undirected
+dHolbach_La Morale 5_2,dHolbach_La Morale 4_2,2,undirected
+dHolbach_La Morale 5_2,dHolbach_La Morale 5_1,6,undirected
+dHolbach_La politique_1,dHolbach_La politique_2,5,undirected
+dHolbach_La politique_1,dHolbach_Le Christianisme_1,1,undirected
+dHolbach_La politique_1,dHolbach_Système Social 2_2,3,undirected
+dHolbach_La politique_2,dHolbach_Éthocratie_2,1,undirected
+dHolbach_La politique_2,dHolbach_La politique_1,5,undirected
+dHolbach_La politique_2,dHolbach_Système Social 2_1,3,undirected
+dHolbach_La politique_2,dHolbach_Système Social 2_2,5,undirected
+dHolbach_La politique_2,ed1770_nch1774_nch1780_1,1,undirected
+dHolbach_La politique_2,ed1770_nch1774_nch1780_2,1,undirected
+dHolbach_Le bon sens_1,dHolbach_Le bon sens_2,6,undirected
+dHolbach_Le bon sens_1,dHolbach_Système de la Nature 2_1,2,undirected
+dHolbach_Le bon sens_1,dHolbach_Système Social 1_2,1,undirected
+dHolbach_Le bon sens_2,dHolbach_Le bon sens_1,6,undirected
+dHolbach_Le bon sens_2,dHolbach_Système de la Nature 2_1,2,undirected
+dHolbach_Le bon sens_2,dHolbach_Système de la Nature 2_2,4,undirected
+dHolbach_Le bon sens_2,dHolbach_Théologie portative_1,2,undirected
+dHolbach_Le bon sens_2,dHolbach_Théologie portative_2,2,undirected
+dHolbach_Le Christianisme_1,dHolbach_La contagion 1_1,2,undirected
+dHolbach_Le Christianisme_1,dHolbach_La contagion 1_2,4,undirected
+dHolbach_Le Christianisme_1,dHolbach_La contagion 2_1,2,undirected
+dHolbach_Le Christianisme_1,dHolbach_La contagion 2_2,5,undirected
+dHolbach_Le Christianisme_1,dHolbach_La politique_1,1,undirected
+dHolbach_Le Christianisme_1,dHolbach_Le Christianisme_2,1,undirected
+dHolbach_Le Christianisme_2,dHolbach_La contagion 1_1,3,undirected
+dHolbach_Le Christianisme_2,dHolbach_La contagion 2_1,3,undirected
+dHolbach_Le Christianisme_2,dHolbach_Le Christianisme_1,1,undirected
+dHolbach_Système de la Nature 1_1,dHolbach_La Morale 1_2,2,undirected
+dHolbach_Système de la Nature 1_1,dHolbach_Système de la Nature 1_2,6,undirected
+dHolbach_Système de la Nature 1_1,dHolbach_Système de la Nature 2_1,2,undirected
+dHolbach_Système de la Nature 1_1,dHolbach_Système Social 1_2,1,undirected
+dHolbach_Système de la Nature 1_2,dHolbach_Système de la Nature 1_1,6,undirected
+dHolbach_Système de la Nature 1_2,dHolbach_Système de la Nature 2_2,3,undirected
+dHolbach_Système de la Nature 1_2,dHolbach_Système Social 1_1,1,undirected
+dHolbach_Système de la Nature 2_1,dHolbach_Le bon sens_1,2,undirected
+dHolbach_Système de la Nature 2_1,dHolbach_Le bon sens_2,2,undirected
+dHolbach_Système de la Nature 2_1,dHolbach_Système de la Nature 1_1,2,undirected
+dHolbach_Système de la Nature 2_1,dHolbach_Système de la Nature 2_2,6,undirected
+dHolbach_Système de la Nature 2_2,dHolbach_Le bon sens_2,4,undirected
+dHolbach_Système de la Nature 2_2,dHolbach_Système de la Nature 1_2,3,undirected
+dHolbach_Système de la Nature 2_2,dHolbach_Système de la Nature 2_1,6,undirected
+dHolbach_Système Social 1_1,dHolbach_Éléments de la morale universelle_1,1,undirected
+dHolbach_Système Social 1_1,dHolbach_Éléments de la morale universelle_2,1,undirected
+dHolbach_Système Social 1_1,dHolbach_La Morale 1_1,4,undirected
+dHolbach_Système Social 1_1,dHolbach_La Morale 1_2,2,undirected
+dHolbach_Système Social 1_1,dHolbach_La Morale 3_2,2,undirected
+dHolbach_Système Social 1_1,dHolbach_Système de la Nature 1_2,1,undirected
+dHolbach_Système Social 1_1,dHolbach_Système Social 1_2,6,undirected
+dHolbach_Système Social 1_2,dHolbach_La Morale 1_1,2,undirected
+dHolbach_Système Social 1_2,dHolbach_La Morale 1_2,4,undirected
+dHolbach_Système Social 1_2,dHolbach_La Morale 2_1,2,undirected
+dHolbach_Système Social 1_2,dHolbach_La Morale 2_2,1,undirected
+dHolbach_Système Social 1_2,dHolbach_Le bon sens_1,1,undirected
+dHolbach_Système Social 1_2,dHolbach_Système de la Nature 1_1,1,undirected
+dHolbach_Système Social 1_2,dHolbach_Système Social 1_1,6,undirected
+dHolbach_Système Social 2_1,dHolbach_La Morale 4_2,1,undirected
+dHolbach_Système Social 2_1,dHolbach_La politique_2,3,undirected
+dHolbach_Système Social 2_1,dHolbach_Système Social 2_2,6,undirected
+dHolbach_Système Social 2_1,ed1770_nch1774_nch1780_2,2,undirected
+dHolbach_Système Social 2_2,dHolbach_La Morale 4_2,2,undirected
+dHolbach_Système Social 2_2,dHolbach_La politique_1,3,undirected
+dHolbach_Système Social 2_2,dHolbach_La politique_2,5,undirected
+dHolbach_Système Social 2_2,dHolbach_Système Social 2_1,6,undirected
+dHolbach_Système Social 2_2,dHolbach_Système Social 3_2,1,undirected
+dHolbach_Système Social 2_2,ed1770_nch1774_nch1780_1,2,undirected
+dHolbach_Système Social 3_1,dHolbach_Éthocratie_1,5,undirected
+dHolbach_Système Social 3_1,dHolbach_Éthocratie_2,1,undirected
+dHolbach_Système Social 3_1,dHolbach_Système Social 3_2,5,undirected
+dHolbach_Système Social 3_1,dHolbach_Théologie portative_1,1,undirected
+dHolbach_Système Social 3_2,dHolbach_Éthocratie_2,2,undirected
+dHolbach_Système Social 3_2,dHolbach_Système Social 2_2,1,undirected
+dHolbach_Système Social 3_2,dHolbach_Système Social 3_1,5,undirected
+dHolbach_Tableau 1_1,dHolbach_Tableau 1_2,6,undirected
+dHolbach_Tableau 1_1,dHolbach_Tableau 2_1,2,undirected
+dHolbach_Tableau 1_1,dHolbach_Tableau 2_2,4,undirected
+dHolbach_Tableau 1_2,dHolbach_Histoire_2,2,undirected
+dHolbach_Tableau 1_2,dHolbach_Tableau 1_1,6,undirected
+dHolbach_Tableau 1_2,dHolbach_Tableau 2_1,4,undirected
+dHolbach_Tableau 1_2,dHolbach_Tableau 2_2,2,undirected
+dHolbach_Tableau 2_1,dHolbach_Tableau 1_1,2,undirected
+dHolbach_Tableau 2_1,dHolbach_Tableau 1_2,4,undirected
+dHolbach_Tableau 2_1,dHolbach_Tableau 2_2,6,undirected
+dHolbach_Tableau 2_2,dHolbach_Histoire_2,1,undirected
+dHolbach_Tableau 2_2,dHolbach_Tableau 1_1,4,undirected
+dHolbach_Tableau 2_2,dHolbach_Tableau 1_2,2,undirected
+dHolbach_Tableau 2_2,dHolbach_Tableau 2_1,6,undirected
+dHolbach_Théologie portative_1,dHolbach_Le bon sens_2,2,undirected
+dHolbach_Théologie portative_1,dHolbach_Système Social 3_1,1,undirected
+dHolbach_Théologie portative_1,dHolbach_Théologie portative_2,6,undirected
+dHolbach_Théologie portative_2,dHolbach_Le bon sens_2,2,undirected
+dHolbach_Théologie portative_2,dHolbach_Théologie portative_1,6,undirected
+dHolbach_Théologie portative_2,Naigeon_1,1,undirected
+Diderot_1,Diderot_2,6,undirected
+Diderot_1,Guibert_1,1,undirected
+Diderot_1,Naigeon_1,1,undirected
+Diderot_1,Naigeon_2,3,undirected
+Diderot_2,Diderot_1,6,undirected
+Diderot_2,Guibert_2,1,undirected
+Diderot_2,Jaucourt_2,2,undirected
+Diderot_2,Meister_1,2,undirected
+Diderot_2,Meister_2,2,undirected
+Diderot_2,Morellet_2,1,undirected
+Diderot_2,Naigeon_2,4,undirected
+ed1770_nch1774_nch1780_1,dHolbach_La politique_2,1,undirected
+ed1770_nch1774_nch1780_1,dHolbach_Système Social 2_2,2,undirected
+ed1770_nch1774_nch1780_1,ed1770_nch1774_nch1780_2,6,undirected
+ed1770_nch1774_nch1780_2,dHolbach_La politique_2,1,undirected
+ed1770_nch1774_nch1780_2,dHolbach_Système Social 2_1,2,undirected
+ed1770_nch1774_nch1780_2,ed1770_nch1774_nch1780_1,6,undirected
+Guibert_1,Baudeau_2,2,undirected
+Guibert_1,Diderot_1,1,undirected
 Guibert_1,Guibert_2,6,undirected
-Guibert_1,Jussieu_2,1,undirected
+Guibert_1,Jussieu_2,2,undirected
+Guibert_2,Baudeau_2,4,undirected
+Guibert_2,Diderot_2,1,undirected
 Guibert_2,Guibert_1,6,undirected
-Guibert_2,Jussieu_1,1,undirected
-Guibert_2,Jussieu_2,4,undirected
-ink_mélanges_only_1,ink_mélanges_only_2,6,undirected
-ink_mélanges_only_1,Pechméja_1,1,undirected
-ink_mélanges_only_1,Pechméja_2,3,undirected
-ink_mélanges_only_1,Saint-Lambert_2,2,undirected
-ink_mélanges_only_2,ink_mélanges_only_1,6,undirected
-ink_mélanges_only_2,Pechméja_1,2,undirected
-ink_mélanges_only_2,Pechméja_2,1,undirected
-Jaucourt_1,Diderot II_1,2,undirected
 Jaucourt_1,Jaucourt_2,6,undirected
-Jaucourt_1,Jussieu_2,1,undirected
+Jaucourt_1,Jussieu_2,3,undirected
+Jaucourt_1,Raynal_1,3,undirected
+Jaucourt_2,Diderot_2,2,undirected
 Jaucourt_2,Jaucourt_1,6,undirected
-Jaucourt_2,Jussieu_1,3,undirected
-Jaucourt_2,Raynal_1,4,undirected
-Jussieu_1,Baudeau_1,3,undirected
-Jussieu_1,Guibert_2,1,undirected
-Jussieu_1,Jaucourt_2,3,undirected
+Jaucourt_2,Morellet_2,2,undirected
+Jaucourt_2,Naigeon_1,2,undirected
+Jaucourt_2,Raynal_2,3,undirected
+Jussieu_1,Chastellux_1,2,undirected
 Jussieu_1,Jussieu_2,6,undirected
-Jussieu_2,Baudeau_2,2,undirected
+Jussieu_1,La Grange_1,2,undirected
+Jussieu_1,La Grange_2,3,undirected
+Jussieu_2,Chastellux_1,2,undirected
+Jussieu_2,Condorcet_1,1,undirected
 Jussieu_2,Condorcet_2,2,undirected
-Jussieu_2,Guibert_1,1,undirected
-Jussieu_2,Guibert_2,4,undirected
-Jussieu_2,Jaucourt_1,1,undirected
+Jussieu_2,Guibert_1,2,undirected
+Jussieu_2,Jaucourt_1,3,undirected
 Jussieu_2,Jussieu_1,6,undirected
-La Grange_1,Deleyre_1,2,undirected
-La Grange_1,Deleyre_2,4,undirected
+La Grange_1,Deleyre_1,1,undirected
+La Grange_1,Deleyre_2,2,undirected
+La Grange_1,Jussieu_1,2,undirected
 La Grange_1,La Grange_2,6,undirected
-La Grange_1,Pechméja_1,2,undirected
-La Grange_2,Deleyre_1,3,undirected
-La Grange_2,Deleyre_2,3,undirected
+La Grange_2,Deleyre_1,1,undirected
+La Grange_2,Jussieu_1,3,undirected
 La Grange_2,La Grange_1,6,undirected
+Meister_1,Diderot_2,2,undirected
 Meister_1,Meister_2,6,undirected
-Meister_1,Naigeon_1,4,undirected
-Meister_1,Naigeon_2,3,undirected
-Meister_2,Diderot_2,1,undirected
+Meister_1,Naigeon_2,1,undirected
+Meister_2,Diderot_2,2,undirected
 Meister_2,Meister_1,6,undirected
-Meister_2,Naigeon_1,2,undirected
+Meister_2,Naigeon_1,1,undirected
+Morellet_1,Baudeau_1,4,undirected
+Morellet_1,Condorcet_1,3,undirected
+Morellet_1,Condorcet_2,1,undirected
 Morellet_1,Morellet_2,6,undirected
-Morellet_1,Rivière_1,3,undirected
-Morellet_1,Rivière_2,4,undirected
+Morellet_1,Rivière_1,2,undirected
+Morellet_1,Rivière_2,2,undirected
+Morellet_2,Baudeau_1,1,undirected
+Morellet_2,Diderot_2,1,undirected
+Morellet_2,Jaucourt_2,2,undirected
 Morellet_2,Morellet_1,6,undirected
 Morellet_2,Rivière_1,1,undirected
-Morellet_2,Rivière_2,3,undirected
-Naigeon_1,Diderot_2,1,undirected
-Naigeon_1,Meister_1,4,undirected
-Naigeon_1,Meister_2,2,undirected
+Morellet_2,Rivière_2,1,undirected
+Morellet_2,Saint-Lambert_2,1,undirected
+Naigeon_1,dHolbach_Théologie portative_2,1,undirected
+Naigeon_1,Diderot_1,1,undirected
+Naigeon_1,Jaucourt_2,2,undirected
+Naigeon_1,Meister_2,1,undirected
 Naigeon_1,Naigeon_2,6,undirected
-Naigeon_2,Diderot_2,1,undirected
-Naigeon_2,Meister_1,3,undirected
+Naigeon_2,Diderot_1,3,undirected
+Naigeon_2,Diderot_2,4,undirected
+Naigeon_2,Meister_1,1,undirected
 Naigeon_2,Naigeon_1,6,undirected
-Pechméja_1,ink_mélanges_only_1,1,undirected
-Pechméja_1,ink_mélanges_only_2,2,undirected
-Pechméja_1,La Grange_1,2,undirected
+Pechméja_1,Chastellux_2,1,undirected
+Pechméja_1,Deleyre_1,3,undirected
 Pechméja_1,Pechméja_2,6,undirected
-Pechméja_2,ink_mélanges_only_1,3,undirected
-Pechméja_2,ink_mélanges_only_2,1,undirected
+Pechméja_2,Deleyre_1,2,undirected
 Pechméja_2,Pechméja_1,6,undirected
-Pechméja_2,Saint-Lambert_2,1,undirected
-Raynal_1,Chastellux_1,1,undirected
-Raynal_1,Chastellux_2,3,undirected
-Raynal_1,Jaucourt_2,4,undirected
+Pechméja_2,Saint-Lambert_2,3,undirected
+Raynal_1,Chastellux_1,2,undirected
+Raynal_1,Chastellux_2,4,undirected
+Raynal_1,Jaucourt_1,3,undirected
 Raynal_1,Raynal_2,6,undirected
-Raynal_2,Chastellux_1,4,undirected
-Raynal_2,Chastellux_2,2,undirected
+Raynal_2,Chastellux_2,3,undirected
+Raynal_2,Deleyre_2,1,undirected
+Raynal_2,dHolbach_Histoire_1,2,undirected
+Raynal_2,Jaucourt_2,3,undirected
 Raynal_2,Raynal_1,6,undirected
-Rivière_1,Baudeau_2,3,undirected
-Rivière_1,Morellet_1,3,undirected
+Rivière_1,Morellet_1,2,undirected
 Rivière_1,Morellet_2,1,undirected
 Rivière_1,Rivière_2,6,undirected
-Rivière_2,Morellet_1,4,undirected
-Rivière_2,Morellet_2,3,undirected
+Rivière_2,Morellet_1,2,undirected
+Rivière_2,Morellet_2,1,undirected
 Rivière_2,Rivière_1,6,undirected
 Saint-Lambert_1,Condorcet_2,1,undirected
-Saint-Lambert_1,dHolbach_1,4,undirected
+Saint-Lambert_1,Deleyre_1,2,undirected
 Saint-Lambert_1,Saint-Lambert_2,6,undirected
-Saint-Lambert_2,Condorcet_1,3,undirected
-Saint-Lambert_2,dHolbach_1,1,undirected
-Saint-Lambert_2,dHolbach_2,4,undirected
-Saint-Lambert_2,ink_mélanges_only_1,2,undirected
-Saint-Lambert_2,Pechméja_2,1,undirected
+Saint-Lambert_2,Morellet_2,1,undirected
+Saint-Lambert_2,Pechméja_2,3,undirected
 Saint-Lambert_2,Saint-Lambert_1,6,undirected

@@ -103,7 +103,7 @@ unique(corpus$author)
 corpus_tokenized <- corpus %>% 
   mutate(author = ifelse(author == "d", "dHolbach", author)) %>% 
   # combine two Diderot's samples to one
-  mutate(author = ifelse(author == "Diderot II", "Diderot", author)) %>% 
+  # mutate(author = ifelse(author == "Diderot II", "Diderot", author)) %>% 
   # remove old texts in question
   filter(!author %in% c("H-FP", "FP II (old version of FP)",
                         "H-V-FP", "V-FP", "HDI(clean)",
@@ -523,6 +523,13 @@ view_tree(test1, k = 2)
 str_dev_words <- c("et")
 ```
 
+Combine Diderot sets
+
+```{r}
+ed_corpus <- ed_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
+```
+
 ```{r, message=FALSE, warning=FALSE, eval=FALSE, include=FALSE}
 sample_independent_opt(tokenized_df = ed_corpus %>% 
                          filter(!author %in% c("ed1770_CH1774_CH1780", 
@@ -594,14 +601,15 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_1770_nch74_nch80_2.rds")
+saveRDS(imp_res, "imp_res/impr_1770_nch74_nch80.rds")
 ```
 
 ```{r}
-imp_res <- readRDS("imp_res/impr_1770_nch74_nch80_2.rds")
+imp_res <- readRDS("imp_res/impr_1770_nch74_nch80.rds")
 
 imp_res %>%
-  bind_rows() %>%  #stack all the optained prop tables into one
+  bind_rows() %>%  #stack all the optained prop tables into one 
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -664,15 +672,15 @@ dtm <- diy_stylo(
 
 grep("ed", rownames(dtm))
 
-imposters(reference.set = dtm[-c(55, 56), ],
-  test = dtm[55,],
+imposters(reference.set = dtm[-c(53, 54), ],
+  test = dtm[53,],
   features = 0.5,
   iterations = 100,
   distance = "wurzburg"
 )
 
-imposters(reference.set = dtm[-c(55, 56), ],
-  test = dtm[56,],
+imposters(reference.set = dtm[-c(53, 54), ],
+  test = dtm[54,],
   features = 0.5,
   iterations = 100,
   distance = "wurzburg"
@@ -702,6 +710,8 @@ dtm <- diy_stylo(
   drop_words = F)
 
 grep("ed", rownames(dtm))
+
+rownames(dtm)
 ```
 
 ```{r, warning=FALSE, message=FALSE, eval=FALSE}
@@ -731,10 +741,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -762,6 +772,7 @@ imp_res <- readRDS("imp_res/impr_1770_ch74_nch80.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -797,8 +808,8 @@ grep("ed", rownames(dtm))
 
 ```{r, warning=FALSE, message=FALSE, eval=FALSE}
 imp_res <- vector(mode = "list")
-
 counter <- 0
+r <- NULL
 
 for (i in 1:50) {
   
@@ -822,10 +833,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -853,6 +864,7 @@ imp_res <- readRDS("imp_res/impr_1770_ch74_ch80.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -882,12 +894,12 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+# dim(dtm)
 
 grep("ed", rownames(dtm))
 
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -912,10 +924,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -943,11 +955,12 @@ imp_res <- readRDS("imp_res/impr_1770_nch74_ch80.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
   theme_bw() + 
-  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FV text from 1770 that was NOT changed in the ed. of 1774 and changed in the ed. of 1780 ") +
+  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FV text from 1770 that was not changed in the ed. of 1774 and changed in the ed. of 1780 ") +
   theme(axis.text.x = element_text(angle = 25))
 ```
 
@@ -972,12 +985,12 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+# dim(dtm)
 
 grep("ed", rownames(dtm))
 
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -1025,11 +1038,11 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_1774_nch80_2.rds")
+saveRDS(imp_res, "imp_res/impr_1774_nch80.rds")
 ```
 
 ```{r}
-imp_res <- readRDS("imp_res/impr_1774_nch80_2.rds")
+imp_res <- readRDS("imp_res/impr_1774_nch80.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
@@ -1068,12 +1081,12 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+# dim(dtm)
 
 grep("ed", rownames(dtm))
 
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -1098,10 +1111,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -1129,6 +1142,7 @@ imp_res <- readRDS("imp_res/impr_1774_ch80.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -1158,7 +1172,7 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+# dim(dtm)
 
 grep("ed", rownames(dtm))
 
@@ -1188,10 +1202,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -1219,6 +1233,7 @@ imp_res <- readRDS("imp_res/impr_1780.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -1299,13 +1314,23 @@ test1 <- stylo(
 
 ### Imposters
 
+Unite Diderot's sets
+
+```{r}
+pencil_ink_corpus <- pencil_ink_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
+
+unique(pencil_ink_corpus$author)
+```
+
 #### Pensées détachées (pencil)
 
 ```{r, warning=FALSE, message=FALSE, eval=FALSE}
 
 sample_independent_opt(tokenized_df = pencil_ink_corpus %>% 
-                         filter(!author %in% c("ink_melanges"
-                                               #, "pencil_pensees_detachees"
+                         filter(!author %in% c("ink_melanges", 
+                                               "ink_melanges_not-in-pencil"#,
+                                              #"pencil_pensees_detachees"
                                                )),
                        n_samples = 2,
                        sample_size = 5000)
@@ -1315,12 +1340,12 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+# dim(dtm)
 
 grep("pencil", rownames(dtm))
 
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -1328,8 +1353,8 @@ for (i in 1:50) {
   # create samples for each trial
   sample_independent_opt(
     tokenized_df = pencil_ink_corpus %>% 
-                         filter(!author %in% c("ink_melanges"
-                                               #, "pencil_pensees_detachees"
+                         filter(!author %in% c("ink_melanges",
+                                               "ink_melanges_not-in-pencil"#, "pencil_pensees_detachees"
                                                )), 
     n_samples = 2, 
     sample_size = 5000)
@@ -1340,10 +1365,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(31, 32)) {
+  for (s in c(29, 30)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(31, 32),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(29, 30),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -1371,6 +1396,7 @@ imp_res <- readRDS("imp_res/impr_pencil.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -1396,12 +1422,12 @@ dtm <- diy_stylo(
   mfw = 200,
   drop_words = F)
 
-dim(dtm)
+#dim(dtm)
 
 grep("ink", rownames(dtm))
 
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -1410,7 +1436,7 @@ for (i in 1:50) {
   sample_independent_opt(
     tokenized_df = pencil_ink_corpus %>% 
                          filter(!author %in% c(# "ink_melanges"
-                                               "pencil_pensees_detachees"
+                           "ink_melanges_not-in-pencil",                                               "pencil_pensees_detachees"
                                                )), 
     n_samples = 2, 
     sample_size = 5000)
@@ -1444,7 +1470,7 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_ink_2.rds")
+saveRDS(imp_res, "imp_res/impr_ink.rds")
 ```
 
 ```{r}
@@ -1452,6 +1478,7 @@ imp_res <- readRDS("imp_res/impr_ink_2.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -1474,7 +1501,7 @@ Set: Livre 4 & Livre 12, Livre 4 & 12, Livre 5 & 12, Livre 5 & 13
 
 The test fragments are temporary named as 'diderot' at the moment to simplify coding.
 
-```{r}
+```{r, eval=FALSE}
 
 # select test texts from the corpus
 diderot_corpus <- rbind(diderot, corpus_tokenized)
@@ -1491,7 +1518,7 @@ diderot_corpus %>%
 
 ### stylo
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
 sample_independent_opt(tokenized_df = diderot_corpus %>% 
                          filter(!author %in% c(#"diderot_fv_l4_l12", 
                                                "diderot_fv_l4_l13", 
