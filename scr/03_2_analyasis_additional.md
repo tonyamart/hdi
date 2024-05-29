@@ -197,6 +197,9 @@ diy_stylo <- function(folder = "corpus_sampled/",
 
 ``` r
 china_r_corpus <- rbind(rchina, corpus_tokenized)
+
+china_r_corpus <- china_r_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
 ```
 
 ``` r
@@ -237,44 +240,44 @@ test1$features.actually.used
 
       [1]  de            la            les           et            le            
       [6]  l             à            des           que           il            
-     [11]  d             qu            qui           en            est           
-     [16]  un            dans          ne            une           on            
-     [21]  plus          ce            par           du            pour          
-     [26]  a             n             pas           se            s             
-     [31]  ou            nous          y             au            sur           
-     [36]  je            ils           ces           vous          elle          
-     [41]  lui           son           mais          leur          cette         
-     [46]  être         même         ses           si            avec          
-     [51]  sa            tout          aux           comme         sans          
-     [56]  bien          sont          ont           peut          leurs         
-     [61]  tous          fait          dont          où           faire         
-     [66]  point         homme         deux          font          autres        
-     [71]  toutes        encore        t             autre         me            
-     [76]  hommes        elles         nos           avoir         ni            
-     [81]  moins         celui         été         peu           faut          
-     [86]  cet           ceux          soit          étoit        nature        
-     [91]  raison        grand         toute         aussi         doit          
-     [96]  toujours      corps         ainsi         dit           notre         
-    [101]  quand         liberté      vie           entre         rien          
-    [106]  dire          quelques      quelque       ai            donc          
-    [111]  non           mêmes        mon           après        avoit         
-    [116]  fut           jamais        là           contre        état         
-    [121]  parce         très         trop          commerce      dieu          
-    [126]  eux           tant          trois         celle         peuple        
-    [131]  sera          beaucoup      alors         ordre         esprit        
-    [136]  cependant     car           premier       droit         grande        
-    [141]  monde         cela          fort          nombre        votre         
-    [146]  nation        société     voir          jusqu         souvent       
-    [151]  terre         était        général     chaque        lieu          
-    [156]  mieux         roi           depuis        donner        plusieurs     
-    [161]  avait         effet         gouvernement  prix          ait           
-    [166]  fois          guerre        autant        force         jour          
-    [171]  ma            vérité      intérêt     partie        sous          
-    [176]  aucun         bonheur       enfin         seule         voit          
-    [181]  doute         ici           loi           long          rendre        
-    [186]  loix          yeux          mal           vers          amour         
-    [191]  grands        peuvent       seroit        trouve        bon           
-    [196]  comment       nom           pays          temps         assez         
+     [11]  d             qui           qu            est           en            
+     [16]  un            dans          ne            une           pour          
+     [21]  on            par           plus          n             a             
+     [26]  du            ce            se            pas           s             
+     [31]  au            ou            y             sur           nous          
+     [36]  je            ils           leur          ces           elle          
+     [41]  lui           son           vous          mais          ses           
+     [46]  si            cette         même         être         aux           
+     [51]  avec          tout          sa            comme         peut          
+     [56]  sans          sont          ont           tous          fait          
+     [61]  leurs         bien          faire         dont          point         
+     [66]  où           font          autres        t             ni            
+     [71]  homme         ceux          me            hommes        avoir         
+     [76]  nos           toutes        encore        deux          moins         
+     [81]  autre         faut          elles         été         avoit         
+     [86]  celui         étoit        cet           donc          dit           
+     [91]  nature        peu           grand         quelques      toujours      
+     [96]  celle         jamais        toute         corps         fut           
+    [101]  quelque       aussi         contre        quand         eux           
+    [106]  parce         après        liberté      notre         trop          
+    [111]  doit          peuple        vie           mon           dire          
+    [116]  ordre         non           raison        ai            ainsi         
+    [121]  nombre        rien          très         trois         soit          
+    [126]  terre         car           état         commerce      entre         
+    [131]  beaucoup      intérêt     enfin         esprit        alors         
+    [136]  sera          souvent       force         lieu          avait         
+    [141]  mêmes        premier       société     jusqu         nation        
+    [146]  cependant     droit         était        pays          vos           
+    [151]  plusieurs     avons         bonheur       cela          moyens        
+    [156]  partie        peuvent       religion      rendre        choses        
+    [161]  comment       dieu          donner        grands        seul          
+    [166]  ait           eu            là           roi           sous          
+    [171]  tant          votre         grande        idées        loix          
+    [176]  mes           yeux          effet         fit           fort          
+    [181]  ma            depuis        gens          lorsqu        voir          
+    [186]  autant        celles        étoient      moment        moyen         
+    [191]  page          principes     seroit        voit          argent        
+    [196]  gouvernement  ici           monde         nom           temps         
 
     (total number of elements:  200)
 
@@ -289,7 +292,7 @@ bct <- stylo(
   analyzed.features = "w",
   ngram.size = 1,
   mfw.min = 50,
-  mfw.max = 250,
+  mfw.max = 450,
   mfw.incr = 1,
   distance.measure = "wurzburg",
   analysis.type = "BCT",
@@ -308,7 +311,7 @@ str_dev_words <- c("et")
 
 ``` r
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -325,10 +328,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -356,6 +359,7 @@ imp_res <- readRDS("imp_res/impr_fr_china-russia.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -409,46 +413,40 @@ test1$features.actually.used
     features (e.g. frequent words) actually analyzed 
     ------------------------------------------------
 
-      [1]  de            la            les           et            l             
-      [6]  le            à            que           des           il            
-     [11]  d             qui           qu            en            est           
-     [16]  un            dans          ne            une           pour          
-     [21]  on            plus          du            par           n             
-     [26]  ce            a             se            pas           s             
-     [31]  ou            sur           au            y             je            
-     [36]  nous          leur          ils           mais          elle          
-     [41]  son           cette         vous          ces           si            
-     [46]  lui           ses           même         être         avec          
-     [51]  aux           sa            sans          ont           tout          
-     [56]  bien          peut          point         tous          comme         
-     [61]  sont          fait          dont          faire         leurs         
-     [66]  font          autres        homme         me            moins         
-     [71]  deux          où           toutes        t             autre         
-     [76]  hommes        encore        ni            nos           avoir         
-     [81]  été         toujours      ceux          elles         doit          
-     [86]  cet           faut          celui         donc          peu           
-     [91]  grand         jamais        dit           toute         ai            
-     [96]  étoit        entre         après        avoit         soit          
-    [101]  ainsi         nature        raison        très         notre         
-    [106]  corps         dire          non           rien          aussi         
-    [111]  ordre         quelque       parce         vie           mon           
-    [116]  trop          état         liberté      quand         contre        
-    [121]  quelques      eux           là           celle         tant          
-    [126]  temps         peuple        fois          mes           force         
-    [131]  sera          commerce      fut           terre         beaucoup      
-    [136]  droit         mêmes        dieu          esprit        chaque        
-    [141]  grande        partie        souvent       alors         car           
-    [146]  plusieurs     voir          lieu          était        ma            
-    [151]  cela          peuvent       prix          votre         nation        
-    [156]  loix          chez          général     bonheur       cependant     
-    [161]  intérêt     jusqu         roi           société     nombre        
-    [166]  premier       sous          seroit        donne         assez         
-    [171]  pays          seul          donner        guerre        mal           
-    [176]  vers          enfin         gouvernement  aucun         grands        
-    [181]  jour          peuples       rendre        besoin        doivent       
-    [186]  fort          loi           mieux         objet         avait         
-    [191]  fit           lorsque       monde         page          pouvoir       
-    [196]  autant        moyen         tu            effet         ait           
+      [1]  de         la         les        et         l          le         
+      [7]  à         que        des        il         d          qui        
+     [13]  qu         en         un         est        dans       ne         
+     [19]  une        pour       on         par        ce         n          
+     [25]  plus       du         a          se         pas        s          
+     [31]  au         ou         sur        nous       je         ils        
+     [37]  y          mais       leur       elle       lui        ses        
+     [43]  si         son        cette      avec       ces        même      
+     [49]  être      aux        vous       sans       sa         tout       
+     [55]  comme      peut       dont       tous       fait       ont        
+     [61]  sont       leurs      point      bien       faire      font       
+     [67]  encore     homme      autres     moins      deux       me         
+     [73]  hommes     autre      ni         toutes     où        t          
+     [79]  elles      avoir      ceux       toujours   étoit     cet        
+     [85]  faut       nos        peu        celui      nature     donc       
+     [91]  été      rien       jamais     ai         après     doit       
+     [97]  parce      entre      avoit      dit        quelque    ainsi      
+    [103]  toute      quelques   mon        soit       là        commerce   
+    [109]  corps      grand      aussi      fut        liberté   celle      
+    [115]  dire       quand      contre     notre      raison     vie        
+    [121]  mêmes     ordre      sera       très      nombre     non        
+    [127]  trop       état      eux        mes        tant       force      
+    [133]  grande     alors      mal        beaucoup   peuple     dieu       
+    [139]  prix       enfin      partie     temps      terre      souvent    
+    [145]  ma         lieu       loix       chaque     roi        société  
+    [151]  sous       car        cependant  droit      effet      esprit     
+    [157]  jour       trois      fois       nation     peuvent    seul       
+    [163]  cela       premier    moi        mort       pays       général  
+    [169]  monde      moyens     votre      chez       avait      intérêt  
+    [175]  voir       aucun      avons      était     plusieurs  rendre     
+    [181]  ait        assez      autant     choses     doute      seroit     
+    [187]  âme       bonheur    doivent    ici        jusqu      lorsqu     
+    [193]  principes  ci         objet      vos        fort       grands     
+    [199]  loi        or         
 
     (total number of elements:  200)
 
@@ -517,14 +515,15 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_fr_la-vie-sauvage_2.rds")
+saveRDS(imp_res, "imp_res/impr_fr_la-vie-sauvage.rds")
 ```
 
 ``` r
-imp_res <- readRDS("imp_res/impr_fr_la-vie-sauvage_2.rds")
+imp_res <- readRDS("imp_res/impr_fr_la-vie-sauvage.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -577,46 +576,40 @@ test1$features.actually.used
     features (e.g. frequent words) actually analyzed 
     ------------------------------------------------
 
-      [1]  de            la            les           et            l             
-      [6]  le            à            que           des           il            
-     [11]  d             qui           qu            en            est           
-     [16]  un            dans          ne            une           on            
-     [21]  plus          pour          du            ce            par           
-     [26]  n             a             se            pas           s             
-     [31]  ou            nous          sur           au            je            
-     [36]  mais          ils           y             leur          elle          
-     [41]  vous          ces           ses           son           si            
-     [46]  cette         lui           même         avec          être         
-     [51]  aux           sa            sans          comme         tout          
-     [56]  sont          peut          leurs         ont           point         
-     [61]  tous          fait          bien          faire         dont          
-     [66]  où           homme         autres        font          moins         
-     [71]  deux          hommes        avoir         t             elles         
-     [76]  me            ni            encore        toutes        autre         
-     [81]  ceux          nos           celui         été         toujours      
-     [86]  étoit        doit          peu           toute         donc          
-     [91]  cet           faut          après        grand         avoit         
-     [96]  nature        ainsi         dit           entre         aussi         
-    [101]  jamais        quelques      quand         fut           très         
-    [106]  ai            dire          là           soit          non           
-    [111]  contre        corps         mon           rien          commerce      
-    [116]  celle         notre         cela          quelque       trop          
-    [121]  mêmes        parce         raison        enfin         vie           
-    [126]  ordre         liberté      partie        esprit        sous          
-    [131]  dieu          temps         eux           sera          peuple        
-    [136]  état         votre         général     nombre        alors         
-    [141]  droit         fois          premier       tant          chaque        
-    [146]  trois         beaucoup      car           avait         jusqu         
-    [151]  grande        tu            vos           mes           souvent       
-    [156]  terre         seroit        voir          donner        pays          
-    [161]  intérêt     loix          société     force         ma            
-    [166]  nation        prix          était        guerre        mal           
-    [171]  cependant     pouvoir       ici           lieu          monde         
-    [176]  chose         seul          assez         effet         quel          
-    [181]  te            celles        moi           autant        vérité      
-    [186]  bonheur       roi           page          plusieurs     principes     
-    [191]  âme          fort          peuvent       gouvernement  jour          
-    [196]  avant         lorsque       chez          ci            idées        
+      [1]  de         la         les        et         l          le         
+      [7]  à         que        des        il         d          qui        
+     [13]  qu         en         est        un         dans       ne         
+     [19]  une        pour       on         plus       du         ce         
+     [25]  a          par        n          pas        se         s          
+     [31]  ou         nous       au         sur        je         ils        
+     [37]  y          mais       vous       elle       leur       ces        
+     [43]  si         ses        son        cette      même      lui        
+     [49]  sa         avec       être      aux        tout       comme      
+     [55]  sans       sont       ont        leurs      peut       bien       
+     [61]  tous       point      fait       dont       faire      autres     
+     [67]  où        encore     me         font       avoir      ni         
+     [73]  moins      deux       ceux       autre      t          toutes     
+     [79]  nos        elles      homme      hommes     cet        faut       
+     [85]  celui      étoit     nature     dit        avoit      toute      
+     [91]  été      donc       peu        doit       toujours   ainsi      
+     [97]  grand      après     aussi      fut        très      ai         
+    [103]  dire       entre      notre      jamais     raison     quand      
+    [109]  liberté   soit       non        trop       celle      corps      
+    [115]  quelque    mon        parce      rien       vie        contre     
+    [121]  eux        quelques   votre      dieu       ordre      était     
+    [127]  là        souvent    mêmes     commerce   car        tant       
+    [133]  partie     sous       temps      cela       sera       terre      
+    [139]  trois      alors      grande     force      nombre     beaucoup   
+    [145]  jusqu      état      mes        esprit     vos        droit      
+    [151]  enfin      roi        chaque     tu         autant     peuple     
+    [157]  ait        général  peuvent    plusieurs  premier    effet      
+    [163]  fort       mieux      guerre     lieu       jour       avait      
+    [169]  cependant  fois       prix       amour      ma         nom        
+    [175]  seul       voir       ci         donner     moi        pays       
+    [181]  avons      vérité   vertu      monde      seroit     société  
+    [187]  bonheur    loi        mal        intérêt  lorsque    étoient   
+    [193]  aucun      lorsqu     rendre     assez      grands     pouvoir    
+    [199]  chez       chose      
 
     (total number of elements:  200)
 
@@ -662,10 +655,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(17, 18)) {
+  for (s in c(15, 16)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(17, 18),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -702,5 +695,3 @@ imp_res %>%
 ```
 
 ![](03_2_analyasis_additional.markdown_strict_files/figure-markdown_strict/unnamed-chunk-30-1.png)
-
-nb don’t forget to count CI for selected imposters plots

@@ -4,7 +4,7 @@ This repository contains some attribution tests done in order to check the autho
   
 [Corpus](##Corpus)  
 [Methodology](##Methodology)  
-[Ground truth: FP](##Ground truth: FP)  
+[FP-1772](##FP-1772)  
 [Results](##Restults)  
 
 ## Corpus
@@ -59,7 +59,7 @@ Main part of the analysis: General impostors
 - 100 iterations of GI, for each a new set of random independent samples were taken from the corpus;  
 - The distribution of the 100 GI distributions (from 0 to 1) presented as box plots.  
 
-## Ground truth: FP
+## FP-1772
 For the beginning the method's work on a ground truth can be demonstrated. Here we use the text of *Fragments politiques* as it was published in Grimm’s *Correspondance littéraire* in 1772. This text ought to be detected as Diderot's one as it is known from other sources. As this text with edits was included in the HDI as well, it is important if the actual method will show the similarity with Diderot's writings.  
 Below are the results from the GI analysis, the full analysis can be found at `03_0_FP`.  
   
@@ -71,31 +71,31 @@ Below are the results from the GI analysis, the full analysis can be found at `0
 #### Segments appeared in ed. 1770
 Based on the current corpus, in all tests (both BTC and GI) these segments demonstrate closeness to d'Holbach writings. This is the most robust result in all tests done so far.
 
-[plot-1770-nch]
+![plot-1770-nch](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-25-1.png?raw=true)
 
 The results for the fragments appeared in the 1770 and changed twice show us similar picture: it is highly likely that d'Holbach might be the author. Though the algorithm is slightly less sure about the fragments which appeared in 1774 but have been changed in the second edition.  
 
-[plot-1770-ch-ch]
-[plot-1770-ch-nch]
+![plot-1770-ch-ch](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-31-1.png?raw=true)
+![plot-1770-ch-nch](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-34-1.png?raw=true)
 
 #### Segments appeared in ed. 1774
 The situation with the fragments appeared in 1774 which have not been edited later is more intriguing as in this case the algorithm is not sure about the authorship of any author. The plot below shows us that no author in the set is close enough in their word usage to the fragment in question. As some authors as Pechmeja, Diderot, Baudeau and Riviere all sometimes have results higher than 40-50%, there is not enough evidence to say if any of them is a likely candidate. One of the explanation here could be that the fragments combined as "edition 1774 - not changed" are in fact belong to multiple authors from the set or outside it.
 
-[plot-1774-nch]
+![plot-1774-nch](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-38-1.png?raw=true)
 
 #### Segments appeared in ed. 1780
 In the case of the latest added fragments, the situation is mixed: on the one hand, there is some signs of similarity with d'Holbach's writings. However, the authorship signal is much less clear in comparison with ed. 1770.
 
-[plot-1780]
+![plot-1780](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-42-1.png?raw=true)
 
 ### PD vs M
 In the case of red pencil marks our results are quite similar to that of the edition of 1770. There is quite strong signal of d'Holbach authorship, although in this case the algorithm is less sure than in case of fragments from the earlier editions. 
 
-[plot-PD]
+![plot-PD](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-48-1.png?raw=true)
 
 The observations on the word usage in Mélanges are more questionable, as this selection leads us to the mixed-authorship signal: sporadically some text fragments are resembling some of the authors from our corpus. Nevertheless, we do not have an authorship signal strong enough to select one candidate in this case as well.
 
-[plot-M]
+![plot-M](https://github.com/tonyamart/hdi/blob/main/scr/03_1_analysis.markdown_strict_files/figure-markdown_strict/unnamed-chunk-50-1.png?raw=true)
 [plot-M-without-PD]
 
 ### Separate fragments
