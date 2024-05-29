@@ -1,359 +1,365 @@
 Source,Target,Weight,Type
 Baudeau_1,Baudeau_2,1206,undirected
-Baudeau_1,Condorcet_1,37,undirected
-Baudeau_1,dHolbach_2,37,undirected
-Baudeau_1,ed1774_nch1780_1,36,undirected
-Baudeau_1,ed1774_nch1780_2,759,undirected
-Baudeau_1,Guibert_1,1,undirected
-Baudeau_1,Jussieu_1,2,undirected
-Baudeau_1,La Grange_1,182,undirected
-Baudeau_1,Morellet_1,244,undirected
+Baudeau_1,dHolbach_1,11,undirected
+Baudeau_1,Jussieu_1,543,undirected
+Baudeau_1,Jussieu_2,786,undirected
+Baudeau_1,La Grange_1,13,undirected
+Baudeau_1,La Grange_2,83,undirected
+Baudeau_1,Rivière_1,141,undirected
+Baudeau_1,Saint-Lambert_2,22,undirected
 Baudeau_2,Baudeau_1,1206,undirected
-Baudeau_2,dHolbach_1,34,undirected
-Baudeau_2,dHolbach_2,270,undirected
-Baudeau_2,ed1774_nch1780_2,30,undirected
-Baudeau_2,Guibert_1,241,undirected
-Baudeau_2,Jussieu_1,88,undirected
-Baudeau_2,La Grange_1,3,undirected
-Baudeau_2,Morellet_2,102,undirected
-Baudeau_2,Naigeon_1,5,undirected
-Baudeau_2,Rivière_1,101,undirected
-Baudeau_2,Rivière_2,94,undirected
-Baudeau_2,Saint-Lambert_2,22,undirected
+Baudeau_2,Condorcet_1,134,undirected
+Baudeau_2,Jussieu_1,42,undirected
+Baudeau_2,Jussieu_2,608,undirected
+Baudeau_2,La Grange_2,1,undirected
+Baudeau_2,Morellet_1,115,undirected
+Baudeau_2,Rivière_1,69,undirected
+Baudeau_2,Saint-Lambert_1,2,undirected
 Chastellux_1,Chastellux_2,1206,undirected
-Chastellux_1,Deleyre_2,295,undirected
-Chastellux_1,Diderot II_1,4,undirected
-Chastellux_1,Diderot II_2,1,undirected
-Chastellux_1,Guibert_1,193,undirected
-Chastellux_1,Guibert_2,85,undirected
-Chastellux_1,Morellet_1,188,undirected
-Chastellux_1,Raynal_1,153,undirected
-Chastellux_1,Raynal_2,531,undirected
+Chastellux_1,Deleyre_1,15,undirected
+Chastellux_1,Guibert_1,320,undirected
+Chastellux_1,Guibert_2,6,undirected
+Chastellux_1,Jaucourt_1,301,undirected
+Chastellux_1,Jaucourt_2,59,undirected
+Chastellux_1,Jussieu_1,73,undirected
+Chastellux_1,Morellet_1,40,undirected
+Chastellux_1,Morellet_2,7,undirected
+Chastellux_1,Raynal_1,131,undirected
 Chastellux_2,Chastellux_1,1206,undirected
-Chastellux_2,Diderot II_2,85,undirected
-Chastellux_2,Guibert_1,36,undirected
-Chastellux_2,Guibert_2,150,undirected
-Chastellux_2,Jaucourt_2,6,undirected
-Chastellux_2,Jussieu_1,58,undirected
-Chastellux_2,Jussieu_2,264,undirected
-Chastellux_2,La Grange_1,25,undirected
-Chastellux_2,Morellet_2,4,undirected
-Chastellux_2,Raynal_1,23,undirected
-Chastellux_2,Raynal_2,207,undirected
-Condorcet_1,Baudeau_1,37,undirected
-Condorcet_1,Condorcet_2,1194,undirected
-Condorcet_1,Diderot_2,99,undirected
-Condorcet_1,ed1774_nch1780_1,658,undirected
-Condorcet_1,Jussieu_2,11,undirected
-Condorcet_1,Morellet_1,128,undirected
-Condorcet_1,Morellet_2,233,undirected
-Condorcet_1,Rivière_2,6,undirected
-Condorcet_1,Saint-Lambert_1,56,undirected
-Condorcet_1,Saint-Lambert_2,1,undirected
-Condorcet_2,Condorcet_1,1194,undirected
-Condorcet_2,dHolbach_1,153,undirected
-Condorcet_2,dHolbach_2,49,undirected
-Condorcet_2,Jussieu_1,49,undirected
-Condorcet_2,Jussieu_2,591,undirected
-Condorcet_2,Morellet_1,39,undirected
-Condorcet_2,Rivière_1,74,undirected
-Condorcet_2,Rivière_2,513,undirected
-Deleyre_1,Deleyre_2,1130,undirected
-Deleyre_1,Diderot_1,5,undirected
-Deleyre_1,ed1774_nch1780_2,1,undirected
-Deleyre_1,Guibert_2,30,undirected
-Deleyre_1,Jussieu_2,8,undirected
-Deleyre_1,Pechméja_2,86,undirected
-Deleyre_1,Raynal_1,205,undirected
-Deleyre_1,Raynal_2,425,undirected
-Deleyre_1,Saint-Lambert_1,8,undirected
-Deleyre_2,Chastellux_1,295,undirected
-Deleyre_2,Deleyre_1,1130,undirected
-Deleyre_2,Guibert_2,13,undirected
-Deleyre_2,Jussieu_2,2,undirected
-Deleyre_2,La Grange_1,211,undirected
-Deleyre_2,La Grange_2,119,undirected
-Deleyre_2,Pechméja_1,53,undirected
-Deleyre_2,Raynal_1,205,undirected
-Deleyre_2,Raynal_2,775,undirected
-dHolbach_1,Baudeau_2,34,undirected
-dHolbach_1,Condorcet_2,153,undirected
+Chastellux_2,Condorcet_1,68,undirected
+Chastellux_2,Guibert_1,59,undirected
+Chastellux_2,Guibert_2,73,undirected
+Chastellux_2,Jaucourt_1,134,undirected
+Chastellux_2,Jaucourt_2,116,undirected
+Chastellux_2,Raynal_1,631,undirected
+Chastellux_2,Raynal_2,125,undirected
+Condorcet_1,Baudeau_2,134,undirected
+Condorcet_1,Chastellux_2,68,undirected
+Condorcet_1,Condorcet_2,1200,undirected
+Condorcet_1,FP_1,104,undirected
+Condorcet_1,FP_2,85,undirected
+Condorcet_1,Guibert_2,17,undirected
+Condorcet_1,Jaucourt_2,120,undirected
+Condorcet_1,Jussieu_1,53,undirected
+Condorcet_1,Jussieu_2,262,undirected
+Condorcet_1,Morellet_1,62,undirected
+Condorcet_2,Condorcet_1,1200,undirected
+Condorcet_2,dHolbach_1,217,undirected
+Condorcet_2,dHolbach_2,28,undirected
+Condorcet_2,Jussieu_1,140,undirected
+Condorcet_2,Jussieu_2,5,undirected
+Condorcet_2,Morellet_1,184,undirected
+Condorcet_2,Rivière_2,400,undirected
+Condorcet_2,Saint-Lambert_1,479,undirected
+Condorcet_2,Saint-Lambert_2,12,undirected
+Deleyre_1,Chastellux_1,15,undirected
+Deleyre_1,Deleyre_2,1206,undirected
+Deleyre_1,dHolbach_2,16,undirected
+Deleyre_1,FP_2,6,undirected
+Deleyre_1,Guibert_2,2,undirected
+Deleyre_1,La Grange_1,334,undirected
+Deleyre_1,La Grange_2,377,undirected
+Deleyre_1,Pechméja_1,135,undirected
+Deleyre_1,Pechméja_2,224,undirected
+Deleyre_1,Raynal_1,309,undirected
+Deleyre_1,Raynal_2,122,undirected
+Deleyre_1,Saint-Lambert_1,147,undirected
+Deleyre_2,Deleyre_1,1206,undirected
+Deleyre_2,dHolbach_1,34,undirected
+Deleyre_2,dHolbach_2,3,undirected
+Deleyre_2,FP_1,9,undirected
+Deleyre_2,FP_2,35,undirected
+Deleyre_2,Guibert_2,2,undirected
+Deleyre_2,La Grange_1,314,undirected
+Deleyre_2,La Grange_2,632,undirected
+Deleyre_2,Pechméja_1,85,undirected
+Deleyre_2,Raynal_2,7,undirected
+Deleyre_2,Saint-Lambert_1,16,undirected
+dHolbach_1,Baudeau_1,11,undirected
+dHolbach_1,Condorcet_2,217,undirected
+dHolbach_1,Deleyre_2,34,undirected
 dHolbach_1,dHolbach_2,1206,undirected
-dHolbach_1,ed1774_nch1780_1,7,undirected
-dHolbach_1,Meister_1,95,undirected
-dHolbach_1,Pechméja_2,30,undirected
-dHolbach_1,Rivière_1,266,undirected
-dHolbach_1,Rivière_2,19,undirected
-dHolbach_1,Saint-Lambert_1,37,undirected
-dHolbach_1,Saint-Lambert_2,44,undirected
-dHolbach_2,Baudeau_1,37,undirected
-dHolbach_2,Baudeau_2,270,undirected
-dHolbach_2,Condorcet_2,49,undirected
+dHolbach_1,FP_1,18,undirected
+dHolbach_1,FP_2,3,undirected
+dHolbach_1,Jussieu_2,67,undirected
+dHolbach_1,Meister_1,3,undirected
+dHolbach_1,Meister_2,339,undirected
+dHolbach_1,Rivière_1,16,undirected
+dHolbach_1,Rivière_2,177,undirected
+dHolbach_1,Saint-Lambert_2,168,undirected
+dHolbach_2,Condorcet_2,28,undirected
+dHolbach_2,Deleyre_1,16,undirected
+dHolbach_2,Deleyre_2,3,undirected
 dHolbach_2,dHolbach_1,1206,undirected
-dHolbach_2,ed1774_nch1780_1,4,undirected
-dHolbach_2,ed1774_nch1780_2,1,undirected
-dHolbach_2,Guibert_1,7,undirected
-dHolbach_2,Jussieu_1,8,undirected
-dHolbach_2,Pechméja_2,1,undirected
-dHolbach_2,Rivière_1,537,undirected
-dHolbach_2,Rivière_2,72,undirected
-dHolbach_2,Saint-Lambert_2,367,undirected
-Diderot II_1,Chastellux_1,4,undirected
-Diderot II_1,Diderot II_2,1206,undirected
-Diderot II_1,Diderot_1,461,undirected
-Diderot II_1,Diderot_2,965,undirected
-Diderot II_1,ed1774_nch1780_2,20,undirected
-Diderot II_1,Jaucourt_1,125,undirected
-Diderot II_1,Meister_1,1,undirected
-Diderot II_1,Meister_2,32,undirected
-Diderot II_1,Naigeon_2,17,undirected
-Diderot II_2,Chastellux_1,1,undirected
-Diderot II_2,Chastellux_2,85,undirected
-Diderot II_2,Diderot II_1,1206,undirected
-Diderot II_2,Diderot_1,924,undirected
-Diderot II_2,Diderot_2,407,undirected
-Diderot II_2,Jaucourt_1,96,undirected
-Diderot II_2,Jaucourt_2,33,undirected
-Diderot II_2,Meister_1,1,undirected
-Diderot II_2,Naigeon_2,8,undirected
-Diderot II_2,Raynal_2,7,undirected
-Diderot_1,Deleyre_1,5,undirected
-Diderot_1,Diderot II_1,461,undirected
-Diderot_1,Diderot II_2,924,undirected
-Diderot_1,Diderot_2,839,undirected
-Diderot_1,Meister_2,1,undirected
-Diderot_1,Naigeon_2,14,undirected
-Diderot_2,Condorcet_1,99,undirected
-Diderot_2,Diderot II_1,965,undirected
-Diderot_2,Diderot II_2,407,undirected
-Diderot_2,Diderot_1,839,undirected
-Diderot_2,ed1774_nch1780_1,79,undirected
-Diderot_2,ed1774_nch1780_2,4,undirected
-Diderot_2,Guibert_2,42,undirected
-Diderot_2,Meister_2,17,undirected
-Diderot_2,Morellet_1,4,undirected
-Diderot_2,Naigeon_1,132,undirected
-Diderot_2,Naigeon_2,27,undirected
-ed1774_nch1780_1,Baudeau_1,36,undirected
-ed1774_nch1780_1,Condorcet_1,658,undirected
-ed1774_nch1780_1,dHolbach_1,7,undirected
-ed1774_nch1780_1,dHolbach_2,4,undirected
-ed1774_nch1780_1,Diderot_2,79,undirected
-ed1774_nch1780_1,ed1774_nch1780_2,1206,undirected
-ed1774_nch1780_1,Pechméja_1,429,undirected
-ed1774_nch1780_1,Saint-Lambert_2,32,undirected
-ed1774_nch1780_2,Baudeau_1,759,undirected
-ed1774_nch1780_2,Baudeau_2,30,undirected
-ed1774_nch1780_2,Deleyre_1,1,undirected
-ed1774_nch1780_2,dHolbach_2,1,undirected
-ed1774_nch1780_2,Diderot II_1,20,undirected
-ed1774_nch1780_2,Diderot_2,4,undirected
-ed1774_nch1780_2,ed1774_nch1780_1,1206,undirected
-ed1774_nch1780_2,Guibert_2,2,undirected
-ed1774_nch1780_2,Jussieu_2,11,undirected
-ed1774_nch1780_2,Meister_1,74,undirected
-ed1774_nch1780_2,Rivière_2,84,undirected
-ed1774_nch1780_2,Saint-Lambert_2,1,undirected
-Guibert_1,Baudeau_1,1,undirected
-Guibert_1,Baudeau_2,241,undirected
-Guibert_1,Chastellux_1,193,undirected
-Guibert_1,Chastellux_2,36,undirected
-Guibert_1,dHolbach_2,7,undirected
-Guibert_1,Guibert_2,1206,undirected
-Guibert_1,Jaucourt_1,4,undirected
-Guibert_1,Jaucourt_2,1,undirected
-Guibert_1,Jussieu_2,185,undirected
-Guibert_1,La Grange_2,83,undirected
-Guibert_2,Chastellux_1,85,undirected
-Guibert_2,Chastellux_2,150,undirected
-Guibert_2,Deleyre_1,30,undirected
-Guibert_2,Deleyre_2,13,undirected
-Guibert_2,Diderot_2,42,undirected
-Guibert_2,ed1774_nch1780_2,2,undirected
-Guibert_2,Guibert_1,1206,undirected
-Guibert_2,Jussieu_1,410,undirected
-Guibert_2,Jussieu_2,175,undirected
-Guibert_2,Saint-Lambert_1,34,undirected
-Jaucourt_1,Diderot II_1,125,undirected
-Jaucourt_1,Diderot II_2,96,undirected
-Jaucourt_1,Guibert_1,4,undirected
-Jaucourt_1,Jaucourt_2,1206,undirected
-Jaucourt_1,Jussieu_1,30,undirected
-Jaucourt_1,Jussieu_2,28,undirected
-Jaucourt_1,Naigeon_2,366,undirected
-Jaucourt_1,Raynal_1,8,undirected
-Jaucourt_2,Chastellux_2,6,undirected
-Jaucourt_2,Diderot II_2,33,undirected
-Jaucourt_2,Guibert_1,1,undirected
-Jaucourt_2,Jaucourt_1,1206,undirected
-Jaucourt_2,Jussieu_1,281,undirected
-Jaucourt_2,Jussieu_2,425,undirected
-Jaucourt_2,Raynal_1,151,undirected
-Jaucourt_2,Raynal_2,186,undirected
-Jussieu_1,Baudeau_1,2,undirected
-Jussieu_1,Baudeau_2,88,undirected
-Jussieu_1,Chastellux_2,58,undirected
-Jussieu_1,Condorcet_2,49,undirected
-Jussieu_1,dHolbach_2,8,undirected
-Jussieu_1,Guibert_2,410,undirected
-Jussieu_1,Jaucourt_1,30,undirected
-Jussieu_1,Jaucourt_2,281,undirected
+dHolbach_2,Meister_1,37,undirected
+dHolbach_2,Naigeon_2,155,undirected
+dHolbach_2,Pechméja_1,115,undirected
+dHolbach_2,Rivière_1,21,undirected
+dHolbach_2,Rivière_2,272,undirected
+dHolbach_2,Saint-Lambert_1,2,undirected
+dHolbach_2,Saint-Lambert_2,54,undirected
+Diderot II_1,Diderot II_2,1125,undirected
+Diderot II_1,Diderot_1,315,undirected
+Diderot II_1,Diderot_2,725,undirected
+Diderot II_1,FP_2,316,undirected
+Diderot II_1,Guibert_1,67,undirected
+Diderot II_1,Guibert_2,12,undirected
+Diderot II_1,Jaucourt_1,4,undirected
+Diderot II_1,Pechméja_2,76,undirected
+Diderot II_2,Diderot II_1,1125,undirected
+Diderot II_2,Diderot_1,710,undirected
+Diderot II_2,Diderot_2,968,undirected
+Diderot II_2,FP_1,58,undirected
+Diderot II_2,Jaucourt_2,11,undirected
+Diderot II_2,Naigeon_1,9,undirected
+Diderot II_2,Raynal_2,5,undirected
+Diderot_1,Diderot II_1,315,undirected
+Diderot_1,Diderot II_2,710,undirected
+Diderot_1,Diderot_2,855,undirected
+Diderot_1,FP_1,216,undirected
+Diderot_1,FP_2,86,undirected
+Diderot_1,Jaucourt_1,1,undirected
+Diderot_1,Meister_2,45,undirected
+Diderot_1,Naigeon_1,98,undirected
+Diderot_1,Naigeon_2,85,undirected
+Diderot_1,Saint-Lambert_2,17,undirected
+Diderot_2,Diderot II_1,725,undirected
+Diderot_2,Diderot II_2,968,undirected
+Diderot_2,Diderot_1,855,undirected
+Diderot_2,FP_1,134,undirected
+Diderot_2,FP_2,74,undirected
+Diderot_2,Guibert_2,9,undirected
+Diderot_2,Meister_2,32,undirected
+Diderot_2,Naigeon_2,85,undirected
+Diderot_2,Saint-Lambert_1,11,undirected
+Diderot_2,Saint-Lambert_2,179,undirected
+FP_1,Condorcet_1,104,undirected
+FP_1,Deleyre_2,9,undirected
+FP_1,dHolbach_1,18,undirected
+FP_1,Diderot II_2,58,undirected
+FP_1,Diderot_1,216,undirected
+FP_1,Diderot_2,134,undirected
+FP_1,FP_2,1206,undirected
+FP_1,Jaucourt_2,16,undirected
+FP_1,Meister_1,492,undirected
+FP_1,Saint-Lambert_2,23,undirected
+FP_2,Condorcet_1,85,undirected
+FP_2,Deleyre_1,6,undirected
+FP_2,Deleyre_2,35,undirected
+FP_2,dHolbach_1,3,undirected
+FP_2,Diderot II_1,316,undirected
+FP_2,Diderot_1,86,undirected
+FP_2,Diderot_2,74,undirected
+FP_2,FP_1,1206,undirected
+FP_2,Meister_1,41,undirected
+FP_2,Meister_2,14,undirected
+FP_2,Pechméja_2,168,undirected
+Guibert_1,Chastellux_1,320,undirected
+Guibert_1,Chastellux_2,59,undirected
+Guibert_1,Diderot II_1,67,undirected
+Guibert_1,Guibert_2,1205,undirected
+Guibert_1,Jussieu_1,543,undirected
+Guibert_1,Jussieu_2,1,undirected
+Guibert_1,Rivière_1,105,undirected
+Guibert_2,Chastellux_1,6,undirected
+Guibert_2,Chastellux_2,73,undirected
+Guibert_2,Condorcet_1,17,undirected
+Guibert_2,Deleyre_1,2,undirected
+Guibert_2,Deleyre_2,2,undirected
+Guibert_2,Diderot II_1,12,undirected
+Guibert_2,Diderot_2,9,undirected
+Guibert_2,Guibert_1,1205,undirected
+Guibert_2,Jaucourt_1,104,undirected
+Guibert_2,Jussieu_1,29,undirected
+Guibert_2,Pechméja_1,8,undirected
+Guibert_2,Raynal_1,3,undirected
+Guibert_2,Raynal_2,420,undirected
+Jaucourt_1,Chastellux_1,301,undirected
+Jaucourt_1,Chastellux_2,134,undirected
+Jaucourt_1,Diderot II_1,4,undirected
+Jaucourt_1,Diderot_1,1,undirected
+Jaucourt_1,Guibert_2,104,undirected
+Jaucourt_1,Jaucourt_2,1181,undirected
+Jaucourt_1,Morellet_1,35,undirected
+Jaucourt_1,Raynal_1,182,undirected
+Jaucourt_1,Raynal_2,829,undirected
+Jaucourt_2,Chastellux_1,59,undirected
+Jaucourt_2,Chastellux_2,116,undirected
+Jaucourt_2,Condorcet_1,120,undirected
+Jaucourt_2,Diderot II_2,11,undirected
+Jaucourt_2,FP_1,16,undirected
+Jaucourt_2,Jaucourt_1,1181,undirected
+Jaucourt_2,Jussieu_1,49,undirected
+Jaucourt_2,Naigeon_1,27,undirected
+Jaucourt_2,Raynal_1,10,undirected
+Jaucourt_2,Raynal_2,371,undirected
+Jussieu_1,Baudeau_1,543,undirected
+Jussieu_1,Baudeau_2,42,undirected
+Jussieu_1,Chastellux_1,73,undirected
+Jussieu_1,Condorcet_1,53,undirected
+Jussieu_1,Condorcet_2,140,undirected
+Jussieu_1,Guibert_1,543,undirected
+Jussieu_1,Guibert_2,29,undirected
+Jussieu_1,Jaucourt_2,49,undirected
 Jussieu_1,Jussieu_2,1206,undirected
-Jussieu_1,La Grange_1,7,undirected
-Jussieu_1,La Grange_2,394,undirected
-Jussieu_2,Chastellux_2,264,undirected
-Jussieu_2,Condorcet_1,11,undirected
-Jussieu_2,Condorcet_2,591,undirected
-Jussieu_2,Deleyre_1,8,undirected
-Jussieu_2,Deleyre_2,2,undirected
-Jussieu_2,ed1774_nch1780_2,11,undirected
-Jussieu_2,Guibert_1,185,undirected
-Jussieu_2,Guibert_2,175,undirected
-Jussieu_2,Jaucourt_1,28,undirected
-Jussieu_2,Jaucourt_2,425,undirected
+Jussieu_1,La Grange_1,170,undirected
+Jussieu_2,Baudeau_1,786,undirected
+Jussieu_2,Baudeau_2,608,undirected
+Jussieu_2,Condorcet_1,262,undirected
+Jussieu_2,Condorcet_2,5,undirected
+Jussieu_2,dHolbach_1,67,undirected
+Jussieu_2,Guibert_1,1,undirected
 Jussieu_2,Jussieu_1,1206,undirected
-Jussieu_2,La Grange_1,77,undirected
-Jussieu_2,La Grange_2,23,undirected
-La Grange_1,Baudeau_1,182,undirected
-La Grange_1,Baudeau_2,3,undirected
-La Grange_1,Chastellux_2,25,undirected
-La Grange_1,Deleyre_2,211,undirected
-La Grange_1,Jussieu_1,7,undirected
-La Grange_1,Jussieu_2,77,undirected
+Jussieu_2,La Grange_2,2,undirected
+Jussieu_2,Pechméja_1,3,undirected
+Jussieu_2,Pechméja_2,6,undirected
+La Grange_1,Baudeau_1,13,undirected
+La Grange_1,Deleyre_1,334,undirected
+La Grange_1,Deleyre_2,314,undirected
+La Grange_1,Jussieu_1,170,undirected
 La Grange_1,La Grange_2,1206,undirected
-La Grange_1,Pechméja_1,21,undirected
-La Grange_1,Pechméja_2,134,undirected
-La Grange_2,Deleyre_2,119,undirected
-La Grange_2,Guibert_1,83,undirected
-La Grange_2,Jussieu_1,394,undirected
-La Grange_2,Jussieu_2,23,undirected
+La Grange_1,Pechméja_1,20,undirected
+La Grange_1,Pechméja_2,54,undirected
+La Grange_1,Rivière_1,1,undirected
+La Grange_2,Baudeau_1,83,undirected
+La Grange_2,Baudeau_2,1,undirected
+La Grange_2,Deleyre_1,377,undirected
+La Grange_2,Deleyre_2,632,undirected
+La Grange_2,Jussieu_2,2,undirected
 La Grange_2,La Grange_1,1206,undirected
-La Grange_2,Morellet_1,23,undirected
-La Grange_2,Pechméja_1,128,undirected
-Meister_1,dHolbach_1,95,undirected
-Meister_1,Diderot II_1,1,undirected
-Meister_1,Diderot II_2,1,undirected
-Meister_1,ed1774_nch1780_2,74,undirected
+La Grange_2,Pechméja_2,85,undirected
+Meister_1,dHolbach_1,3,undirected
+Meister_1,dHolbach_2,37,undirected
+Meister_1,FP_1,492,undirected
+Meister_1,FP_2,41,undirected
 Meister_1,Meister_2,1206,undirected
-Meister_1,Naigeon_1,516,undirected
-Meister_1,Naigeon_2,561,undirected
-Meister_1,Saint-Lambert_1,1,undirected
-Meister_2,Diderot II_1,32,undirected
-Meister_2,Diderot_1,1,undirected
-Meister_2,Diderot_2,17,undirected
+Meister_1,Naigeon_1,8,undirected
+Meister_1,Naigeon_2,428,undirected
+Meister_1,Rivière_2,4,undirected
+Meister_2,dHolbach_1,339,undirected
+Meister_2,Diderot_1,45,undirected
+Meister_2,Diderot_2,32,undirected
+Meister_2,FP_2,14,undirected
 Meister_2,Meister_1,1206,undirected
-Meister_2,Naigeon_1,272,undirected
-Meister_2,Naigeon_2,588,undirected
-Meister_2,Saint-Lambert_2,188,undirected
-Morellet_1,Baudeau_1,244,undirected
-Morellet_1,Chastellux_1,188,undirected
-Morellet_1,Condorcet_1,128,undirected
-Morellet_1,Condorcet_2,39,undirected
-Morellet_1,Diderot_2,4,undirected
-Morellet_1,La Grange_2,23,undirected
-Morellet_1,Morellet_2,1178,undirected
-Morellet_1,Naigeon_1,6,undirected
-Morellet_1,Rivière_1,158,undirected
-Morellet_1,Rivière_2,412,undirected
-Morellet_2,Baudeau_2,102,undirected
-Morellet_2,Chastellux_2,4,undirected
-Morellet_2,Condorcet_1,233,undirected
-Morellet_2,Morellet_1,1178,undirected
-Morellet_2,Naigeon_1,5,undirected
-Morellet_2,Naigeon_2,158,undirected
-Morellet_2,Rivière_1,405,undirected
-Morellet_2,Rivière_2,66,undirected
-Naigeon_1,Baudeau_2,5,undirected
-Naigeon_1,Diderot_2,132,undirected
-Naigeon_1,Meister_1,516,undirected
-Naigeon_1,Meister_2,272,undirected
-Naigeon_1,Morellet_1,6,undirected
-Naigeon_1,Morellet_2,5,undirected
-Naigeon_1,Naigeon_2,1206,undirected
-Naigeon_1,Rivière_1,178,undirected
-Naigeon_1,Rivière_2,42,undirected
-Naigeon_2,Diderot II_1,17,undirected
-Naigeon_2,Diderot II_2,8,undirected
-Naigeon_2,Diderot_1,14,undirected
-Naigeon_2,Diderot_2,27,undirected
-Naigeon_2,Jaucourt_1,366,undirected
-Naigeon_2,Meister_1,561,undirected
-Naigeon_2,Meister_2,588,undirected
-Naigeon_2,Morellet_2,158,undirected
-Naigeon_2,Naigeon_1,1206,undirected
-Pechméja_1,Deleyre_2,53,undirected
-Pechméja_1,ed1774_nch1780_1,429,undirected
-Pechméja_1,La Grange_1,21,undirected
-Pechméja_1,La Grange_2,128,undirected
+Meister_2,Naigeon_1,125,undirected
+Meister_2,Naigeon_2,271,undirected
+Meister_2,Rivière_1,31,undirected
+Morellet_1,Baudeau_2,115,undirected
+Morellet_1,Chastellux_1,40,undirected
+Morellet_1,Condorcet_1,62,undirected
+Morellet_1,Condorcet_2,184,undirected
+Morellet_1,Jaucourt_1,35,undirected
+Morellet_1,Morellet_2,1165,undirected
+Morellet_1,Naigeon_1,40,undirected
+Morellet_1,Naigeon_2,24,undirected
+Morellet_1,Raynal_2,99,undirected
+Morellet_1,Rivière_1,99,undirected
+Morellet_1,Saint-Lambert_1,17,undirected
+Morellet_2,Chastellux_1,7,undirected
+Morellet_2,Morellet_1,1165,undirected
+Morellet_2,Naigeon_1,521,undirected
+Morellet_2,Naigeon_2,682,undirected
+Morellet_2,Rivière_2,1,undirected
+Naigeon_1,Diderot II_2,9,undirected
+Naigeon_1,Diderot_1,98,undirected
+Naigeon_1,Jaucourt_2,27,undirected
+Naigeon_1,Meister_1,8,undirected
+Naigeon_1,Meister_2,125,undirected
+Naigeon_1,Morellet_1,40,undirected
+Naigeon_1,Morellet_2,521,undirected
+Naigeon_1,Naigeon_2,1202,undirected
+Naigeon_1,Rivière_1,301,undirected
+Naigeon_1,Rivière_2,421,undirected
+Naigeon_2,dHolbach_2,155,undirected
+Naigeon_2,Diderot_1,85,undirected
+Naigeon_2,Diderot_2,85,undirected
+Naigeon_2,Meister_1,428,undirected
+Naigeon_2,Meister_2,271,undirected
+Naigeon_2,Morellet_1,24,undirected
+Naigeon_2,Morellet_2,682,undirected
+Naigeon_2,Naigeon_1,1202,undirected
+Naigeon_2,Rivière_1,4,undirected
+Naigeon_2,Rivière_2,166,undirected
+Naigeon_2,Saint-Lambert_1,11,undirected
+Pechméja_1,Deleyre_1,135,undirected
+Pechméja_1,Deleyre_2,85,undirected
+Pechméja_1,dHolbach_2,115,undirected
+Pechméja_1,Guibert_2,8,undirected
+Pechméja_1,Jussieu_2,3,undirected
+Pechméja_1,La Grange_1,20,undirected
 Pechméja_1,Pechméja_2,1206,undirected
-Pechméja_1,Raynal_1,41,undirected
-Pechméja_1,Raynal_2,168,undirected
-Pechméja_1,Rivière_2,5,undirected
-Pechméja_1,Saint-Lambert_2,252,undirected
-Pechméja_2,Deleyre_1,86,undirected
-Pechméja_2,dHolbach_1,30,undirected
-Pechméja_2,dHolbach_2,1,undirected
-Pechméja_2,La Grange_1,134,undirected
+Pechméja_1,Raynal_1,64,undirected
+Pechméja_1,Rivière_1,12,undirected
+Pechméja_1,Saint-Lambert_1,574,undirected
+Pechméja_1,Saint-Lambert_2,201,undirected
+Pechméja_2,Deleyre_1,224,undirected
+Pechméja_2,Diderot II_1,76,undirected
+Pechméja_2,FP_2,168,undirected
+Pechméja_2,Jussieu_2,6,undirected
+Pechméja_2,La Grange_1,54,undirected
+Pechméja_2,La Grange_2,85,undirected
 Pechméja_2,Pechméja_1,1206,undirected
-Pechméja_2,Raynal_1,196,undirected
-Pechméja_2,Raynal_2,337,undirected
-Pechméja_2,Saint-Lambert_1,360,undirected
-Pechméja_2,Saint-Lambert_2,4,undirected
-Raynal_1,Chastellux_1,153,undirected
-Raynal_1,Chastellux_2,23,undirected
-Raynal_1,Deleyre_1,205,undirected
-Raynal_1,Deleyre_2,205,undirected
-Raynal_1,Jaucourt_1,8,undirected
-Raynal_1,Jaucourt_2,151,undirected
-Raynal_1,Pechméja_1,41,undirected
-Raynal_1,Pechméja_2,196,undirected
+Pechméja_2,Raynal_2,30,undirected
+Pechméja_2,Saint-Lambert_2,32,undirected
+Raynal_1,Chastellux_1,131,undirected
+Raynal_1,Chastellux_2,631,undirected
+Raynal_1,Deleyre_1,309,undirected
+Raynal_1,Guibert_2,3,undirected
+Raynal_1,Jaucourt_1,182,undirected
+Raynal_1,Jaucourt_2,10,undirected
+Raynal_1,Pechméja_1,64,undirected
 Raynal_1,Raynal_2,1206,undirected
-Raynal_1,Saint-Lambert_1,138,undirected
-Raynal_2,Chastellux_1,531,undirected
-Raynal_2,Chastellux_2,207,undirected
-Raynal_2,Deleyre_1,425,undirected
-Raynal_2,Deleyre_2,775,undirected
-Raynal_2,Diderot II_2,7,undirected
-Raynal_2,Jaucourt_2,186,undirected
-Raynal_2,Pechméja_1,168,undirected
-Raynal_2,Pechméja_2,337,undirected
+Raynal_2,Chastellux_2,125,undirected
+Raynal_2,Deleyre_1,122,undirected
+Raynal_2,Deleyre_2,7,undirected
+Raynal_2,Diderot II_2,5,undirected
+Raynal_2,Guibert_2,420,undirected
+Raynal_2,Jaucourt_1,829,undirected
+Raynal_2,Jaucourt_2,371,undirected
+Raynal_2,Morellet_1,99,undirected
+Raynal_2,Pechméja_2,30,undirected
 Raynal_2,Raynal_1,1206,undirected
-Raynal_2,Saint-Lambert_1,219,undirected
-Rivière_1,Baudeau_2,101,undirected
-Rivière_1,Condorcet_2,74,undirected
-Rivière_1,dHolbach_1,266,undirected
-Rivière_1,dHolbach_2,537,undirected
-Rivière_1,Morellet_1,158,undirected
-Rivière_1,Morellet_2,405,undirected
-Rivière_1,Naigeon_1,178,undirected
+Rivière_1,Baudeau_1,141,undirected
+Rivière_1,Baudeau_2,69,undirected
+Rivière_1,dHolbach_1,16,undirected
+Rivière_1,dHolbach_2,21,undirected
+Rivière_1,Guibert_1,105,undirected
+Rivière_1,La Grange_1,1,undirected
+Rivière_1,Meister_2,31,undirected
+Rivière_1,Morellet_1,99,undirected
+Rivière_1,Naigeon_1,301,undirected
+Rivière_1,Naigeon_2,4,undirected
+Rivière_1,Pechméja_1,12,undirected
 Rivière_1,Rivière_2,1206,undirected
-Rivière_2,Baudeau_2,94,undirected
-Rivière_2,Condorcet_1,6,undirected
-Rivière_2,Condorcet_2,513,undirected
-Rivière_2,dHolbach_1,19,undirected
-Rivière_2,dHolbach_2,72,undirected
-Rivière_2,ed1774_nch1780_2,84,undirected
-Rivière_2,Morellet_1,412,undirected
-Rivière_2,Morellet_2,66,undirected
-Rivière_2,Naigeon_1,42,undirected
-Rivière_2,Pechméja_1,5,undirected
+Rivière_1,Saint-Lambert_2,8,undirected
+Rivière_2,Condorcet_2,400,undirected
+Rivière_2,dHolbach_1,177,undirected
+Rivière_2,dHolbach_2,272,undirected
+Rivière_2,Meister_1,4,undirected
+Rivière_2,Morellet_2,1,undirected
+Rivière_2,Naigeon_1,421,undirected
+Rivière_2,Naigeon_2,166,undirected
 Rivière_2,Rivière_1,1206,undirected
-Saint-Lambert_1,Condorcet_1,56,undirected
-Saint-Lambert_1,Deleyre_1,8,undirected
-Saint-Lambert_1,dHolbach_1,37,undirected
-Saint-Lambert_1,Guibert_2,34,undirected
-Saint-Lambert_1,Meister_1,1,undirected
-Saint-Lambert_1,Pechméja_2,360,undirected
-Saint-Lambert_1,Raynal_1,138,undirected
-Saint-Lambert_1,Raynal_2,219,undirected
-Saint-Lambert_1,Saint-Lambert_2,1206,undirected
-Saint-Lambert_2,Baudeau_2,22,undirected
-Saint-Lambert_2,Condorcet_1,1,undirected
-Saint-Lambert_2,dHolbach_1,44,undirected
-Saint-Lambert_2,dHolbach_2,367,undirected
-Saint-Lambert_2,ed1774_nch1780_1,32,undirected
-Saint-Lambert_2,ed1774_nch1780_2,1,undirected
-Saint-Lambert_2,Meister_2,188,undirected
-Saint-Lambert_2,Pechméja_1,252,undirected
-Saint-Lambert_2,Pechméja_2,4,undirected
-Saint-Lambert_2,Saint-Lambert_1,1206,undirected
+Rivière_2,Saint-Lambert_2,27,undirected
+Saint-Lambert_1,Baudeau_2,2,undirected
+Saint-Lambert_1,Condorcet_2,479,undirected
+Saint-Lambert_1,Deleyre_1,147,undirected
+Saint-Lambert_1,Deleyre_2,16,undirected
+Saint-Lambert_1,dHolbach_2,2,undirected
+Saint-Lambert_1,Diderot_2,11,undirected
+Saint-Lambert_1,Morellet_1,17,undirected
+Saint-Lambert_1,Naigeon_2,11,undirected
+Saint-Lambert_1,Pechméja_1,574,undirected
+Saint-Lambert_1,Saint-Lambert_2,1117,undirected
+Saint-Lambert_2,Baudeau_1,22,undirected
+Saint-Lambert_2,Condorcet_2,12,undirected
+Saint-Lambert_2,dHolbach_1,168,undirected
+Saint-Lambert_2,dHolbach_2,54,undirected
+Saint-Lambert_2,Diderot_1,17,undirected
+Saint-Lambert_2,Diderot_2,179,undirected
+Saint-Lambert_2,FP_1,23,undirected
+Saint-Lambert_2,Pechméja_1,201,undirected
+Saint-Lambert_2,Pechméja_2,32,undirected
+Saint-Lambert_2,Rivière_1,8,undirected
+Saint-Lambert_2,Rivière_2,27,undirected
+Saint-Lambert_2,Saint-Lambert_1,1117,undirected

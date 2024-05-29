@@ -1,24 +1,24 @@
 CLUSTER 1
 ==============
 TEXTS
-Guibert_1
-Guibert_2
+Pechméja_1
+Pechméja_2
+La Grange_1
+La Grange_2
+Deleyre_1
+Deleyre_2
+Raynal_1
+Raynal_2
+Chastellux_1
+Chastellux_2
 Jussieu_1
 Jussieu_2
 Jaucourt_1
 Jaucourt_2
-La Grange_1
-La Grange_2
-Chastellux_1
-Chastellux_2
-Raynal_1
-Raynal_2
-Deleyre_1
-Deleyre_2
 ==============
 FEATURES associated (p<0.05)
 
-avec chose où on a ni car guerre s quand faut il mais partie
+y car se lieu pays guerre autre elle s avant
 
 
 
@@ -26,34 +26,34 @@ avec chose où on a ni car guerre s quand faut il mais partie
 CLUSTER 2
 ==============
 TEXTS
-Diderot II_1
-Diderot II_2
-Diderot_1
-Diderot_2
-Meister_1
-Meister_2
-Naigeon_1
-Naigeon_2
-dHolbach_1
-dHolbach_2
-Pechméja_1
-Pechméja_2
-Saint-Lambert_1
-Saint-Lambert_2
-ed1774_nch1780_1
-ed1774_nch1780_2
 Baudeau_1
 Baudeau_2
 Condorcet_1
 Condorcet_2
+Guibert_1
+Guibert_2
 Rivière_1
 Rivière_2
 Morellet_1
 Morellet_2
+Naigeon_1
+Naigeon_2
+Diderot_2
+Diderot_1
+Diderot II_1
+Diderot II_2
+dHolbach_1
+dHolbach_2
+Saint-Lambert_1
+Saint-Lambert_2
+Meister_1
+Meister_2
+ed1780_1
+ed1780_2
 ==============
 FEATURES associated (p<0.05)
 
-société leur leurs ces
+ses avait était yeux ces doit temps
 
 
 

@@ -153,6 +153,9 @@ diy_stylo <- function(folder = "corpus_sampled/",
 
 ```{r}
 china_r_corpus <- rbind(rchina, corpus_tokenized)
+
+china_r_corpus <- china_r_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
 ```
 
 ```{r}
@@ -193,7 +196,7 @@ bct <- stylo(
   analyzed.features = "w",
   ngram.size = 1,
   mfw.min = 50,
-  mfw.max = 250,
+  mfw.max = 450,
   mfw.incr = 1,
   distance.measure = "wurzburg",
   analysis.type = "BCT",
@@ -223,7 +226,7 @@ grep("fr_", rownames(dtm))
 
 ```{r, message=FALSE, warning=FALSE, eval=FALSE}
 imp_res <- vector(mode = "list")
-
+r <- NULL
 counter <- 0
 
 for (i in 1:50) {
@@ -240,10 +243,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(15, 16)) {
+  for (s in c(13, 14)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -271,6 +274,7 @@ imp_res <- readRDS("imp_res/impr_fr_china-russia.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -389,14 +393,15 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_fr_la-vie-sauvage_2.rds")
+saveRDS(imp_res, "imp_res/impr_fr_la-vie-sauvage.rds")
 ```
 
 ```{r}
-imp_res <- readRDS("imp_res/impr_fr_la-vie-sauvage_2.rds")
+imp_res <- readRDS("imp_res/impr_fr_la-vie-sauvage.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
@@ -460,6 +465,10 @@ bct <- stylo(
 ### Imposters
 
 ```{r, message=FALSE, warning=FALSE, eval=FALSE, include=FALSE}
+
+ink_selection_corpus <- ink_selection_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
+
 sample_independent_opt(tokenized_df = ink_selection_corpus,
   n_samples = 2,
   sample_size = 5000)
@@ -491,10 +500,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(17, 18)) {
+  for (s in c(15, 16)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(17, 18),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -529,5 +538,3 @@ imp_res %>%
   labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto the selection of fragments from Mélanges (fragments not included in PD)") +
   theme(axis.text.x = element_text(angle = 25))
 ```
-
-nb don't forget to count CI for selected imposters plots

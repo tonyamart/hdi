@@ -4,6 +4,7 @@ This repository contains some attribution tests done in order to check the autho
   
 [Corpus](##Corpus)  
 [Methodology](##Methodology)  
+[Ground truth: FP](##Ground truth: FP)
 [Results](##Restults)  
 
 ## Corpus
@@ -49,13 +50,20 @@ Preprocessing
 Preliminary analysis  
 - The books by each author were combined together in one set, two samples taken from each author; 
   - Sample size depends on the size of the document in question, e.g., if the text in question is only 8,000 words, only 2 samples of 4,000 words from each author were taken.
-- To see the positioning of texts in question basic dendrogramms (200MFW, cosine delta, Ward's method) and bootstrap consensus trees (50-250 MFW) were built on random samples. - **'Diderot's question'**: Diderot's writings were separated in two sets - Diderot II (Correspondences littéraires) and Diderot I (the rest of the books). In all trials (incl. GI) these two sets of Diderot shows great closeness, proving the overall method to work on our data and with current sampling & processing methods.   
+- To see the positioning of texts in question basic dendrogramms (200MFW, cosine delta, Ward's method) and bootstrap consensus trees (50-250 MFW) were built on random samples.  
+- **'Diderot's question'**: Diderot's writings were separated in two sets - Diderot II (Correspondences littéraires) and Diderot I (the rest of the books). In all trials (incl. GI) these two sets of Diderot shows great closeness, proving the overall method to work on our data and with current sampling & processing methods.   
   
 Main part of the analysis: General impostors  
 - For the main part of the analysis GI method was used (stylo implementation, cosine delta);
   - GI outputs result of 100 trials showing how many times an author was the closest to the text in question: 0 means 'in none of the trials', 1 means 'in all of the trials';  
 - 100 iterations of GI, for each a new set of random independent samples were taken from the corpus;  
 - The distribution of the 100 GI distributions (from 0 to 1) presented as box plots.  
+
+## Ground truth: FP
+For the beginning the method's work on a ground truth can be demonstrated. Here we use the text of *Fragments politiques* as it was published in Grimm’s *Correspondance littéraire* in 1772. This text ought to be detected as Diderot's one as it is known from other sources. As this text with edits was included in the HDI as well, it is important if the actual method will show the similarity with Diderot's writings.  
+Below are the results from the GI analysis, the full analysis can be found at `03_0_FP`.  
+  
+[plot-FP-main]
 
 
 ## Results
