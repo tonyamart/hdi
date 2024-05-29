@@ -1,10 +1,10 @@
 ### Preliminary tests on the authorship of HDI fragments (from Fonds Vandeul)
   
-This repository contains some attribution tests done in order to check the authorship of selected fragments from *Histoire de deux Indes*. The corpus was compiled by Julian Csapo, the test done by Antonina Martynenko; pipeline for the tests by Artjoms Šeļa.  
+This repository contains some attribution tests done in order to check the authorship of selected fragments from *Histoire de deux Indes*. The corpus was compiled by Julian Csapo, the test done by Antonina Martynenko; pipeline for the tests by Artjoms Šeļa & adapted by AM.  
   
 [Corpus](##Corpus)  
 [Methodology](##Methodology)  
-[Ground truth: FP](##Ground truth: FP)
+[Ground truth: FP](##Ground truth: FP)  
 [Results](##Restults)  
 
 ## Corpus
@@ -63,7 +63,7 @@ Main part of the analysis: General impostors
 For the beginning the method's work on a ground truth can be demonstrated. Here we use the text of *Fragments politiques* as it was published in Grimm’s *Correspondance littéraire* in 1772. This text ought to be detected as Diderot's one as it is known from other sources. As this text with edits was included in the HDI as well, it is important if the actual method will show the similarity with Diderot's writings.  
 Below are the results from the GI analysis, the full analysis can be found at `03_0_FP`.  
   
-[plot-FP-main]
+![plot-FP-main](https://github.com/tonyamart/hdi/blob/main/scr/03_0_FP.markdown_strict_files/figure-markdown_strict/unnamed-chunk-14-1.png?raw=true)
 
 
 ## Results
