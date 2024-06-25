@@ -1,14 +1,10 @@
 ---
-title: "03_0_FP"
+title: "03_2_analysis_additional"
 format: md
 editor: visual
 ---
 
-## Fragments politiques - 1772
-
-Ground truth tests of text fragment which supposed to be Diderot's
-
-### Load data & pckg
+## Additional tests for FV fragments
 
 ```{r, warning=FALSE, message=FALSE}
 library(tidyverse)
@@ -20,6 +16,8 @@ library(tinytex)
 theme_set(theme_minimal())
 library(MetBrewer)
 ```
+
+Load data
 
 ```{r}
 corpus <- readRDS("../data/corpus_cln.Rds")
@@ -42,14 +40,38 @@ corpus_tokenized %>%
 rm(corpus)
 ```
 
+Test fragments
+
 ```{r}
-fp1 <- tibble(
-  path = "../corpus_fragments/test_fragments/FP1.txt",
-  title = "1772_fragment_politique",
-  author = "FP",
+fp1774 <- tibble(
+  path = "../corpus_fragments/test_fragments/FP1774.txt",
+  title = "FP1774",
+  author = "FP1774",
   text = read_file(path)
 ) %>% 
   unnest_tokens(input = text, output = word, token = "words")
+
+fp1780 <- tibble(
+  path = "../corpus_fragments/test_fragments/FP1780.txt",
+  title = "FP1780",
+  author = "FP1780",
+  text = read_file(path)
+) %>% 
+  unnest_tokens(input = text, output = word, token = "words")
+
+h_only <- tibble(
+  path = "../corpus_fragments/test_fragments/Hornoy_only.txt",
+  title = "H_only",
+  author = "H_only",
+  text = read_file(path)
+) %>% 
+  unnest_tokens(input = text, output = word, token = "words")
+```
+
+```{r}
+nrow(fp1774)
+nrow(fp1780)
+nrow(h_only)
 ```
 
 ### fn
@@ -131,54 +153,26 @@ diy_stylo <- function(folder = "corpus_sampled/",
   # output
   return(data)
 }
-
 ```
 
-## Analysis
-
-Number of words in FP 1772:
+## FP 1774
 
 ```{r}
-nrow(fp1)
-```
+fp1774_corpus <- rbind(fp1774, corpus_tokenized)
 
-```{r}
-fp_corpus <- rbind(fp1, corpus_tokenized) # corpus with two Diderot sets
-
-# combined for imposters
-fp_corpus_2 <- fp_corpus %>% 
+fp1774_corpus <- fp1774_corpus %>% 
   mutate(author = ifelse(author == "Diderot II", "Diderot", author))
 ```
 
-### stylo tests
-
-MFW 100
-
-```{r, message=FALSE, warning=FALSE}
-sample_independent_opt(tokenized_df = fp_corpus,
+```{r}
+sample_independent_opt(tokenized_df = fp1774_corpus,
   n_samples = 2,
-  sample_size = 3900)
-
-test1 <- stylo(
-  gui = F,
-  corpus.dir = "corpus_sampled/",
-  corpus.lang = "French",
-  mfw.min = 100,
-  mfw.max = 100,
-  analyzed.features = "w",
-  ngram.size = 1,
-  distance.measure = "wurzburg"
-  )
+  sample_size = 4500)
 ```
 
-MFW 200
+### stylo test
 
 ```{r, message=FALSE, warning=FALSE}
-
-sample_independent_opt(tokenized_df = fp_corpus,
-  n_samples = 2,
-  sample_size = 3900)
-
 test1 <- stylo(
   gui = F,
   corpus.dir = "corpus_sampled/",
@@ -191,40 +185,15 @@ test1 <- stylo(
   )
 ```
 
-### BCT
+### mfw200
 
-MFW 50 - 250
-
-```{r, message=FALSE, warning=FALSE}
-
-sample_independent_opt(tokenized_df = fp_corpus,
-  n_samples = 2,
-  sample_size = 3900)
-
-# bootstrap consensus tree
-bct <- stylo(
-  gui = F,
-  corpus.dir = "corpus_sampled/",
-  corpus.lang = "French",
-  analyzed.features = "w",
-  ngram.size = 1,
-  mfw.min = 50,
-  mfw.max = 250,
-  mfw.incr = 1,
-  distance.measure = "wurzburg",
-  analysis.type = "BCT",
-  consensus.strength = 0.5
-)
+```{r}
+test1$features.actually.used
 ```
 
-MFW 50 - 450
+### BCT
 
 ```{r, message=FALSE, warning=FALSE}
-
-sample_independent_opt(tokenized_df = fp_corpus,
-  n_samples = 2,
-  sample_size = 3900)
-
 # bootstrap consensus tree
 bct <- stylo(
   gui = F,
@@ -243,38 +212,293 @@ bct <- stylo(
 
 ### Imposters
 
-#### All corpus
+```{r}
+# var needed for diy fn
+str_dev_words <- c("et")
+```
 
-Use all texts from Diderot
+```{r, message=FALSE, warning=FALSE, eval=FALSE, include=FALSE}
+sample_independent_opt(tokenized_df = fp1774_corpus,
+  n_samples = 2,
+  sample_size = 4500)
+
+dtm <- diy_stylo(
+  folder = "corpus_sampled/",
+  mfw = 200,
+  drop_words = F)
+
+grep("FP1774", rownames(dtm))
+```
+
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
+imp_res <- vector(mode = "list")
+r <- NULL
+counter <- 0
+
+for (i in 1:50) {
+  
+  # create samples for each trial
+  sample_independent_opt(
+    tokenized_df = fp1774_corpus, 
+    n_samples = 2, 
+    sample_size = 4500)
+  
+  # build doc-term matrix from the samples in the corpus_sampled folder
+  data = diy_stylo(mfw = 200, 
+                    feature = "word",
+                    n_gram = 1)
+  
+  # test each of the true FV-L1 sets
+  for (s in c(13, 14)) {
+    
+    # run imposters test
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
+                   test = data[c(s),], # test one of the samples against the others
+                   features = 0.5, # test 50% of the features in each trial
+                   iterations = 100,
+                   distance = "wurzburg"
+                   )
+    
+    # count iterations
+    counter <- counter + 1
+    
+    # store results
+    
+    imp_res[[counter]] <- tibble(candidate = names(r),
+                                 proportion = r)
+    
+    print(counter)
+  }
+  
+}
+
+saveRDS(imp_res, "imp_res/impr_fp1774.rds")
+```
+
+```{r}
+imp_res <- readRDS("imp_res/impr_fp1774.rds")
+
+imp_res %>%
+  bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
+  ggplot(aes(x = reorder(candidate, - proportion),
+  y = proportion)) +
+  geom_boxplot() +
+  theme_bw() + 
+  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FP1774") +
+  theme(axis.text.x = element_text(angle = 25))
+```
+
+## FP 1780
+
+```{r}
+fp1780_corpus <- rbind(fp1780, corpus_tokenized) %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
+```
+
+```{r}
+sample_independent_opt(tokenized_df = fp1780_corpus,
+  n_samples = 2,
+  sample_size = 5000)
+```
+
+### stylo test
+
+```{r, message=FALSE, warning=FALSE}
+test1 <- stylo(
+  gui = F,
+  corpus.dir = "corpus_sampled/",
+  corpus.lang = "French",
+  mfw.min = 200,
+  mfw.max = 200,
+  analyzed.features = "w",
+  ngram.size = 1,
+  distance.measure = "wurzburg"
+  )
+```
+
+### mfw200
+
+```{r}
+test1$features.actually.used
+```
+
+### BCT
+
+```{r, message=FALSE, warning=FALSE}
+# bootstrap consensus tree
+bct <- stylo(
+  gui = F,
+  corpus.dir = "corpus_sampled/",
+  corpus.lang = "French",
+  analyzed.features = "w",
+  ngram.size = 1,
+  mfw.min = 50,
+  mfw.max = 450,
+  mfw.incr = 1,
+  distance.measure = "wurzburg",
+  analysis.type = "BCT",
+  consensus.strength = 0.5
+)
+```
+
+### Imposters
+
+```{r, message=FALSE, warning=FALSE, eval=FALSE, include=FALSE}
+sample_independent_opt(tokenized_df = fp1780_corpus,
+  n_samples = 2,
+  sample_size = 5000)
+
+dtm <- diy_stylo(
+  folder = "corpus_sampled/",
+  mfw = 200,
+  drop_words = F)
+
+grep("FP1780", rownames(dtm))
+```
+
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
+imp_res <- vector(mode = "list")
+
+counter <- 0
+
+for (i in 1:50) {
+  
+  # create samples for each trial
+  sample_independent_opt(
+    tokenized_df = fp1780_corpus, 
+    n_samples = 2, 
+    sample_size = 5000)
+  
+  # build doc-term matrix from the samples in the corpus_sampled folder
+  data = diy_stylo(mfw = 200, 
+                    feature = "word",
+                    n_gram = 1)
+  
+  # test each of the true FV-L1 sets
+  for (s in c(13, 14)) {
+    
+    # run imposters test
+    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
+                   test = data[c(s),], # test one of the samples against the others
+                   features = 0.5, # test 50% of the features in each trial
+                   iterations = 100,
+                   distance = "wurzburg"
+                   )
+    
+    # count iterations
+    counter <- counter + 1
+    
+    # store results
+    
+    imp_res[[counter]] <- tibble(candidate = names(r),
+                                 proportion = r)
+    
+    print(counter)
+  }
+  
+}
+
+saveRDS(imp_res, "imp_res/impr_fp1780.rds")
+```
+
+```{r}
+imp_res <- readRDS("imp_res/impr_fp1780.rds")
+
+imp_res %>%
+  bind_rows() %>%  #stack all the optained prop tables into one
+  mutate(candidate = str_remove(candidate, "^/")) %>% 
+  ggplot(aes(x = reorder(candidate, - proportion),
+  y = proportion)) +
+  geom_boxplot() +
+  theme_bw() + 
+  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FP1780") +
+  theme(axis.text.x = element_text(angle = 25, size = 12))
+```
+
+## Hornot selection: fragments, appeared only in Hornoy
+
+N words = 18 035
+
+```{r}
+h_corpus <- rbind(h_only, corpus_tokenized)
+```
+
+```{r}
+sample_independent_opt(tokenized_df = h_corpus,
+  n_samples = 2,
+  sample_size = 5000)
+```
+
+### stylo test
+
+```{r, message=FALSE, warning=FALSE}
+test1 <- stylo(
+  gui = F,
+  corpus.dir = "corpus_sampled/",
+  corpus.lang = "French",
+  mfw.min = 200,
+  mfw.max = 200,
+  analyzed.features = "w",
+  ngram.size = 1,
+  distance.measure = "wurzburg"
+  )
+```
+
+```{r}
+test1$features.actually.used
+```
+
+### BCT
+
+```{r, message=FALSE, warning=FALSE}
+# bootstrap consensus tree
+bct <- stylo(
+  gui = F,
+  corpus.dir = "corpus_sampled/",
+  corpus.lang = "French",
+  analyzed.features = "w",
+  ngram.size = 1,
+  mfw.min = 50,
+  mfw.max = 250,
+  mfw.incr = 1,
+  distance.measure = "wurzburg",
+  analysis.type = "BCT",
+  consensus.strength = 0.5
+)
+```
+
+### Imposters
 
 ```{r, message=FALSE, warning=FALSE, eval=FALSE, include=FALSE}
 
-unique(fp_corpus_2$author)
+h_corpus <- h_corpus %>% 
+  mutate(author = ifelse(author == "Diderot II", "Diderot", author))
 
-sample_independent_opt(tokenized_df = fp_corpus_2,
+sample_independent_opt(tokenized_df = h_corpus,
   n_samples = 2,
-  sample_size = 3900)
+  sample_size = 5000)
 
 dtm <- diy_stylo(
   folder = "corpus_sampled/",
   mfw = 200,
   drop_words = F)
 
-grep("FP", rownames(dtm))
+grep("H_only", rownames(dtm))
 ```
 
 ```{r, message=FALSE, warning=FALSE, eval=FALSE}
 imp_res <- vector(mode = "list")
-r <- NULL
+
 counter <- 0
 
 for (i in 1:50) {
   
   # create samples for each trial
   sample_independent_opt(
-    tokenized_df = fp_corpus_2, 
+    tokenized_df = h_corpus, 
     n_samples = 2, 
-    sample_size = 3900)
+    sample_size = 5000)
   
   # build doc-term matrix from the samples in the corpus_sampled folder
   data = diy_stylo(mfw = 200, 
@@ -282,10 +506,10 @@ for (i in 1:50) {
                     n_gram = 1)
   
   # test each of the true FV-L1 sets
-  for (s in c(13, 14)) {
+  for (s in c(15, 16)) {
     
     # run imposters test
-    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
+    r <- imposters(reference.set = data[-c(15, 16),], # remove test data from the ref
                    test = data[c(s),], # test one of the samples against the others
                    features = 0.5, # test 50% of the features in each trial
                    iterations = 100,
@@ -305,177 +529,18 @@ for (i in 1:50) {
   
 }
 
-saveRDS(imp_res, "imp_res/impr_fp-1772.rds")
+saveRDS(imp_res, "imp_res/h_only_selection.rds")
 ```
 
 ```{r}
-imp_res <- readRDS("imp_res/impr_fp-1772.rds")
+imp_res <- readRDS("imp_res/h_only_selection.rds")
 
 imp_res %>%
   bind_rows() %>%  #stack all the optained prop tables into one
-  mutate(candidate = str_remove(candidate, "^/")) %>% 
   ggplot(aes(x = reorder(candidate, - proportion),
   y = proportion)) +
   geom_boxplot() +
   theme_bw() + 
-  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FP 1772") +
-  theme(axis.text.x = element_text(angle = 25))
-```
-
-#### Diderot II
-
-Use texts from Diderot II (Correspondences littéraires)
-
-```{r, message=FALSE, warning=FALSE, eval=FALSE}
-
-unique(fp_corpus$author)
-
-fp_corpus_1 <- fp_corpus %>% 
-  filter(author != "Diderot")
-
-sample_independent_opt(tokenized_df = fp_corpus_1,
-  n_samples = 2,
-  sample_size = 3900)
-
-dtm <- diy_stylo(
-  folder = "corpus_sampled/",
-  mfw = 200,
-  drop_words = F)
-
-grep("FP", rownames(dtm))
-
-imp_res <- vector(mode = "list")
-r <- NULL
-counter <- 0
-
-for (i in 1:50) {
-  
-  # create samples for each trial
-  sample_independent_opt(
-    tokenized_df = fp_corpus_1, 
-    n_samples = 2, 
-    sample_size = 3900)
-  
-  # build doc-term matrix from the samples in the corpus_sampled folder
-  data = diy_stylo(mfw = 200, 
-                    feature = "word",
-                    n_gram = 1)
-  
-  # test each of the true FV-L1 sets
-  for (s in c(13, 14)) {
-    
-    # run imposters test
-    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
-                   test = data[c(s),], # test one of the samples against the others
-                   features = 0.5, # test 50% of the features in each trial
-                   iterations = 100,
-                   distance = "wurzburg"
-                   )
-    
-    # count iterations
-    counter <- counter + 1
-    
-    # store results
-    
-    imp_res[[counter]] <- tibble(candidate = names(r),
-                                 proportion = r)
-    
-    print(counter)
-  }
-  
-}
-
-saveRDS(imp_res, "imp_res/impr_fp-1772_diderotII.rds")
-```
-
-```{r}
-imp_res <- readRDS("imp_res/impr_fp-1772_diderotII.rds")
-
-imp_res %>%
-  bind_rows() %>%  #stack all the optained prop tables into one
-  mutate(candidate = str_remove(candidate, "^/")) %>% 
-  ggplot(aes(x = reorder(candidate, - proportion),
-  y = proportion)) +
-  geom_boxplot() +
-  theme_bw() + 
-  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FP 1772 (only Diderot II for Diderot authorial set)") +
-  theme(axis.text.x = element_text(angle = 25))
-```
-
-#### Diderot I
-
-```{r, message=FALSE, warning=FALSE, eval=FALSE}
-
-unique(fp_corpus$author)
-
-fp_corpus_1 <- fp_corpus %>% 
-  filter(author != "Diderot II")
-
-sample_independent_opt(tokenized_df = fp_corpus_1,
-  n_samples = 2,
-  sample_size = 3900)
-
-dtm <- diy_stylo(
-  folder = "corpus_sampled/",
-  mfw = 200,
-  drop_words = F)
-
-grep("FP", rownames(dtm))
-
-imp_res <- vector(mode = "list")
-r <- NULL
-counter <- 0
-
-for (i in 1:50) {
-  
-  # create samples for each trial
-  sample_independent_opt(
-    tokenized_df = fp_corpus_1, 
-    n_samples = 2, 
-    sample_size = 3900)
-  
-  # build doc-term matrix from the samples in the corpus_sampled folder
-  data = diy_stylo(mfw = 200, 
-                    feature = "word",
-                    n_gram = 1)
-  
-  # test each of the true FV-L1 sets
-  for (s in c(13, 14)) {
-    
-    # run imposters test
-    r <- imposters(reference.set = data[-c(13, 14),], # remove test data from the ref
-                   test = data[c(s),], # test one of the samples against the others
-                   features = 0.5, # test 50% of the features in each trial
-                   iterations = 100,
-                   distance = "wurzburg"
-                   )
-    
-    # count iterations
-    counter <- counter + 1
-    
-    # store results
-    
-    imp_res[[counter]] <- tibble(candidate = names(r),
-                                 proportion = r)
-    
-    print(counter)
-  }
-  
-}
-
-saveRDS(imp_res, "imp_res/impr_fp-1772_diderotI.rds")
-```
-
-```{r}
-imp_res <- readRDS("imp_res/impr_fp-1772_diderotI.rds")
-
-imp_res %>%
-  bind_rows() %>%  #stack all the optained prop tables into one
-  mutate(candidate = str_remove(candidate, "^/")) %>% 
-  ggplot(aes(x = reorder(candidate, - proportion),
-  y = proportion)) +
-  geom_boxplot() +
-  theme_bw() + 
-  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto FP 1772 (only Diderot I for Diderot authorial set)") +
+  labs(subtitle = "Proportion of cases where a sample from an author was the closest one\nto the selection of fragments from Hornoy (fragments not included in FV)") +
   theme(axis.text.x = element_text(angle = 25))
 ```
